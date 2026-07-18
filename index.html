@@ -1445,4 +1445,77 @@ ADM.overview=()=>{const pending=TALKS.filter(t=>t.reviewStatus!=="Editor-reviewe
 function adminQueue(list){if(!list.length)return `<div class="empty">Nothing pending — all content editor-reviewed.</div>`;
   return `<div class="tbl-wrap"><div class="tbl-scroll"><table><thead><tr><th>Session</th><th>Auto-tags (AI-proposed)</th><th>Reviewer</th><th>Status</th><th style="text-align:right">Action</th></tr></thead>
   <tbody>${list.map(t=>`<tr class="click" onclick="openSession('${t.id}')"><td><div class="tt">${esc(t.title)}</div><div class="meta">${esc(t.spk)} · ${esc(t.s)}</div></td>
-  <td>${[...t.tg.map(g=>`◎ ${g}`),...t.drugs].s[Truncated]
+  <td>${[...t.tg.map(g=>`◎ ${g}`),...t.drugs].slice(0,4).map(x=>`<span class="tag">${esc(x)}</span>`).join("")} <span class="tag">${esc(t.disease)}</span> <span class="tag">${esc(t.phase)}</span></td>
+  <td style="color:var(--muted)">${esc(t.reviewedBy)}</td><td><span class="q-status ${t.reviewStatus==='Editor-reviewed'?'rev':'pend'}">${t.reviewStatus}</span></td>
+  <td style="text-align:right;white-space:nowrap"><button class="mbtn" onclick="event.stopPropagation();alert('Prototype: approves the metadata + tags for this session.')">Approve</button> <button class="mbtn" onclick="event.stopPropagation();alert('Prototype: flags for scientific re-review.')">Flag</button></td></tr>`).join("")}</tbody></table></div></div>`;}
+ADM.content=()=>{return page({title:"Content Review",sub:"The ingest queue: AI proposes metadata and tags; editors confirm before content is published to any view.",
+  explain:"This is the trust boundary. Nothing reaches an industry or faculty user until a reviewer has approved its tagging here.",
+  body:`<div class="admin-tabs"><button class="on">All (${TALKS.length})</button><button onclick="alert('Prototype filter: pending only')">Pending (${TALKS.filter(t=>t.reviewStatus!=='Editor-reviewed').length})</button><button onclick="alert('Prototype filter: reviewed')">Reviewed</button></div>`+adminQueue(TALKS)});};
+ADM.labels=()=>{const co=ADM._lensCo||"Johnson & Johnson";const L=lensFor(co);const list=TALKS.filter(t=>L[t.id].key!=="context");
+  return page({title:"Relevance Labels",sub:"Review and override the per-company relevance classifications that power the industry portals.",
+    explain:"Labels are rule-derived, then confirmed by a Dava Scientific Reviewer. Pick a sponsor lens to audit its assignments and rationale.",
+    body:`<div style="margin-bottom:14px">Sponsor lens: <select onchange="ADM._lensCo=this.value;render()" style="background:#f6f8fd;border:1px solid var(--line);color:var(--ink);border-radius:7px;padding:6px 10px">${Object.keys(COMPANY_PROFILES).map(c=>`<option ${c===co?'selected':''}>${esc(c)}</option>`).join("")}</select></div>
+    <div class="tbl-wrap"><div class="tbl-scroll"><table><thead><tr><th>Session</th><th>Assigned label</th><th>Rationale (rule-derived)</th><th>Status</th><th style="text-align:right">Action</th></tr></thead>
+    <tbody>${list.map(t=>{const l=L[t.id];return `<tr class="click" onclick="openSession('${t.id}')"><td><div class="tt">${esc(t.title)}</div><div class="meta">${esc(t.spk)}</div></td>
+    <td>${labelChip(l.key)}</td><td style="max-width:340px"><div class="why">${l.why}</div></td>
+    <td><span class="q-status ${t.reviewStatus==='Editor-reviewed'?'rev':'pend'}">${t.reviewStatus==='Editor-reviewed'?'Confirmed':'Pending'}</span></td>
+    <td style="text-align:right;white-space:nowrap"><button class="mbtn" onclick="event.stopPropagation();alert('Prototype: override label')">Override</button></td></tr>`;}).join("")}</tbody></table></div></div>`});};
+ADM.conferences=()=>{const confs=[
+  {n:MEETING.name,y:"2026",st:"Live",note:`${TALKS.length} sessions ingested · ${MEETING.venue}`},
+  {n:"4th Summit on Thoracic Malignancies",y:"2025",st:"Archived",note:"Prior-year archive — enriches the same entity pages"},
+  {n:"DAVA GI Malignancies Summit",y:"2026",st:"Ingesting",note:"Different TA — same platform, separate conference"},
+  {n:"6th Summit on Thoracic Malignancies",y:"2027",st:"Planned",note:"Will auto-enrich existing target/company/KOL records"}];
+  return page({title:"Conferences",sub:"One platform spans many meetings; content ages into shared entity records rather than isolated libraries.",
+    body:`<div class="tbl-wrap"><div class="tbl-scroll"><table><thead><tr><th>Conference</th><th>Year</th><th>Status</th><th>Notes</th></tr></thead>
+    <tbody>${confs.map(c=>`<tr><td><b>${esc(c.n)}</b></td><td>${c.y}</td><td><span class="q-status ${c.st==='Live'?'rev':c.st==='Ingesting'?'pend':'flag'}" style="${c.st==='Archived'||c.st==='Planned'?'background:#eef2fa;color:#55647d;border-color:#d3dcea':''}">${c.st}</span></td><td style="color:var(--muted)">${esc(c.note)}</td></tr>`).join("")}</tbody></table></div></div>`});};
+ADM.permissions=()=>{const yn=v=>v===1?'<span class="yes">●</span>':v===2?'<span class="part">◐</span>':'<span class="no">○</span>';
+  return page({title:"Roles & Permissions",sub:"A capability matrix by role. Permissions are assignable by user, role, organization, company, conference, content item, collection, date range and download rights.",
+    explain:"● granted · ◐ scoped/limited · ○ not granted. This defines what each role can do; individual users inherit their role and are further scoped to their organization.",
+    body:`<div class="tbl-wrap" style="padding:8px"><table class="pmx"><thead><tr><th style="text-align:left">Role</th>${CAPS.map(c=>`<th>${c}</th>`).join("")}</tr></thead>
+    <tbody>${Object.entries(PERM_MATRIX).map(([r,row])=>`<tr><td class="role">${esc(r)}</td>${row.map(v=>`<td>${yn(v)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
+    <div class="disc" style="margin-top:16px"><b>Assignability:</b> beyond role, Dava can scope any grant by organization (e.g. only J&J), company portal, individual conference, a single content item or collection, and by date range — with download rights toggled separately. Access is issued and revoked centrally; there is no shared company login.</div>`});};
+ADM.users=()=>{return page({title:"Users & Organizations",sub:"Individual accounts, each tied to an organization and a role. Dava issues and revokes access centrally.",
+  body:`<div class="tbl-wrap"><div class="tbl-scroll"><table><thead><tr><th>User</th><th>Role</th><th>Organization</th><th>Experience</th><th>Access scope</th></tr></thead>
+  <tbody>${IDENTITIES.map(u=>`<tr><td><b>${esc(u.name)}</b><div class="meta">${esc(u.title)}</div></td><td>${esc(u.role)}</td><td>${u.company?coBadge(u.company,16)+' ':''}${esc(u.org)}</td>
+  <td><span class="expchip" style="background:${u.exp==='industry'?'#2f6fed':u.exp==='faculty'?'#2ac2a8':'#a98bff'}">${u.exp}</span></td><td style="color:var(--muted);max-width:340px;font-size:12px">${esc(u.scope)}</td></tr>`).join("")}
+  <tr><td colspan="5" style="text-align:center;color:var(--dim)"><button class="mbtn" onclick="alert('Prototype: provision a new individual user, assign role + org, set scope and download rights.')">+ Provision new user</button></td></tr></tbody></table></div></div>`});};
+ADM.targets=()=>FAC.targets();
+ADM.drugs=()=>SHARED.drugs();
+ADM.sessions=()=>FAC.sessions();
+
+/* =====================================================================
+   UNIVERSAL SEARCH + BOOT
+   ===================================================================== */
+let SEARCH_IDX=[];
+function buildSearchIndex(){const idx=[];
+  Object.keys(allDrugs()).forEach(d=>idx.push({cat:"Drug",label:d,go:()=>go('drug',d)}));
+  Object.keys(allTargets()).forEach(t=>idx.push({cat:"Target",label:t,go:()=>go('target',t)}));
+  Object.keys(allCompanies()).filter(c=>COMPANIES[c]).forEach(c=>idx.push({cat:"Company",label:c,go:()=>go('company',c)}));
+  Object.keys(allTrials()).forEach(t=>idx.push({cat:"Trial",label:t,go:()=>go('trial',t)}));
+  Object.keys(allSpeakers()).forEach(s=>idx.push({cat:"Speaker",label:s,sub:allSpeakers()[s].inst,go:()=>go('speaker',s)}));
+  Object.keys(allBiomarkers()).forEach(b=>idx.push({cat:"Biomarker",label:b,go:()=>go('biomarker',b)}));
+  Object.keys(allDiseases()).forEach(d=>idx.push({cat:"Disease",label:d,go:()=>go('disease',d)}));
+  Object.keys(allCQ()).forEach(q=>idx.push({cat:"Clinical question",label:q,go:()=>go('question',q)}));
+  TALKS.forEach(t=>idx.push({cat:"Session",label:t.title,sub:t.spk,go:()=>openSession(t.id)}));
+  return idx;}
+function doSearch(q){const box=$("#searchResults");if(!q||q.length<2){box.classList.add("hidden");return;}
+  const ql=q.toLowerCase();
+  const hits=SEARCH_IDX.filter(x=>x.label.toLowerCase().includes(ql)||(x.sub&&x.sub.toLowerCase().includes(ql))).slice(0,40);
+  if(!hits.length){box.innerHTML=`<div class="sr-item"><div class="m">No matches for "${esc(q)}"</div></div>`;box.classList.remove("hidden");return;}
+  const byCat={};hits.forEach(h=>{(byCat[h.cat]=byCat[h.cat]||[]).push(h)});
+  box.innerHTML=Object.entries(byCat).map(([cat,list])=>`<div class="sr-cat">${cat}</div>`+list.map(h=>{const gi=SEARCH_IDX.indexOf(h);return `<div class="sr-item" data-i="${gi}"><div class="t">${esc(h.label)}</div>${h.sub?`<div class="m">${esc(h.sub)}</div>`:""}</div>`;}).join("")).join("");
+  box.classList.remove("hidden");
+  box.querySelectorAll(".sr-item[data-i]").forEach(el=>el.onclick=()=>{SEARCH_IDX[+el.dataset.i].go();box.classList.add("hidden");$("#globalSearch").value="";});}
+
+renderLanding();
+document.addEventListener("DOMContentLoaded",renderLanding);
+window.addEventListener("load",()=>{const gs=$("#globalSearch");if(gs&&!gs._wired){gs._wired=true;
+  gs.addEventListener("input",e=>doSearch(e.target.value));
+  gs.addEventListener("keydown",e=>{if(e.key==="Escape"){$("#searchResults").classList.add("hidden");gs.blur();}});}
+  document.addEventListener("keydown",e=>{const gs=$("#globalSearch");if(e.key==="/"&&document.activeElement!==gs&&!$("#app").classList.contains("hidden")){e.preventDefault();gs.focus();}});
+  document.addEventListener("click",e=>{if(!e.target.closest(".searchwrap")){const b=$("#searchResults");if(b)b.classList.add("hidden");}});
+});
+
+</script>
+</body>
+</html>

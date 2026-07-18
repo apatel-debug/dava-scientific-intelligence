@@ -401,6 +401,23 @@ input::placeholder{color:#93a1b8}
   .id-card{padding:14px}
   .modal-bg{padding:10px;align-items:flex-start;overflow:auto}
   .modal-bg>div{max-width:100%!important;width:100%!important;margin-top:12px}
+  .session-actions{
+    display:grid!important;
+    grid-template-columns:1fr;
+    gap:8px!important;
+  }
+  .session-actions .mbtn{
+    width:100%;
+    min-height:44px;
+    padding:11px 12px;
+    font-size:13.5px;
+    line-height:1.25;
+    text-align:center;
+    white-space:normal;
+    overflow-wrap:anywhere;
+  }
+  .session-detail-grid{grid-template-columns:1fr!important}
+  #mediaPane iframe{border-radius:8px}
 }
 
 @media (max-width: 420px){
@@ -888,6 +905,15 @@ function renderLanding(){
       <div class="id-grid">${g.ids.map(card).join("")}</div></div>`).join("")}
     <div class="land-foot">${MEETING.name} · ${MEETING.venue} · ${MEETING.dates} · Prototype — illustrative content licensed for review</div>
   </div>`;
+  resetToTop();
+}
+
+function resetToTop(){
+  const login=$("#login");
+  const reset=()=>{window.scrollTo(0,0); if(login) login.scrollTop=0;};
+  reset();
+  requestAnimationFrame(reset);
+  setTimeout(reset,80);
 }
 
 let VIEW={id:"overview",arg:null};
@@ -905,7 +931,7 @@ function enter(id){
   VIEW={id:"overview",arg:null};
   render();
 }
-function logout(){USER=null;$("#app").classList.add("hidden");$("#login").classList.remove("hidden");}
+function logout(){USER=null;$("#app").classList.add("hidden");$("#login").classList.remove("hidden");renderLanding();}
 function switchIdentity(){logout();}
 function go(id,arg){VIEW={id,arg:arg||null};render();window.scrollTo(0,0);
   const box=$("#searchResults"); if(box) box.classList.add("hidden");}
@@ -1071,12 +1097,12 @@ function openSession(id){
       </div>
       <div style="padding:18px 22px">
         ${isInd?`<div class="why" style="background:#eef4fd;border:1px solid var(--line);border-radius:8px;padding:10px 13px;margin-bottom:14px"><b style="color:var(--muted);font-size:11px">WHY THIS IS IN YOUR PORTAL — </b>${l.why}</div>`:""}
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;font-size:13px">
+        <div class="session-detail-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:14px;font-size:13px">
           ${grid.map(([k,v])=>`<div><b style="color:var(--muted);font-size:11px">${k.toUpperCase()}</b><br>${v}</div>`).join("")}
         </div>
         <div style="margin-top:14px;font-size:11px;color:var(--dim)">Provenance: ${esc(t.source)} · reviewed by ${esc(t.reviewedBy)} · <span class="srclink" onclick="alert('Prototype: opens the primary session record with slide-synced transcript.')">view source record</span></div>
         <div id="mediaPane" style="margin-top:6px"></div>
-        <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap">
+        <div class="session-actions" style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap">
           <button onclick="toggleBm('${t.id}');this.textContent=bookmarks.has('${t.id}')?'★ Bookmarked':'★ Bookmark'" class="mbtn">${bookmarks.has(t.id)?'★ Bookmarked':'★ Bookmark'}</button>
           ${t.media&&t.media.vid?`<button onclick="playMedia('${t.id}','video')" class="mbtn primary">▶ Watch lecture</button>`:`<button class="mbtn" disabled style="opacity:.45">▶ Video n/a</button>`}
           ${t.media&&t.media.pdf?`<button onclick="playMedia('${t.id}','slides')" class="mbtn">❐ Slides${t.media.pages?` (${t.media.pages}p)`:``}</button>`:`<button class="mbtn" disabled style="opacity:.45">❐ Slides n/a</button>`}
@@ -1509,6 +1535,7 @@ function doSearch(q){const box=$("#searchResults");if(!q||q.length<2){box.classL
 
 renderLanding();
 document.addEventListener("DOMContentLoaded",renderLanding);
+window.addEventListener("pageshow",()=>{if(!USER) resetToTop();});
 window.addEventListener("load",()=>{const gs=$("#globalSearch");if(gs&&!gs._wired){gs._wired=true;
   gs.addEventListener("input",e=>doSearch(e.target.value));
   gs.addEventListener("keydown",e=>{if(e.key==="Escape"){$("#searchResults").classList.add("hidden");gs.blur();}});}

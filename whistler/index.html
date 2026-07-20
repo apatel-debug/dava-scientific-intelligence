@@ -28,8 +28,9 @@ a{color:inherit;text-decoration:none}
 #login{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:radial-gradient(1200px 600px at 70% -10%,#e9f0fb 0%,#f0f3f9 60%);z-index:100}
 .login-card{width:390px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:34px 32px;box-shadow:0 30px 80px rgba(0,0,0,.5)}
 .login-card .lock{font-size:12px;color:var(--dim);letter-spacing:.14em;text-transform:uppercase;margin-bottom:18px}
-.brandmark{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.brandmark{display:flex;align-items:center;gap:12px;margin-bottom:6px;color:inherit;text-decoration:none}
 .brandmark .dot{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,var(--brand),#7a0a1c);display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;font-size:15px}
+.brandmark .brand-logo{width:38px;height:34px;object-fit:contain;display:block}
 .brandmark b{font-size:16px;letter-spacing:.02em}
 .login-card h1{font-size:19px;margin:20px 0 4px}
 .login-card p.sub{color:var(--muted);margin:0 0 22px;font-size:13px}
@@ -206,6 +207,7 @@ tr.click:hover td{background:#e9eff8}
 .land{max-width:1040px;margin:0 auto}
 .land-head{display:flex;align-items:center;gap:13px;margin-bottom:6px}
 .land-head .dot{width:40px;height:40px;border-radius:11px;background:linear-gradient(135deg,#2f6fed,#1b3f8f);display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff}
+.land-head .brand-logo{width:48px;height:42px;object-fit:contain;display:block}
 .land h1{font-size:24px;margin:14px 0 4px;color:#17233b}
 .land .lede{color:#55647d;font-size:14px;max-width:760px;margin:0 0 6px}
 .land .authnote{color:#76859e;font-size:12px;background:#eef4fd;border:1px solid #d9e0ed;border-left:3px solid #2f6fed;border-radius:8px;padding:10px 13px;margin:16px 0 26px;max-width:820px}
@@ -217,6 +219,9 @@ tr.click:hover td{background:#e9eff8}
 @media(max-width:820px){.id-grid{grid-template-columns:1fr}}
 .id-card{background:#ffffff;border:1px solid #d9e0ed;border-radius:12px;padding:15px 16px;cursor:pointer;transition:.15s;position:relative}
 .id-card:hover{transform:translateY(-2px);border-color:#c0cde0;box-shadow:0 16px 40px rgba(0,0,0,.4)}
+.exp-group.industry .id-card{border-left:4px solid #6d4aa7}
+.exp-group.faculty .id-card{border-left:4px solid #1f9e8b}
+.exp-group.admin .id-card{border-left:4px solid #8a5cf0}
 .id-card .av{width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;color:#fff;margin-bottom:10px}
 .id-card h3{margin:0 0 2px;font-size:15px;color:#17233b}
 .id-card .role{font-size:12px;color:#55647d}
@@ -452,7 +457,7 @@ main{max-width:1560px;margin-left:auto;margin-right:auto;width:100%}
 <div id="app" class="wapp hidden">
   <header class="topbar">
     <button class="navtoggle" onclick="toggleNav()" aria-label="Menu">☰</button>
-    <div class="brandmark"><div class="dot">DA</div><b>DAVA&nbsp;Intelligence</b></div>
+    <a class="brandmark" href="../" aria-label="Return to meeting selection"><img class="brand-logo" src="../assets/DavaLogo.png" alt="DAVA Oncology"><b>DAVA&nbsp;Intelligence</b></a>
     <div class="mtgwrap">
       <span class="mtgchip" id="modeChip">Faculty View</span>
       <select class="mtgsel" id="mtgSel" onchange="switchMeeting(this.value)">
@@ -505,6 +510,7 @@ const bySetting=()=>group(p=>p.treatmentSettings.filter(s=>s!=="Not specified in
 const byEvidence=()=>group(p=>p.evidenceType);
 const bySpeaker=()=>group(p=>p.speaker);
 const bySession=()=>group(p=>p.session);
+const byTrial=()=>group(p=>p.trialName?p.trialName.split(" / "):[]);
 const has=(p,arr,rx)=>arr.some(x=>rx.test(x));
 const txt=p=>(p.title+" "+p.session).toLowerCase();
 
@@ -1026,13 +1032,18 @@ function indLabel(p){
 
 /* ---- industry nav + views ---- */
 const NAV_IND=[
- {grp:"Competitive intelligence"},
+ {grp:"Intelligence"},
  {id:"overview",ic:"◧",label:"Overview"},
  {id:"pipeline",ic:"⬢",label:"Your Pipeline",n:()=>lensList(COMPANY,["portfolio","lifecycle"]).length},
  {id:"competitors",ic:"⚔",label:"Direct Competitors",n:()=>lensList(COMPANY,["competitor"]).length},
  {id:"emerging",ic:"◭",label:"Emerging Threats",n:()=>lensList(COMPANY,["emerging"]).length},
+ {id:"landscape",ic:"▦",label:"Competitive Landscape"},
  {grp:"Directories"},
- {id:"targets",ic:"◎",label:"Targets & Biomarkers",n:()=>Object.keys(group(p=>p.targets.concat(p.biomarkers))).length},
+ {id:"targets",ic:"◎",label:"Target Landscape",n:()=>Object.keys(byTarget()).length},
+ {id:"biomarkers",ic:"⬡",label:"Biomarker Landscape",n:()=>Object.keys(byBiomarker()).length},
+ {id:"resistance",ic:"⟲",label:"Resistance Biology",n:()=>lensList(COMPANY,["resistance"]).length},
+ {id:"combinations",ic:"⊕",label:"Combination Strategies"},
+ {id:"trials",ic:"⧉",label:"Clinical Trials",n:()=>Object.keys(byTrial()).length},
  {id:"diseases",ic:"⌘",label:"Diseases",n:()=>uniq(PRES.flatMap(p=>p.diseaseAreas)).length},
  {id:"companies",ic:"⬚",label:"Companies"},
  {id:"faculty",ic:"◍",label:"KOLs / Faculty",n:()=>Object.keys(bySpeaker()).length},
@@ -1056,12 +1067,6 @@ IV.overview=()=>{
  </div>
  <div class="sample-banner"><b>Prototype / sample.</b> Company ownership and the relevance labels below are <b>rule-derived, editorial review pending</b>. Every item explains <b>why it appears</b>. Study phase is shown only when the agenda states it.</div>
 
- <div class="card" style="margin-bottom:16px">
-  <h3 style="margin:0 0 10px;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.03em">Impact Score — relevance of this meeting to ${esc(co)} · <span style="color:var(--ink)">${I.total}/100 · ${I.band}</span></h3>
-  <div class="score-break">${I.comps.map(c=>`<div class="sb-row" title="${c.raw} (ceiling ${c.ceil})"><div class="lab">${c.k} <span style="color:var(--dim)">·${Math.round(c.w*100)}%</span></div><div class="bar"><span style="width:${c.pct}%"></span></div><div class="val">${c.pct}<span class="count-pop"> · ${c.raw}</span></div></div>`).join("")}</div>
-  <div class="disc"><b>What this is:</b> a transparent weighted count of measurable factors (raw counts shown). <b>What it is not:</b> a prediction, recommendation or AI judgment — banded to avoid false precision.</div>
- </div>
-
  <div class="snap">
   <div class="s"><div class="n">${I.directRel}</div><div class="l">Direct portfolio sessions</div></div>
   <div class="s"><div class="n">${I.compCount}</div><div class="l">Competitor / emerging</div></div>
@@ -1080,6 +1085,36 @@ IV.overview=()=>{
 IV.pipeline=()=>page({title:`Your Pipeline — ${esc(COMPANY)}`,sub:`Sessions featuring ${esc(COMPANY)}'s own assets, plus lifecycle/expansion opportunities. Labelled Direct Portfolio Relevance or Lifecycle Opportunity.`,body:pgrid(lensList(COMPANY,["portfolio","lifecycle"]))});
 IV.competitors=()=>{const L=lensFor(COMPANY);return page({title:"Direct Competitors",sub:`Assets competing on ${esc(COMPANY)}'s targets, threat-graded (1–3). Threat 3 = Phase III as stated in agenda.`,body:pgrid(lensList(COMPANY,["competitor"]).sort((a,b)=>L[b.id].thr-L[a.id].thr))});};
 IV.emerging=()=>page({title:"Emerging Threats",sub:`Early / next-generation programs on ${esc(COMPANY)}'s targets to watch.`,body:pgrid(lensList(COMPANY,["emerging"]))});
+IV.landscape=()=>{const co=COMPANY,L=lensFor(co),P=HPROFILES[co]||{targets:[],adjacent:[]};
+ const tgKeys=uniq([...P.targets,...P.adjacent,...Object.keys(byTarget()).slice(0,12)]).slice(0,16);
+ const cos=Object.keys(group(p=>coOf(p))).filter(c=>c!=="Academic / Investigator").sort((a,b)=>lensList(b,["portfolio","lifecycle","competitor","emerging"]).length-lensList(a,["portfolio","lifecycle","competitor","emerging"]).length);
+ const cell=(c,t)=>{const list=PRES.filter(p=>coOf(p).includes(c)&&p.targets.concat(p.biomarkers).includes(t));if(!list.length)return `<td class="cell"><span class="mx zero">·</span></td>`;
+  const mine=c===co, comp=list.some(p=>["competitor","emerging"].includes(L[p.id].key));
+  return `<td class="cell" onclick="go('company','${esc(c)}')"><span class="mx ${mine?'jnj':comp?'comp':'some'}">${list.length}</span></td>`;};
+ return page({title:"Competitive Landscape",sub:`Company × target crowding from ${esc(co)}'s Whistler lens. Core and adjacent target axes are emphasized first.`,
+  body:`<div class="legend"><span><span class="sw" style="background:#e3f7ec;border:1px solid #bfe8d2"></span>${esc(co)}</span><span><span class="sw" style="background:#fdeaea;border:1px solid #f3c9cb"></span>Competitor or emerging threat</span><span><span class="sw" style="background:#eef2fa"></span>Other activity</span></div>
+  <div class="matrix"><table><thead><tr><th>Company</th>${tgKeys.map(t=>`<th style="text-align:center">${esc(t)}</th>`).join("")}</tr></thead>
+  <tbody>${cos.map(c=>`<tr><td class="rowlab">${coBadge(c)} ${esc(c)}</td>${tgKeys.map(t=>cell(c,t)).join("")}</tr>`).join("")}</tbody></table></div>`});};
+IV.targets=()=>{const co=COMPANY,P=HPROFILES[co]||{targets:[],adjacent:[]},map=byTarget();
+ const keys=Object.keys(map).sort((a,b)=>(P.targets.includes(b)-P.targets.includes(a))||(P.adjacent.includes(b)-P.adjacent.includes(a))||map[b].length-map[a].length);
+ return page({title:"Target Landscape",sub:"Every target tagged in the Whistler agenda; your sponsor's core and adjacent targets are flagged.",
+  body:`<div class="explore-grid">${keys.map(k=>{const own=P.targets.includes(k),adj=(P.adjacent||[]).includes(k);
+   return `<div class="xcard" onclick="go('target','${esc(k)}')"><div class="caud" style="color:${own?'#137a4e':adj?'#8a6d12':'var(--dim)'}">${own?'Core target':adj?'Adjacent':'Field'}</div><h4>◎ ${esc(k)}</h4><p>${uniq(map[k].flatMap(p=>p.drugs.concat(p.diseaseAreas))).slice(0,5).join(" · ")||"Pathway / translational"}</p><div class="n">${map[k].length} presentations →</div></div>`;}).join("")}</div>`});};
+IV.biomarkers=()=>{const map=byBiomarker();const keys=Object.keys(map).sort((a,b)=>map[b].length-map[a].length);
+ return page({title:"Biomarker Landscape",sub:"Predictive, prognostic, molecular-monitoring and resistance biomarkers represented in Whistler content.",
+  body:`<div class="explore-grid">${keys.map(k=>`<div class="xcard" onclick="go('target','${esc(k)}')"><div class="caud">Biomarker</div><h4>⬡ ${esc(k)}</h4><p>${uniq(map[k].flatMap(p=>p.diseaseAreas.concat(p.targets))).slice(0,5).join(" · ")||"To be verified"}</p><div class="n">${map[k].length} presentations →</div></div>`).join("")}</div>`});};
+IV.resistance=()=>{const co=COMPANY;let list=lensList(co,["resistance"]);
+ if(!list.length)list=lensList(co,["biomarker"]).filter(p=>/resist|refractory|relapsed|failure|escape|mutation|sequenc/i.test(p.title+" "+p.session+" "+p.evidenceType));
+ if(!list.length)list=lensList(co,["biomarker","competitor","emerging"]).filter(p=>p.biomarkers.length||/relapsed|refractory/i.test(p.treatmentSettings.join(" ")));
+ return page({title:"Resistance Biology",sub:`Resistance, relapse, sequencing and biomarker-driven escape themes relevant to ${esc(co)}'s hematology targets.`,body:pgrid(list)});};
+IV.combinations=()=>{const co=COMPANY;const rel=lensList(co,["portfolio","lifecycle","competitor","emerging","biomarker","resistance","adjacent"]);
+ const list=rel.filter(p=>p.drugs.length>1||/combination|combo|quadruplet|triplet|doublet|plus|\\+/i.test(p.title+" "+p.session+" "+p.modalities.join(" ")));
+ return page({title:"Combination Strategies",sub:`Doublets, triplets, quadruplets and sequencing combinations relevant to ${esc(co)}'s targets or adjacent interests.`,body:pgrid(list)});};
+IV.trials=()=>{const map=byTrial();const entries=Object.entries(map).sort((a,b)=>b[1].length-a[1].length);
+ return page({title:"Clinical Trials",sub:"Named studies referenced in the meeting file, mapped to drug, sponsor, target and phase where stated.",
+  body:`<div class="tbl-wrap"><div class="tbl-scroll"><table><thead><tr><th>Trial</th><th>Drug(s)</th><th>Sponsor</th><th>Target / biomarker</th><th>Phase</th><th style="text-align:right">Presentations</th></tr></thead>
+  <tbody>${entries.map(([tr,l])=>{const p=l[0];return `<tr class="click" onclick="go('trial','${esc(tr)}')"><td><b>${esc(tr)}</b></td><td>${uniq(l.flatMap(x=>x.drugs)).slice(0,4).map(esc).join(", ")||"—"}</td><td>${uniq(l.flatMap(x=>coOf(x))).map(c=>coBadge(c,18)).join(" ")}</td><td>${uniq(l.flatMap(x=>x.targets.concat(x.biomarkers))).slice(0,5).map(t=>`<span class="tgchip">${esc(t)}</span>`).join("")}</td><td>${phBadge(p)}</td><td style="text-align:right">${l.length}</td></tr>`;}).join("")}</tbody></table></div></div>`});};
+IV.trial=(tr)=>{const list=byTrial()[tr]||[];return page({title:`⧉ ${esc(tr)}`,sub:`${list.length} presentations referencing this trial name.`,body:back("trials","Clinical trials")+pgrid(list)});};
 IV.companies=()=>{const m={};PRES.forEach(p=>coOf(p).forEach(c=>{if(c!=="Academic / Investigator")(m[c]=m[c]||[]).push(p)}));
  const e=Object.entries(m).sort((a,b)=>b[1].length-a[1].length);
  return page({title:"Companies",sub:"Sponsors with assets discussed at the meeting (rule-derived ownership — review pending).",body:`<div class="explore-grid">${e.map(([c,l])=>`<div class="xcard" onclick="go('company','${esc(c)}')"><div style="display:flex;align-items:center;gap:9px;margin-bottom:7px">${coBadge(c,30)}<h4 style="margin:0">${esc(c)}</h4></div><p>${uniq(l.flatMap(p=>p.diseaseAreas)).slice(0,4).join(", ")}</p><div class="n">${l.length} presentations →</div></div>`).join("")}</div>`});};
@@ -1098,26 +1133,32 @@ function render(){const reg=(MODE==="industry")?IV:V;const f=reg[VIEW.id]||V[VIE
 
 /* ---- role landing ---- */
 const IDENTITIES=[
- {id:"jnj",name:"A. Patel",init:"AP",mode:"industry",company:"Johnson & Johnson",role:"Competitive Intelligence",org:"Johnson & Johnson",scope:"J&J hematology portal — BCMA / GPRC5D franchise. Cannot see other sponsors' portals."},
- {id:"pfe",name:"M. Rivera",init:"MR",mode:"industry",company:"Pfizer",role:"Medical Affairs",org:"Pfizer",scope:"Pfizer portal only — demonstrates sponsor isolation."},
- {id:"gmab",name:"L. Sørensen",init:"LS",mode:"industry",company:"Genmab",role:"Competitive Intelligence",org:"Genmab",scope:"Genmab portal — CD20 bispecific franchise."},
+ {id:"jnj-med",name:"Johnson & Johnson",init:"J&J",mode:"industry",company:"Johnson & Johnson",role:"Medical Affairs",org:"Johnson & Johnson",scope:"Sponsor medical affairs portal with J&J hematology content and approved competitive context."},
+ {id:"jnj-msl",name:"Johnson & Johnson",init:"J&J",mode:"industry",company:"Johnson & Johnson",role:"MSL",org:"Johnson & Johnson",scope:"Field medical view for J&J-scoped sessions, slides, videos and clinical discussion points."},
+ {id:"jnj-admin",name:"Johnson & Johnson",init:"J&J",mode:"industry",company:"Johnson & Johnson",role:"Administrator",org:"Johnson & Johnson",scope:"Manages J&J users and collections; same sponsor-scoped content view."},
+ {id:"pfe-med",name:"Pfizer",init:"PF",mode:"industry",company:"Pfizer",role:"Medical Affairs",org:"Pfizer",scope:"Pfizer-scoped medical affairs portal only — demonstrates sponsor isolation."},
+ {id:"pfe-msl",name:"Pfizer",init:"PF",mode:"industry",company:"Pfizer",role:"MSL",org:"Pfizer",scope:"Field medical view for Pfizer-scoped sessions, slides, videos and discussion points."},
+ {id:"pfe-admin",name:"Pfizer",init:"PF",mode:"industry",company:"Pfizer",role:"Administrator",org:"Pfizer",scope:"Manages Pfizer users and collections; cannot see other sponsors' portals."},
+ {id:"gmab-med",name:"Genmab",init:"GM",mode:"industry",company:"Genmab",role:"Medical Affairs",org:"Genmab",scope:"Genmab-scoped medical affairs portal for CD20 bispecific and adjacent content."},
+ {id:"gmab-msl",name:"Genmab",init:"GM",mode:"industry",company:"Genmab",role:"MSL",org:"Genmab",scope:"Field medical view for Genmab-scoped sessions, slides, videos and discussion points."},
+ {id:"gmab-admin",name:"Genmab",init:"GM",mode:"industry",company:"Genmab",role:"Administrator",org:"Genmab",scope:"Manages Genmab users and collections; sponsor-scoped portal access."},
  {id:"fac1",name:"K. Patel, MD",init:"KP",mode:"faculty",company:null,role:"Faculty / Program",org:"Faculty",scope:"Faculty scientific dashboard — company-neutral science view."},
  {id:"fac2",name:"C. DiNardo, MD",init:"CD",mode:"faculty",company:null,role:"Faculty",org:"Faculty",scope:"Faculty science view — approved sessions, slides & video."}];
 function renderLanding(){
  const groups=[
-  {t:"Industry — pharmaceutical sponsor portals",note:"Each company sees only its own curated competitive portal.",ids:["jnj","pfe","gmab"]},
-  {t:"Faculty / Physician — science-first view",note:"Same content, organized by disease & clinical science — no sponsor lens.",ids:["fac1","fac2"]}];
+  {kind:"industry",t:"Industry sponsor portals",note:"Choose a sponsor and user type. Each company sees only its own curated competitive portal.",ids:["jnj-med","jnj-msl","jnj-admin","pfe-med","pfe-msl","pfe-admin","gmab-med","gmab-msl","gmab-admin"]},
+  {kind:"faculty",t:"Doctors / faculty — science-first view",note:"Same content, organized by disease and clinical science with no sponsor lens.",ids:["fac1","fac2"]}];
  const card=id=>{const u=IDENTITIES.find(x=>x.id===id);const bg=u.company?coColor(u.company):"#6d4aa7";
   return `<div class="id-card" onclick="enter('${u.id}')"><span class="ent">Enter →</span>
    <div class="av" style="background:${bg}">${u.init}</div>
    <h3>${esc(u.name)}</h3><div class="role">${esc(u.role)}</div>
    <div class="org">${esc(u.org)}</div><div class="scope">${esc(u.scope)}</div></div>`;};
  $("#login").innerHTML=`<div class="land">
-  <div class="land-head"><div class="dot">DA</div><div><div style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6d4aa7">DAVA Oncology</div><b style="color:#17233b;font-size:15px">Scientific Intelligence Platform</b></div></div>
+  <div class="land-head"><img class="brand-logo" src="../assets/DavaLogo.png" alt="DAVA Oncology"><div><div style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#6d4aa7">DAVA Oncology</div><b style="color:#17233b;font-size:15px">Scientific Intelligence Platform</b></div></div>
   <h1>${esc(META.name)}</h1>
   <p class="lede">${esc(META.venue)} · ${esc(META.dates)}. One repository, two experiences — choose a demonstration identity to enter the Industry (per-company) or Faculty (science-first) view.</p>
   <div class="authnote"><b>Prototype.</b> In production these are individual SSO accounts scoped by organization and issued by DAVA. Industry identities preview a per-sponsor competitive lens; faculty identities see the company-neutral science view.</div>
-  ${groups.map(g=>`<div class="exp-group"><h2>${esc(g.t)}<span class="bar"></span></h2><div style="font-size:11.5px;color:#76859e;margin:-6px 0 12px">${esc(g.note)}</div><div class="id-grid">${g.ids.map(card).join("")}</div></div>`).join("")}
+  ${groups.map(g=>`<div class="exp-group ${esc(g.kind)}"><h2>${esc(g.t)}<span class="bar"></span></h2><div style="font-size:11.5px;color:#76859e;margin:-6px 0 12px">${esc(g.note)}</div><div class="id-grid">${g.ids.map(card).join("")}</div></div>`).join("")}
   <div class="land-foot">${esc(META.name)} · ${esc(META.dates)} · Prototype — sample content, tags pending editorial review</div>
  </div>`;
 }

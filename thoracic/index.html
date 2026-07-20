@@ -28,8 +28,9 @@ a{color:inherit;text-decoration:none}
 #login{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:radial-gradient(1200px 600px at 70% -10%,#e9f0fb 0%,#f0f3f9 60%);z-index:100}
 .login-card{width:390px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:34px 32px;box-shadow:0 30px 80px rgba(0,0,0,.5)}
 .login-card .lock{font-size:12px;color:var(--dim);letter-spacing:.14em;text-transform:uppercase;margin-bottom:18px}
-.brandmark{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.brandmark{display:flex;align-items:center;gap:12px;margin-bottom:6px;color:inherit;text-decoration:none}
 .brandmark .dot{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,var(--brand),#7a0a1c);display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;font-size:15px}
+.brandmark .brand-logo{width:38px;height:34px;object-fit:contain;display:block}
 .brandmark b{font-size:16px;letter-spacing:.02em}
 .login-card h1{font-size:19px;margin:20px 0 4px}
 .login-card p.sub{color:var(--muted);margin:0 0 22px;font-size:13px}
@@ -188,9 +189,11 @@ tr.click:hover td{background:#e9eff8}
 
 /* modal + buttons (unified platform) */
 .modal-bg{position:fixed;inset:0;background:rgba(4,9,18,.72);z-index:60;display:flex;align-items:center;justify-content:center;padding:24px}
-.mbtn{background:#15263f;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:9px 14px;cursor:pointer;font-size:12.5px}
-.mbtn:hover{background:#1d3556}
-.mbtn.primary{background:var(--accent);border:0;color:#fff}
+.mbtn{background:#eef2fa;border:1px solid #d3dcea;color:#1b2b45;border-radius:8px;padding:10px 15px;cursor:pointer;font-size:13px;font-weight:600;display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:40px}
+.mbtn:hover{background:#e2e9f6}
+.mbtn.primary{background:var(--accent);border:1px solid var(--accent);color:#fff}
+.mbtn.primary:hover{background:#255fd6}
+.mbtn:disabled{cursor:default}
 
 /* ===================== UNIFIED PLATFORM ADDITIONS ===================== */
 /* Experience theming — one shell, accent swaps by role */
@@ -204,6 +207,7 @@ tr.click:hover td{background:#e9eff8}
 .land{max-width:1040px;margin:0 auto}
 .land-head{display:flex;align-items:center;gap:13px;margin-bottom:6px}
 .land-head .dot{width:40px;height:40px;border-radius:11px;background:linear-gradient(135deg,#2f6fed,#1b3f8f);display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff}
+.land-head .brand-logo{width:48px;height:42px;object-fit:contain;display:block}
 .land h1{font-size:24px;margin:14px 0 4px;color:#17233b}
 .land .lede{color:#55647d;font-size:14px;max-width:760px;margin:0 0 6px}
 .land .authnote{color:#76859e;font-size:12px;background:#eef4fd;border:1px solid #d9e0ed;border-left:3px solid #2f6fed;border-radius:8px;padding:10px 13px;margin:16px 0 26px;max-width:820px}
@@ -215,6 +219,9 @@ tr.click:hover td{background:#e9eff8}
 @media(max-width:820px){.id-grid{grid-template-columns:1fr}}
 .id-card{background:#ffffff;border:1px solid #d9e0ed;border-radius:12px;padding:15px 16px;cursor:pointer;transition:.15s;position:relative}
 .id-card:hover{transform:translateY(-2px);border-color:#c0cde0;box-shadow:0 16px 40px rgba(0,0,0,.4)}
+.exp-group.industry .id-card{border-left:4px solid #2f6fed}
+.exp-group.faculty .id-card{border-left:4px solid #1f9e8b}
+.exp-group.admin .id-card{border-left:4px solid #8a5cf0}
 .id-card .av{width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;color:#fff;margin-bottom:10px}
 .id-card h3{margin:0 0 2px;font-size:15px;color:#17233b}
 .id-card .role{font-size:12px;color:#55647d}
@@ -442,7 +449,7 @@ input::placeholder{color:#93a1b8}
 
 <div id="app" class="hidden exp-industry">
   <header class="topbar">
-    <div class="brandmark"><div class="dot">DA</div><b>DAVA&nbsp;Intelligence</b></div>
+    <a class="brandmark" href="../" aria-label="Return to meeting selection"><img class="brand-logo" src="../assets/DavaLogo.png" alt="DAVA Oncology"><b>DAVA&nbsp;Intelligence</b></a>
     <div class="tenant" id="tenantLabel"></div>
     <div class="searchwrap">
       <span class="mag">⌕</span>
@@ -858,9 +865,12 @@ function impactFor(company){
    ===================================================================== */
 const IDENTITIES = [
   // Industry
-  {id:"jnj-ci",  name:"A. Patel", init:"AP", role:"Industry Company User", title:"Competitive Intelligence", org:"Johnson & Johnson", company:"Johnson & Johnson", exp:"industry", color:"#c8102e", scope:"J&J company portal + sponsor-approved scientific content. Cannot see other sponsors' portals."},
-  {id:"jnj-admin",name:"D. Whitman", init:"DW", role:"Industry Company Administrator", title:"Portal Administrator", org:"Johnson & Johnson", company:"Johnson & Johnson", exp:"industry", color:"#c8102e", scope:"Manages J&J users & J&J collections; same content scope as J&J users."},
-  {id:"pfe-ci",  name:"M. Rivera", init:"MR", role:"Industry Company User", title:"Medical Affairs", org:"Pfizer", company:"Pfizer", exp:"industry", color:"#0093d0", scope:"Pfizer company portal only — demonstrates sponsor isolation."},
+  {id:"jnj-med", name:"Johnson & Johnson", init:"J&J", role:"Industry Company User", title:"Medical Affairs", org:"Johnson & Johnson", company:"Johnson & Johnson", exp:"industry", color:"#c8102e", scope:"Sponsor medical affairs portal with J&J-scoped scientific content and approved competitive context."},
+  {id:"jnj-msl", name:"Johnson & Johnson", init:"J&J", role:"Industry Company User", title:"MSL", org:"Johnson & Johnson", company:"Johnson & Johnson", exp:"industry", color:"#c8102e", scope:"Field medical view for J&J-scoped sessions, slides, videos and clinically relevant discussion points."},
+  {id:"jnj-admin",name:"Johnson & Johnson", init:"J&J", role:"Industry Company Administrator", title:"Administrator", org:"Johnson & Johnson", company:"Johnson & Johnson", exp:"industry", color:"#c8102e", scope:"Manages J&J users and collections; same content scope as J&J sponsor users."},
+  {id:"pfe-med", name:"Pfizer", init:"PF", role:"Industry Company User", title:"Medical Affairs", org:"Pfizer", company:"Pfizer", exp:"industry", color:"#0093d0", scope:"Pfizer-scoped medical affairs portal only — demonstrates sponsor isolation."},
+  {id:"pfe-msl", name:"Pfizer", init:"PF", role:"Industry Company User", title:"MSL", org:"Pfizer", company:"Pfizer", exp:"industry", color:"#0093d0", scope:"Field medical view for Pfizer-scoped sessions, slides, videos and discussion points."},
+  {id:"pfe-admin",name:"Pfizer", init:"PF", role:"Industry Company Administrator", title:"Administrator", org:"Pfizer", company:"Pfizer", exp:"industry", color:"#0093d0", scope:"Manages Pfizer users and collections; cannot see other sponsors' portals."},
   // Faculty
   {id:"fac-chair",name:"J. Heymach, MD", init:"JH", role:"Faculty / Moderator", title:"Program Chair", org:"MD Anderson", company:null, exp:"faculty", color:"#1f9e8b", scope:"Faculty scientific dashboard + faculty-approved presentations + own sessions. No company lens."},
   {id:"fac-mem", name:"N. Leighl, MD", init:"NL", role:"Faculty", title:"Faculty", org:"Princess Margaret", company:null, exp:"faculty", color:"#1f9e8b", scope:"Faculty dashboard + approved sessions, slides & video per assigned permissions."},
@@ -890,23 +900,23 @@ const PERM_MATRIX = {
    ===================================================================== */
 function renderLanding(){
   const groups=[
-    {t:"Industry — pharmaceutical sponsor portals",note:"Each company sees only its own curated portal.",ids:["jnj-ci","jnj-admin","pfe-ci"]},
-    {t:"Faculty / Physician — science-first view",note:"Same content, organized by science & clinical relevance.",ids:["fac-chair","fac-mem","fac-inv"]},
-    {t:"DAVA administration",note:"Central control of content, tagging and access.",ids:["dava-super","dava-content","dava-review"]}
+    {kind:"industry",t:"Industry sponsor portals",note:"Choose a sponsor and user type. Each company sees only its own curated portal.",ids:["jnj-med","jnj-msl","jnj-admin","pfe-med","pfe-msl","pfe-admin"]},
+    {kind:"faculty",t:"Doctors / faculty — science-first view",note:"Same content, organized by science and clinical relevance without a sponsor lens.",ids:["fac-chair","fac-mem","fac-inv"]},
+    {kind:"admin",t:"DAVA administration",note:"Central control of content, tagging and access.",ids:["dava-super","dava-content","dava-review"]}
   ];
   const card=id=>{const u=IDENTITIES.find(x=>x.id===id);
     return `<div class="id-card" onclick="enter('${u.id}')">
       <span class="ent">Enter →</span>
       <div class="av" style="background:${u.color}">${u.init}</div>
-      <h3>${esc(u.name)}</h3><div class="role">${esc(u.title)} · ${esc(u.role)}</div>
+      <h3>${esc(u.name)}</h3><div class="role">${esc(u.title)}</div>
       <div class="org">${esc(u.org)}</div>
       <div class="scope">${esc(u.scope)}</div></div>`;};
   $("#login").innerHTML=`<div class="land">
-    <div class="land-head"><div class="dot">DA</div><div><div style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#3a5c92">DAVA Oncology</div><b style="color:#17233b;font-size:15px">Scientific Intelligence Platform</b></div></div>
+    <div class="land-head"><img class="brand-logo" src="../assets/DavaLogo.png" alt="DAVA Oncology"><div><div style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#3a5c92">DAVA Oncology</div><b style="color:#17233b;font-size:15px">Scientific Intelligence Platform</b></div></div>
     <h1>One platform · one repository · role-based access</h1>
     <p class="lede">A single scientific archive from DAVA Oncology meetings, delivered through role- and organization-specific experiences. Sign in below with a demonstration identity to see how the same content is rendered for each type of user.</p>
     <div class="authnote"><b>Authentication model:</b> in production these are <b>individual SSO accounts</b> tied to an organization and issued / revoked centrally by DAVA — not one shared login per company. The identities below stand in for real provisioned users. Choose one to enter its experience.</div>
-    ${groups.map(g=>`<div class="exp-group"><h2>${esc(g.t)}<span class="bar"></span></h2>
+    ${groups.map(g=>`<div class="exp-group ${esc(g.kind)}"><h2>${esc(g.t)}<span class="bar"></span></h2>
       <div style="font-size:11.5px;color:#76859e;margin:-6px 0 12px">${esc(g.note)}</div>
       <div class="id-grid">${g.ids.map(card).join("")}</div></div>`).join("")}
     <div class="land-foot">${MEETING.name} · ${MEETING.venue} · ${MEETING.dates} · Prototype — illustrative content licensed for review</div>
@@ -929,7 +939,7 @@ function enter(id){
   const app=$("#app"); app.classList.remove("hidden");
   app.className = "exp-"+USER.exp;
   $("#userAv").textContent=USER.init; $("#userAv").style.background=USER.color;
-  $("#userInfo").innerHTML=`${esc(USER.name)}<br><span style="font-size:10px;color:var(--dim)">${esc(USER.role)}</span>`;
+  $("#userInfo").innerHTML=`${esc(USER.name)}<br><span style="font-size:10px;color:var(--dim)">${esc(USER.title||USER.role)}</span>`;
   const expName={industry:"Industry",faculty:"Faculty",admin:"DAVA Admin"}[USER.exp];
   $("#tenantLabel").innerHTML=`<span class="expchip">${expName}</span> &nbsp;`+
     (USER.company?`<b>${esc(USER.company)}</b> · Oncology`:`<b>${esc(USER.org)}</b>`);
@@ -1191,18 +1201,6 @@ IND.overview=()=>{
   </div>
   <div class="explain">The franchise cockpit. Every item is labelled with <b>why it appears</b> in ${esc(co)}'s portal, and each label is editor-reviewed by DAVA. AI assists only with behind-the-scenes tagging — the visible classification is rule-based and source-linked.</div>
 
-  <div class="card" style="margin-bottom:16px">
-    <h3>Impact Score — relevance of this meeting to ${esc(co)} · <span style="color:var(--ink)">${I.band}</span></h3>
-    <div class="gauge-wrap">${gauge(I.total)}
-      <div class="score-break">
-        ${I.comps.map(c=>`<div class="sb-row" title="${c.raw} ${c.unit} (ceiling ${c.ceil})">
-          <div class="lab">${c.k} <span style="color:var(--dim)">·${Math.round(c.w*100)}%</span></div>
-          <div class="bar"><span style="width:${c.pct}%"></span></div>
-          <div class="val">${c.pct}<span class="count-pop"> · ${c.raw}</span></div></div>`).join("")}
-      </div></div>
-    <div class="disc"><b>What this score is:</b> a transparent, weighted count of measurable factors (shown above with raw counts). <b>What it is not:</b> a prediction, a recommendation, or an AI judgment. It is banded (${I.band}) to avoid false precision; use the component counts, not the single number, for decisions.</div>
-  </div>
-
   <div class="grid cards4">
     <div class="kpi" onclick="go('pipeline')" style="cursor:pointer"><div class="n">${I.directRel}</div><div class="l">Direct portfolio sessions</div></div>
     <div class="kpi" onclick="go('competitors')" style="cursor:pointer"><div class="n">${I.compCount}</div><div class="l">Competitor / emerging talks</div></div>
@@ -1399,7 +1397,7 @@ FAC.overview=()=>{
   return `<div class="crumb"><b>Overview</b></div>
   <h2 class="page">${MEETING.name} — Scientific Overview</h2>
   <p class="page-sub">${MEETING.venue} · ${MEETING.dates}. Organized around the science and clinical questions — by disease, biomarker, target, setting and evidence — not by sponsor.</p>
-  <div class="explain">The faculty view is deliberately company-neutral. There is no Impact Score and no competitive framing — just the meeting's science, with source-linked, editor-reviewed records.</div>
+  <div class="explain">The faculty view is deliberately company-neutral. It keeps the focus on the meeting's science, with source-linked, editor-reviewed records and no sponsor framing.</div>
 
   <div class="section-title">Major scientific themes</div>
   <div class="hero-grid">${themes.map(c=>`<div class="theme-card" onclick="go('collection','${c.id}')"><div class="ic">${c.ic}</div><h4>${esc(c.title)}</h4><p>${esc(c.desc)}</p><div class="n">${TALKS.filter(c.f).length} sessions →</div></div>`).join("")}</div>

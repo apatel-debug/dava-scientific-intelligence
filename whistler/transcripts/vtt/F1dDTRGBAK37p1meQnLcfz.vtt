@@ -1,0 +1,307 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.200
+I'm going to switch gears a little bit and talk less about lymphoma and more about a tool that
+
+00:00:05.200 --> 00:00:10.380
+can be used to make single-cell DNA sequencing more feasible, much faster, and importantly,
+
+00:00:10.500 --> 00:00:18.220
+much less expensive. So what is single-cell DNA sequencing? And may someone want to do it in the
+
+00:00:18.220 --> 00:00:22.680
+first place? As we all know, cancer, and particularly leukemias and lymphomas, are
+
+00:00:22.680 --> 00:00:28.340
+incredibly heterogeneous. Within a single patient, you can have multiple mutationally driven clones
+
+00:00:28.340 --> 00:00:33.240
+and subclones, and these change and evolve with therapeutic pressure. Single-cell sequencing
+
+00:00:33.240 --> 00:00:38.740
+allows you to resolve this clonal heterogeneity on a single-cell level and restore clonal
+
+00:00:38.740 --> 00:00:44.240
+architecture. So for example, the figure here on the left, this is a fish plot. You've probably
+
+00:00:44.240 --> 00:00:49.260
+seen these before. Fun fact, they're called fish plots because the person that originally made this
+
+00:00:49.260 --> 00:00:55.560
+R package thought it looked like a tropical fish. I love that so much. The y-axis is variant allyl
+
+00:00:55.560 --> 00:00:58.200
+frequency, and the x-axis is time, and each colorful.
+
+00:00:58.340 --> 00:01:03.280
+Fish, or section, represents a genetically distinct clone or subclone. And for this
+
+00:01:03.280 --> 00:01:07.800
+particular example patient, you can see some clones, like that red clone and that green clone,
+
+00:01:07.880 --> 00:01:13.140
+get much smaller on therapy, whereas others, like the blue and the purple, later come back. And
+
+00:01:13.140 --> 00:01:17.300
+these have different mutational and commutational patterns, and this is important for understanding
+
+00:01:17.300 --> 00:01:22.500
+what is driving drug resistance. Single-cell DNA sequencing is also important for understanding
+
+00:01:22.500 --> 00:01:28.320
+tumor phylogeny, or the order in which mutations are acquired. And this is key both for leukemiogenesis,
+
+00:01:28.340 --> 00:01:33.640
+but also in drug resistance. And Ross Levine's group has used this technology to do some really
+
+00:01:33.640 --> 00:01:38.920
+beautiful work, as shown in that middle panel. Finally, in recent years, we now have multi-omics,
+
+00:01:39.420 --> 00:01:44.500
+where single-cell DNA sequencing can be combined directly with either single-cell immunophenotyping
+
+00:01:44.500 --> 00:01:49.500
+or single-cell RNA sequencing. So now on the single-cell level, we can know the precise
+
+00:01:49.500 --> 00:01:55.860
+relationship between a cell's genotype and that same cell's immunophenotype. So I could keep going
+
+00:01:55.860 --> 00:01:58.180
+on and on with examples like this all day long, but so far, I've been able to do a lot of work on this.
+
+00:01:58.180 --> 00:01:58.320
+So I'm going to go ahead and show you a little bit of this. So I'm going to go ahead and show you a little bit of this.
+
+00:01:58.340 --> 00:02:04.540
+This is a really fantastic technology. Unfortunately, it's also a very expensive
+
+00:02:04.540 --> 00:02:09.180
+technology. And off the shelf, you're usually looking at, nowadays, I think it's around $5,000
+
+00:02:09.180 --> 00:02:14.340
+per sample. And this really came clear to me a couple of years ago when I was asked to do
+
+00:02:14.340 --> 00:02:18.920
+correlatives for a pediatric trial through COG. And this was a fairly small trial. It was only
+
+00:02:18.920 --> 00:02:24.880
+32 patients with three serial samples per patient. But very quickly, I was looking at at least $300,000
+
+00:02:24.880 --> 00:02:28.180
+for just reagents. And by the time we added in sequencing costs and here's the result,
+
+00:02:28.180 --> 00:02:32.400
+and human labor, it was well over half a million dollars. And that was not the only correlative for
+
+00:02:32.400 --> 00:02:37.140
+this trial. It was actually putting together that budget that made me realize there has got to be a
+
+00:02:37.140 --> 00:02:44.200
+better way to think about how we look at this data. So that better way is multiplexing. So on
+
+00:02:44.200 --> 00:02:49.800
+a very, very high level, what is multiplexing? Multiplexing is when you take individual samples
+
+00:02:49.800 --> 00:02:58.020
+from different patients, you combine them into one single tube, you run whatever your assay of
+
+00:02:58.020 --> 00:03:02.640
+doing, and then you use bioinformatics to say, "Okay, this cell belongs to this patient,
+
+00:03:02.640 --> 00:03:09.820
+this cell belongs to that patient, et cetera, et cetera." There are two broad strokes ways
+
+00:03:09.820 --> 00:03:14.160
+in which people may try to do this. The most common by far are barcode-based approaches.
+
+00:03:14.160 --> 00:03:19.360
+This is somewhat akin to flow cytometry, where before you combine the different samples,
+
+00:03:19.360 --> 00:03:23.820
+you give each one a cell surface tag, and this can either be truly fluorescent or it
+
+00:03:23.820 --> 00:03:27.860
+can be an antibody tag, and then you combine all the samples together.
+
+00:03:27.860 --> 00:03:32.500
+This is not great. Minding is sort of notoriously promiscuous and moves around a lot, and I found
+
+00:03:32.500 --> 00:03:37.180
+this to be not a very high-fidelity system. What actually works a lot better are SNP-based
+
+00:03:37.180 --> 00:03:41.080
+approaches. We all have very different germline SNPs because we're all different individual
+
+00:03:41.080 --> 00:03:46.140
+people, and you can use these differences in single nucleotide polymorphisms to your advantage
+
+00:03:46.140 --> 00:03:50.780
+as a sort of endogenous barcode to decide which cell belongs to which individual.
+
+00:03:50.780 --> 00:03:55.320
+To connect samples back to their parent, however, you do need to know that individual's germline
+
+00:03:55.320 --> 00:03:57.700
+SNP profile, which is not always information we have on hand.
+
+00:03:57.700 --> 00:04:04.400
+I like combining things, so I used both in our novel algorithm, which we called SNaCS,
+
+00:04:04.400 --> 00:04:10.780
+for single nucleotide and antibody-based cell sorting. On a broad level, SNaCS first uses
+
+00:04:10.780 --> 00:04:17.100
+these antibodies, which we called hash antibodies, to divide cells up into two different populations,
+
+00:04:17.100 --> 00:04:21.700
+uses these populations to decide which SNPs are most important for classifying samples
+
+00:04:21.700 --> 00:04:27.540
+and clusters them, removes multiplets, and then goes back and uses the hash antibodies
+
+00:04:27.540 --> 00:04:29.780
+to find cells back to their parent sample.
+
+00:04:29.780 --> 00:04:35.080
+SNaCS is an algorithm, an associated R package, I think it runs pretty smoothly, and also
+
+00:04:35.080 --> 00:04:39.560
+has a nice data visualization that lets you sort of immediately see how well your multiplexing
+
+00:04:39.560 --> 00:04:43.260
+worked, and that's shown here on this heat map. I mean, even if you know absolutely nothing
+
+00:04:43.260 --> 00:04:46.920
+about how the algorithm works, you can kind of look at this heat map and say, "Hey, I
+
+00:04:46.920 --> 00:04:50.460
+think there's two different patients here." And in fact, this was two samples multiplexed
+
+00:04:50.460 --> 00:04:51.460
+together.
+
+00:04:51.460 --> 00:04:56.380
+Again, these bars at the top represent the cell surface antibody-based tags, and you
+
+00:04:56.380 --> 00:04:57.380
+can see these
+
+00:04:57.380 --> 00:05:02.080
+somewhat separate cells out into two different populations. But what really helps are actually
+
+00:05:02.080 --> 00:05:06.700
+the SNPs. In this case, we found six different germline SNPs that defined our cells into
+
+00:05:06.700 --> 00:05:10.660
+two different populations. And this was done with an off-the-shelf AML panel. In fact,
+
+00:05:10.660 --> 00:05:15.160
+we didn't enrich for any specific regions, although later we have started adding in SNPs
+
+00:05:15.160 --> 00:05:19.320
+that are actually used by the FBI to help with identifying parent samples, and those
+
+00:05:19.320 --> 00:05:22.080
+work really well.
+
+00:05:22.080 --> 00:05:27.220
+So how well did this work? To figure this out, I used single cell DNA
+
+00:05:27.220 --> 00:05:31.580
+sequencing experiments on several different AML samples run as singletons, so that's sort
+
+00:05:31.580 --> 00:05:35.180
+of the status quo, and then used the same samples and combined them with two samples
+
+00:05:35.180 --> 00:05:38.920
+together, three samples together, four, et cetera, et cetera, all the way up to eight
+
+00:05:38.920 --> 00:05:43.700
+samples together. I then benchmarked this against other established methods, mainly
+
+00:05:43.700 --> 00:05:50.200
+borrowed from the single-cell RNA-seq literature. How did it work? I think pretty well. So this
+
+00:05:50.200 --> 00:05:57.060
+is the heat map here on the left of accuracy. The more yellow a square is, the more accurate.
+
+00:05:57.060 --> 00:06:02.520
+left column and all the other kind of comparison methods are the other columns. That top row is
+
+00:06:02.520 --> 00:06:07.500
+two samples multiplexed together, the middle row is three, and the bottom row is four. And as you
+
+00:06:07.500 --> 00:06:13.460
+can see, accuracy ranged from about 95 to 99% for snacks, which I thought was pretty acceptable.
+
+00:06:15.360 --> 00:06:20.180
+A question I had was just how far can you go? So in my experiments, just based on the number
+
+00:06:20.180 --> 00:06:24.320
+of samples I had access to, I went up to eight samples multiplexed together, but could you go
+
+00:06:24.320 --> 00:06:30.400
+even further? To figure this out, I did several simulations using synthetic data and found that
+
+00:06:30.400 --> 00:06:37.120
+you can really push up to 10 or even 20 samples before your accuracy stops to drop below 90%.
+
+00:06:37.120 --> 00:06:42.280
+So this works quite well. What seems to matter far more, the actual number of cells you can load
+
+00:06:42.280 --> 00:06:47.520
+onto a platform. So for example, I use the Mission BioDNA-Seq platform, which generally lets you get
+
+00:06:47.520 --> 00:06:51.940
+about 10,000 cells maximum. So you can imagine if you're multiplexing two samples together,
+
+00:06:51.940 --> 00:06:54.180
+10,000 divided by two, that's 5,000 cells.
+
+00:06:54.320 --> 00:07:00.000
+10,000 divided by 10 would be 1,000 cells per sample. There probably reaches a limit where you
+
+00:07:00.000 --> 00:07:05.040
+say this is not enough cells to make this worth it. For me, I found four samples multiplexed
+
+00:07:05.040 --> 00:07:11.120
+together worked really well. I consistently got accuracy greater than 95%, had 2,000 to 3,000
+
+00:07:11.120 --> 00:07:15.200
+cells per sample, and importantly, cut a correlative budget at almost two-thirds.
+
+00:07:17.200 --> 00:07:22.960
+So in conclusion, SNATS is an open-source R package, runs in seconds, and enables scalable,
+
+00:07:22.960 --> 00:07:24.120
+accurate single-celled DNA analysis. If you have any questions, feel free to reach out to me at
+
+00:07:24.120 --> 00:07:24.120
+SNATS.org. And if you have any questions, feel free to reach out to me at SNATS.org. And if you
+
+00:07:24.120 --> 00:07:24.120
+have any questions, feel free to reach out to me at SNATS.org. And if you have any questions, feel free to reach out to me at
+
+00:07:24.120 --> 00:07:24.240
+SNATS.org. And if you have any questions, feel free to reach out to me at SNATS.org. And if you have
+
+00:07:24.240 --> 00:07:24.320
+any questions, feel free to reach out to me at SNATS.org. And if you have any questions, feel free to reach out to me at
+
+00:07:24.320 --> 00:07:24.480
+SNATS.org. And if you have any questions, feel free to reach out to me at SNATS.org. And if you have any
+
+00:07:24.480 --> 00:07:24.480
+questions, feel free to reach out to me at SNATS.org. And if you have any questions, feel free to reach out to me at
+
+00:07:24.480 --> 00:07:24.640
+SNATS.org. And if you have any questions, feel free to reach out to me at SNATS.org. And if you have any
+
+00:07:24.640 --> 00:07:24.960
+questions, feel free to reach out to me at SNATS.org. And if you have any questions, feel free to reach out to me at
+
+00:07:24.960 --> 00:07:25.280
+@SNATS.org. Or you can reach out to me at
+
+00:07:36.480 --> 00:07:36.640
+you

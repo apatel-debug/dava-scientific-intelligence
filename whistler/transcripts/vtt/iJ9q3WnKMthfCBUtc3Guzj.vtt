@@ -1,0 +1,256 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.580
+Um, and I think, uh, thank you, Dr. Wilson for a great talk.
+
+00:00:04.680 --> 00:00:08.720
+Um, what we were really interested in was trying to understand how we can target the
+
+00:00:08.720 --> 00:00:13.340
+germinal center derived, uh, lymphomas as there are very few targeted agents out there
+
+00:00:13.340 --> 00:00:14.180
+for this entity.
+
+00:00:14.400 --> 00:00:18.680
+You know, most of our drugs out there really do great targeting non-germinal center and
+
+00:00:18.680 --> 00:00:19.620
+AVC subtype.
+
+00:00:19.780 --> 00:00:24.760
+And so based on molecular clustering, you know, we've noticed that, uh, most of the,
+
+00:00:24.760 --> 00:00:29.060
+uh, germinal center derived lymphomas have clustering and epigenetic derangements such
+
+00:00:29.060 --> 00:00:35.600
+as EZH2, the, um, histone acetyltransferases, CREB-BP and P300 and, uh, components of the
+
+00:00:35.600 --> 00:00:36.600
+sweet sniff complex.
+
+00:00:36.600 --> 00:00:41.280
+And these EZB tend to do a little bit worse than, uh, other germinal center lymphomas.
+
+00:00:42.060 --> 00:00:47.660
+Similarly, we see multiple chromatin, uh, genes altered in follicular lymphoma, essentially
+
+00:00:47.660 --> 00:00:51.920
+the same, uh, genes that we see recurrently, uh, altered in follicular lymphoma.
+
+00:00:52.200 --> 00:00:56.580
+And then even in T-cell lymphomas, especially those derived from the germinal center, such
+
+00:00:56.580 --> 00:00:59.040
+as T-follicular helper, origin T-cell.
+
+00:00:59.060 --> 00:01:07.620
+There are multiple, uh, multiple epigenetic mutations, not only in TET2 and DNMT3, but
+
+00:01:07.620 --> 00:01:13.600
+also there are derangements in the HAT, uh, enzymes, uh, EZH2 can be, uh, have gain of
+
+00:01:13.600 --> 00:01:19.560
+function and the sweet sniff complex also often is deranged in, um, T-cell lymphomas.
+
+00:01:19.700 --> 00:01:25.160
+So keeping this in mind, we decided, you know, could we, uh, target dual epigenetic machinery
+
+00:01:25.160 --> 00:01:26.980
+with EZH2 inhibitors?
+
+00:01:26.980 --> 00:01:28.060
+And although there aren't really great, um, T-cells, we decided to target dual epigenetic
+
+00:01:28.060 --> 00:01:28.060
+machinery with EZH2 inhibitors.
+
+00:01:28.060 --> 00:01:28.060
+And although there aren't really great, um, T-cell lymphomas, we decided to target dual
+
+00:01:28.060 --> 00:01:28.060
+epigenetic machinery with EZH2 inhibitors.
+
+00:01:28.060 --> 00:01:28.060
+And although there aren't really great, um, T-cell lymphomas, we decided to target dual epigenetic
+
+00:01:28.060 --> 00:01:28.080
+machinery with EZH2 inhibitors.
+
+00:01:28.080 --> 00:01:33.300
+And although there aren't really great, um, uh, targets yet in the clinic for the HAT,
+
+00:01:33.440 --> 00:01:40.100
+um, enzymes, P300 and CREB-BP, we were interested in doing the converse where targeting HDACs.
+
+00:01:40.500 --> 00:01:45.840
+So the combination of both EZH2 inhibition and HDAC inhibition leads to a transcriptionally
+
+00:01:45.840 --> 00:01:52.300
+open, uh, histone state where there's decreased trimethylation, increased acetylation of histones.
+
+00:01:52.440 --> 00:01:53.900
+So we were interested in this combination.
+
+00:01:54.900 --> 00:01:58.020
+So in the lab we studied, uh, this is a long time ago.
+
+00:01:58.060 --> 00:02:03.800
+GSK126, a, uh, sort of first in class EZH2 inhibitor with bromodepidin and HDAC inhibitor.
+
+00:02:03.980 --> 00:02:09.880
+And we looked at a really large panel of cell lines, um, of all different types of, uh, lymphoma
+
+00:02:09.880 --> 00:02:14.800
+subtypes and found that there was, uh, synergistic interactions highlighted here in red boxes
+
+00:02:14.800 --> 00:02:22.020
+in those with EZH2 mutations or sort of, um, overexpression, um, where the white boxes, uh,
+
+00:02:22.020 --> 00:02:28.840
+denote, uh, additivity and the blue, um, uh, um, uh, not synergistic.
+
+00:02:29.640 --> 00:02:35.120
+Um, and we looked at this actually across a number of drugs in the classes and here we're just high.
+
+00:02:35.180 --> 00:02:41.460
+So it was really class effects, really all the HDAC inhibitors and, uh, several, um, EZH2 inhibitors,
+
+00:02:41.580 --> 00:02:45.620
+uh, have synergistic interactions, but I'm showing here, um, more clinically, well,
+
+00:02:45.620 --> 00:02:51.240
+recently clinically available drugs, Belinicet and Tezamenicet also led to robust,
+
+00:02:51.240 --> 00:02:51.860
+robust,
+
+00:02:52.020 --> 00:02:57.260
+synergistic interaction, um, highlighted in the, in the red boxes in a number of cell lines.
+
+00:02:58.860 --> 00:03:05.440
+We found that there was a basal, common basal gene expression signature that predicted for synergy across cell lines,
+
+00:03:05.440 --> 00:03:13.000
+which is not surprisingly to have, uh, biologic, uh, processes, processes, uh, enriched in, uh, gene expression,
+
+00:03:13.000 --> 00:03:15.600
+protein acetylation, um, gene silencing.
+
+00:03:15.600 --> 00:03:21.640
+So we don't believe that this is really, um, uh, uh, they necessarily need to have mutations in EZH2 or
+
+00:03:21.640 --> 00:03:25.180
+CREB-BP or P300, but rather have sort of like this epigenetic signature.
+
+00:03:26.580 --> 00:03:32.700
+Um, we found that the combination led to increased acetylation, um, and decreased trimethylation,
+
+00:03:32.700 --> 00:03:39.000
+both by, uh, immunohistochemistry, uh, sorry, by Western blot analysis and through mass spectrometry
+
+00:03:39.000 --> 00:03:45.580
+of histones. And when we combined these two agents in a mouse model, we found really prolonged
+
+00:03:45.580 --> 00:03:51.180
+survival with the combination. So based on these findings, we developed a clinical study that was
+
+00:03:51.180 --> 00:03:58.140
+funded through CTEP, um, looking for the, um, maximum tolerated dose of the combination, and then in an
+
+00:03:58.140 --> 00:04:03.940
+expansion to really try to understand the contributions of mutations on, uh, response.
+
+00:04:03.940 --> 00:04:09.540
+Secondary endpoints, uh, included, uh, anti-tumor activity, um, defining response rate, progression-free
+
+00:04:09.540 --> 00:04:12.740
+survival, duration of response, and we had a number of correlative studies.
+
+00:04:12.740 --> 00:04:21.040
+Basically, tazometastat was given, um, BID, uh, daily, um, on a 21-day cycle, and blunastat was given days one through five, and a
+
+00:04:21.040 --> 00:04:26.300
+21-day cycle of escalating doses in the phase one portion of the study.
+
+00:04:26.300 --> 00:04:31.280
+Um, basically, we had, as I mentioned, a phase one portion, an expansion portion.
+
+00:04:31.280 --> 00:04:41.480
+Patients were treated, uh, along the, the, um, uh, uh, schedule, um, and then expansion, we were going to look specifically at different mutations.
+
+00:04:41.480 --> 00:04:50.900
+Um, we had a number of correlative studies, as I mentioned, looking at both EZH2 and HAT mutation status, um, looking at, um, histone methylation and acetylation through mass spec.
+
+00:04:50.900 --> 00:05:02.040
+Uh, looking at this, for this gene signature, and then also looking at change in gene expression following the combination, and looking, um, uh, at, sort of, T-cell activation following the combination.
+
+00:05:02.040 --> 00:05:12.400
+Uh, key eligibility were relapsed refractory non-Hodgkin lymphoma in the phase one, really all comers, and the expansion focused on follicular, germinal-centered large cell and T-cell lymphoma.
+
+00:05:12.400 --> 00:05:20.760
+And so, we enrolled about 30 patients, um, median age was 67, um, you can see we have wide demographic represented.
+
+00:05:20.760 --> 00:05:31.060
+Um, and in terms of disease characteristics, um, most patients had some sort of T-cell lymphoma, this is a smattering different T-cell types with a, a handful of large cell lymphomas.
+
+00:05:31.060 --> 00:05:42.620
+Um, they were heavily pre-treated with prior autos, allos, CAR-T-cell, um, and we enrolled about, uh, six in dose level one, three in dose level two, six in dose level three, and the expansion, we enrolled 13 patients.
+
+00:05:42.620 --> 00:06:09.820
+It was very well tolerated, um, there was one dose-limiting, dose-limiting toxicity, which is grade four thrombocytopenia, there were two grade five events that were considered unrelated, a COVID, uh, case, and a stroke, and really there were, um, very few grade, uh, three, four toxicities represented in this table, um, none that occurred in dose level two, just a handful in dose level one, and some, you know, sort of common things that we see with these, uh, drugs in, uh, dose level three.
+
+00:06:11.320 --> 00:06:30.440
+So, this study was very well tolerated, um, unfortunately, it was cut short due to the, um, pull of tazometasat, so patients were actually enrolling up to about last month, uh, so we had one more patient to enroll, and two patients that were just in cycle one at that time, so we don't have all the data, this is really just a maturing study right now.
+
+00:06:30.440 --> 00:06:40.020
+Um, there was a typo here, the number of range of cycles was one to 39, not 239, um, but the median number of cycles was six, there were three responders that were in study for longer than that.
+
+00:06:40.020 --> 00:06:47.320
+So, this is a maturing study for longer than a year, and one patient, uh, with a response, uh, transitioned to an allotransplant after six cycles.
+
+00:06:48.760 --> 00:07:02.560
+And the overall response rate in all comers was 45%, with a CR rate of 27%, however, in the T-cell evaluable patients, you can see across all dose levels, the overall response rate was 52%, with a CR rate of 32%.
+
+00:07:02.560 --> 00:07:10.000
+Um, and just sort of looking at sort of single agent, uh, activity in these eight types of drugs in the BLE study, Belinostat, Belinostat, and the T-cell evaluable patients, you can see across all dose levels, the overall response rate was 52%, with a CR rate of 32%.
+
+00:07:10.020 --> 00:07:10.620
+Um, and just sort of looking at sort of single agent, uh, activity in these eight types of drugs in the BLE study, Belinostat, Belinostat, and the T-cell evaluable patients, you can see across all dose levels, the overall response rate was 52%, with a CR rate of 32%.
+
+00:07:10.620 --> 00:07:10.640
+Um, and just sort of looking at sort of single agent, uh, activity in these eight types of drugs in the BLE study, Belinostat, Belinostat, and the T-cell evaluable patients, you can see across all dose levels, the overall response rate was 52%, with a CR rate of 32%.
+
+00:07:10.640 --> 00:07:11.120
+Um, and just sort of looking at sort of single agent, uh, activity in these eight types of drugs in the BLE study, Belinostat, Belinostat, and the T-cell evaluable patients, you can see across all dose levels, the overall response rate was 52%, with a CR rate of 32%.
+
+00:07:40.020 --> 00:07:40.620
+Um, and just sort of looking at sort of single agent, uh, activity in these eight types of drugs in the BLE study, Belinostat, Belinostat, and the T-cell evaluable patients, you can see across all dose levels, the overall response rate was 52%, with a CR rate of 32%.
+
+00:07:40.620 --> 00:07:41.220
+Um, and just sort of looking at sort of single agent, uh, activity in these eight types of drugs in the BLE study, Belinostat, Belinostat, and the T-cell evaluable patients, you can see across all dose levels, the overall response rate was 52%, with a CR rate of 32%.
+
+00:07:41.220 --> 00:07:41.800
+Um, and just sort of looking at sort of single agent, uh, activity in these eight types of drugs in the BLE study, Belinostat, Belinostat, and the T-cell evaluable patients, you can see across all dose levels, the overall response rate was 52%.
+
+00:07:41.800 --> 00:08:11.780
+Um, and just sort of looking at sort of single agent, uh, activity in these eight types of drugs in the BLE study, Belinostat, and the T-cell evaluable patients, you can see across all dose levels, the overall response rate was 52%.
+
+00:08:11.800 --> 00:08:41.780
+Um, and just sort of looking at sort of single agent, uh, activity in these eight types of drugs in the BLE study, Belinostat, and the T-cell evaluable patients, you can see across all dose levels, the overall response rate was 52%.
+
+00:08:41.780 --> 00:08:41.780
+Um, and just sort of looking at sort of single agent, uh, activity in these eight types of drugs in the BLE study, Belinostat, and the T-cell evaluable patients, you can see across all dose levels, the overall response rate was 52%.
+
+00:08:41.780 --> 00:08:41.780
+Um, and just sort of looking at sort of single agent, uh, activity in these eight types of drugs in the BLE study, Belinostat, and the T-cell evaluable patients, you can see across all dose levels, the overall response rate was 52%.
+
+00:08:41.780 --> 00:09:11.760
+Um, and just sort of looking at sort of single agent, uh, activity in these eight types of drugs in the BLE study, Belinostat, and the T-cell evaluable patients, you can see across all dose levels, the overall response rate was 52%.
+
+00:09:11.760 --> 00:09:41.740
+Um, and just sort of looking at sort of single agent, uh, activity in these eight types of drugs in the BLE study, Belinostat, and the T-cell evaluable patients, you can see across all dose levels, the overall response rate was 52%.
+
+00:09:41.740 --> 00:10:11.720
+Um, and just sort of looking at sort of single agent, uh, activity in these eight types of drugs in the BLE study, Belinostat, and the T-cell evaluable patients, you can see across all dose levels, the overall response rate was 52%.

@@ -1,0 +1,250 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.840
+Okay. Next is Dr. Alleman, who's going to tell us about a personalized approach to treating
+
+00:00:08.840 --> 00:00:18.040
+iatrogenic T-cell lymphoma from BCMA CAR-T. All right. Last talk. Thank you. Thank you again for
+
+00:00:18.040 --> 00:00:22.060
+the invite. Today, I'm going to talk about CAR-T cell lymphoma that happened after silt-to-cell
+
+00:00:22.060 --> 00:00:26.600
+therapy. As we all know and have heard throughout this whole conference, silt-to-cell is great.
+
+00:00:26.600 --> 00:00:31.400
+It keeps patients, we might even be getting to a cure. However, there is one thing that has been
+
+00:00:31.400 --> 00:00:35.600
+occurring, and that's the secondary adverse events. These are just five cases published
+
+00:00:35.600 --> 00:00:39.860
+last year of secondary T-cell lymphoma cases that have happened after silt-to-cell, and they all
+
+00:00:39.860 --> 00:00:44.640
+have commonalities. Most of them have a chip mutation, and most of them present with skin
+
+00:00:44.640 --> 00:00:49.700
+tropism. And we at Mount Sinai also had a case. We had a case of a patient who came in, received
+
+00:00:49.700 --> 00:00:56.500
+silt-to-cell, went into remission, and then around day 190, came in with facial lesions and
+
+00:00:56.500 --> 00:00:56.580
+hypothermia. And we had a case of a patient who came in, received silt-to-cell, went into remission,
+
+00:00:56.580 --> 00:01:01.940
+and had hypercutaneous imaging on PET scan. So we wanted to know what was it at the time and how do
+
+00:01:01.940 --> 00:01:06.060
+we treat it? So the first thing we did was work it up. We found that histology was showing that it
+
+00:01:06.060 --> 00:01:11.200
+was CD3 positive and lacked CD4 and CD8s. And more importantly, it actually, through flow cytometry,
+
+00:01:11.340 --> 00:01:16.040
+had the CAR vector still in there. So it was a CAR-T T-cell lymphoma that showed the same thing
+
+00:01:16.040 --> 00:01:21.700
+as the pathology. This was also present not only in the skin, but also was in the peripheral blood,
+
+00:01:21.960 --> 00:01:26.400
+lymph nodes, and bone marrow. When we looked at the genetic profile, we ended up seeing that
+
+00:01:26.560 --> 00:01:32.900
+this actually has an expansion of a previous ChIP-Tet2 clone, and there was a novel EZH2
+
+00:01:32.900 --> 00:01:37.820
+clone that was present in this T-cell lymphoma. Additionally, the CAR itself had integrated into
+
+00:01:37.820 --> 00:01:43.000
+the TIA1 gene. So we wanted to implement a personalized approach. The first thing we did
+
+00:01:43.000 --> 00:01:48.160
+is we characteristically immunophenotyped it comprehensively. The first thing we found was
+
+00:01:48.160 --> 00:01:53.800
+that it had CCR4. So we incorporated into the patient's regimen mogolizumab, and then we
+
+00:01:53.800 --> 00:01:56.540
+actually did a high-throughput drug screening. So on the peripheral blood, we had a high-throughput
+
+00:01:56.540 --> 00:02:01.040
+blood. We extracted some of those malignant CAR-T cells and then tested them with 179 different
+
+00:02:01.040 --> 00:02:06.440
+compounds and found the compound that would be most toxic to the CAR-T cells, but left endogenous
+
+00:02:06.440 --> 00:02:11.400
+T-cells relatively without cytotoxicity. We found that the best class of drug for this was
+
+00:02:11.400 --> 00:02:16.980
+anthracycline therapies. So we combined this anthracycline therapy using liposomal doxorubicin
+
+00:02:16.980 --> 00:02:22.280
+and gensitabine with mogolizumab, and the patient had a fantastic response. So in the blue,
+
+00:02:22.360 --> 00:02:26.380
+you see the endogenous T-cells going down as the tumor malignant CAR-T cells start expanding in the
+
+00:02:26.520 --> 00:02:30.100
+peripheral blood. But as soon as we start initiating the personalized therapy, the CAR-T
+
+00:02:30.100 --> 00:02:34.980
+cells were gone from the blood. They were gone from the bone marrow and the lesions cleared up
+
+00:02:34.980 --> 00:02:38.320
+in the face, and the endogenous T-cells bounced right back. And on the right, you see the imaging
+
+00:02:38.320 --> 00:02:42.940
+showing the same thing where the patient entered a very good response. Not only that, he's been
+
+00:02:42.940 --> 00:02:48.340
+in remission in myeloma and T-cell lymphoma for almost two years now. So this was a very
+
+00:02:48.340 --> 00:02:56.500
+successful case, but we kept thinking, what drove it? What caused this pathogenesis of the T-cell
+
+00:02:56.500 --> 00:03:01.000
+and the TET2 and EZH2 both play suppressive roles, and that chip mutations, like I said,
+
+00:03:01.040 --> 00:03:05.820
+was common in other cases that we have seen. And TA1 is a suppressive gene as well that has
+
+00:03:05.820 --> 00:03:09.300
+transcriptional modifications, inflammatory responses in T-cells. We wanted to know which
+
+00:03:09.300 --> 00:03:14.700
+one was the driver of these three mutations that caused this T-cell lymphoma. So we aimed to test
+
+00:03:14.700 --> 00:03:19.180
+it in the lab. We have a sample banked from the patient at the same time that we collected for
+
+00:03:19.180 --> 00:03:24.720
+apheresis to send for Cilta-Cell, and we made lab-made CAR-Ts. And then this was done by our
+
+00:03:24.720 --> 00:03:25.440
+postdoc, Ruja.
+
+00:03:26.480 --> 00:03:31.380
+We started knocking out the main genes of interest here. So we knocked out TET2, EZH2, and TA1.
+
+00:03:32.220 --> 00:03:38.320
+What we ended up seeing is that the proliferation was affected by these knockouts. So we started
+
+00:03:38.320 --> 00:03:42.380
+doing combinations as well. The highest proliferative status that we saw from the
+
+00:03:42.380 --> 00:03:46.940
+knockouts when we knocked out TET2 and EZH2, and that's in the yellow line in the graph.
+
+00:03:47.280 --> 00:03:51.260
+But what we can tell is that the TET2 mutant actually itself also had a very high proliferative
+
+00:03:51.260 --> 00:03:56.460
+advantage. So apart from proliferation advantage, we actually ended up seeing that
+
+00:03:56.460 --> 00:04:02.560
+the phenotype of these knockout cells actually shifted as we introduced them. So the control
+
+00:04:02.560 --> 00:04:06.800
+CAR-Ts in the first row, and then on the bottom, you see the TET2, EZH2 mutant. And you see that
+
+00:04:06.800 --> 00:04:10.480
+it starts shifting to look like the malignant CAR-T cells that was in our patient. We see an
+
+00:04:10.480 --> 00:04:18.160
+increase of CCR4, which we attribute to skin tropism as CCR4 is a skin-homing chemokine.
+
+00:04:18.480 --> 00:04:23.200
+We see the PD1 increase, and we see a loss of CD7 that's actually present in the double mutant,
+
+00:04:23.200 --> 00:04:26.280
+and I'm not showing it in the single mutants, but the single mutant, the TET2 knockout,
+
+00:04:26.440 --> 00:04:29.940
+actually had the same phenotypic change. From there, we wanted to see, did it affect the
+
+00:04:29.940 --> 00:04:34.880
+function? We know that the CAR-Ts in our patient actually were inert. So we ended up doing a
+
+00:04:34.880 --> 00:04:39.780
+functional assay in which we combined these CAR-T cells with myeloma cells and then assessed the
+
+00:04:39.780 --> 00:04:44.100
+cytotoxicity. The red bar is a control CAR-Ts that we made at the same time as a phoresis.
+
+00:04:44.440 --> 00:04:48.760
+The tumor CAR-Ts are CAR-Ts isolated straight, the malignant CAR-Ts isolated straight from the
+
+00:04:48.760 --> 00:04:53.360
+patient's peripheral blood. And then the other graphs on the other columns on the right are the
+
+00:04:53.360 --> 00:04:56.340
+different knockdown cytotoxicity. And what you can appreciate,
+
+00:04:56.420 --> 00:05:03.900
+is that the TET2 has the highest single knockdown reduction of cytotoxicity, while you get an even
+
+00:05:03.900 --> 00:05:08.860
+greater augmented effect when you do the double knockout of TET2 and EZH2, indicating to us that
+
+00:05:08.860 --> 00:05:13.580
+TET2 may have been the main driver, but EZH2 definitely did attribute to increased
+
+00:05:13.580 --> 00:05:16.380
+inertness that we saw in the tumor CAR-Ts that were present.
+
+00:05:17.500 --> 00:05:21.580
+And this is just a graph describing what the genomic characteristics of all the knockdowns
+
+00:05:21.580 --> 00:05:26.400
+that we ended up seeing. The TET2, like I said before, it had a very big increase in CAR-T growth
+
+00:05:26.400 --> 00:05:30.960
+on the DISH. It also increased the differentiation markers that we saw in our patients on the DISH,
+
+00:05:30.960 --> 00:05:36.400
+in our patients' actual malignant CAR-T cells and had the significant loss of cytotoxicity.
+
+00:05:36.400 --> 00:05:41.520
+We don't see much changes with the TIA1 knockdown, so maybe the actual integration itself didn't
+
+00:05:41.520 --> 00:05:46.480
+provide a significant shift, but we think that the combination between the TET2 and EZH2 are the main
+
+00:05:46.480 --> 00:05:52.080
+drivers that are causing this malignancy that we saw in our patients. So in conclusion, we report
+
+00:05:52.080 --> 00:05:56.380
+a case where we had a patient with this adverse event that is rare, but it is something that we have to
+
+00:05:56.380 --> 00:06:01.100
+deal with. And we implemented a personalized approach by not only using comprehensive
+
+00:06:01.100 --> 00:06:06.800
+immunophenotyping, but also high-throughput drug screening. And our in vitro modeling does
+
+00:06:06.800 --> 00:06:13.400
+indicate that the CHIP mutant that was expanded and the novel EZH2 loss contributed to the
+
+00:06:13.400 --> 00:06:16.860
+malignant transformation by the increased proliferation, the change in the phenotypic
+
+00:06:16.860 --> 00:06:20.480
+behavior that look more in line to what we saw in our patient's tumor, and in general,
+
+00:06:20.560 --> 00:06:24.080
+reduction in functionality that we see that was present in our patient's tumor.
+
+00:06:24.080 --> 00:06:26.360
+And this is just important because monitoring
+
+00:06:26.360 --> 00:06:31.180
+CHIP mutations in CAR-T could allow for early detection and mitigation of these side effects.
+
+00:06:31.180 --> 00:06:36.180
+And we had a piper, not talking about TET2, but in TP53 mutations in which we saw that
+
+00:06:36.180 --> 00:06:43.980
+patients that had that were more likely to have MDS or AML as secondary malignancies. Thank you.

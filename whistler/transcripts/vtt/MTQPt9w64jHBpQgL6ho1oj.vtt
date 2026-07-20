@@ -1,0 +1,334 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.260
+So last June, as I was strolling by Lake Lugano on the way to ICML 25, I was wondering, how
+
+00:00:06.260 --> 00:00:08.520
+are we going to improve on our CAR-T cell therapy?
+
+00:00:09.200 --> 00:00:09.980
+There's a session.
+
+00:00:10.760 --> 00:00:11.980
+So I'll present the data.
+
+00:00:12.320 --> 00:00:14.200
+Why do we want to improve on this?
+
+00:00:14.260 --> 00:00:21.000
+We know that loss of CD19 antigen is seen in about a third of patients with DLBCL post-CAR-T
+
+00:00:21.000 --> 00:00:21.500
+relapse.
+
+00:00:21.500 --> 00:00:25.800
+So adding another targeted epitope makes sense.
+
+00:00:26.980 --> 00:00:31.500
+So what I'm going to review are the three sort of what I feel are frontrunners, the
+
+00:00:31.500 --> 00:00:34.040
+CHI product, the Janssen, and the Miltaini product.
+
+00:00:35.120 --> 00:00:40.120
+So the CHI product is interesting because it's a bisistronic leniviral vector.
+
+00:00:40.680 --> 00:00:48.620
+It encodes an anti-CD19 CAR that has a CD28 co-stimulatory domain and an anti-CD20 CAR
+
+00:00:48.620 --> 00:00:51.700
+that has a 4-1-BB co-stimulatory domain.
+
+00:00:53.960 --> 00:00:56.960
+So what was primarily presented was the phase.
+
+00:00:56.980 --> 00:00:59.800
+Phase 1B portion, the dose expansion.
+
+00:01:02.320 --> 00:01:07.800
+And I am moving fast because I'm trying to review three presentations in seven minutes.
+
+00:01:08.400 --> 00:01:13.140
+What I will point out is that the dose level three, there were 26 patients.
+
+00:01:16.060 --> 00:01:22.020
+They did allow patients who, this was second-line therapy, and that was approximately half of
+
+00:01:22.020 --> 00:01:23.260
+the patients in that group.
+
+00:01:23.260 --> 00:01:26.880
+And they did allow bridging.
+
+00:01:26.980 --> 00:01:31.040
+They did allow bridging therapy, which, again, approximately half the patients received that.
+
+00:01:32.580 --> 00:01:33.640
+Oh, sorry, here it is.
+
+00:01:33.940 --> 00:01:37.380
+So 58% in dose level three received the bridging therapy.
+
+00:01:37.700 --> 00:01:42.120
+There were some patients who had prior CD19 CAR-Ts allowed on trial.
+
+00:01:44.120 --> 00:01:45.880
+So what did we see?
+
+00:01:45.920 --> 00:01:52.840
+We actually saw pretty low incidence of grade three ICANS or CRS.
+
+00:01:52.840 --> 00:01:54.840
+So 4%, 8%.
+
+00:01:55.740 --> 00:01:56.960
+All results.
+
+00:01:56.980 --> 00:01:59.560
+So this is a little bit more overwhelming.
+
+00:01:59.560 --> 00:02:00.560
+What about responses?
+
+00:02:00.560 --> 00:02:05.760
+So on the left of this slide, they're looking at the CAR-naive patients who are in the dose
+
+00:02:05.760 --> 00:02:06.760
+level three.
+
+00:02:06.760 --> 00:02:12.120
+78% achieved a CR, the others you can see.
+
+00:02:12.120 --> 00:02:20.280
+And looking at dose levels one and two, 36% achieved a CR.
+
+00:02:20.280 --> 00:02:26.420
+If you look at the 18 patients at dose level three who are CAR-naive, they're a six-month,
+
+00:02:26.420 --> 00:02:27.360
+five-month, six-month, six-month, six-month, six-month, six-month, six-month, six-month, six-month,
+
+00:02:27.360 --> 00:02:35.160
+duration of CR rate was still at 71.4%.
+
+00:02:35.160 --> 00:02:39.760
+So that was a brief summary of the first dual CAR.
+
+00:02:39.760 --> 00:02:47.660
+So next we get into the bispecific CARs where the two epitope binding domains are within
+
+00:02:47.660 --> 00:02:50.320
+a single transmembrane protein.
+
+00:02:50.320 --> 00:02:53.200
+Here I'll review the J&J data.
+
+00:02:53.200 --> 00:02:56.200
+Initially this was, there was a Chinese study.
+
+00:02:56.200 --> 00:03:01.020
+It was a study that looked at enlarged B-cell lymphoma that had a very high response rate
+
+00:03:01.020 --> 00:03:06.540
+at 86%, which led to this leading to this trial.
+
+00:03:06.540 --> 00:03:16.940
+So in this global phase 1B study, the presentation mostly focused on the fixed dose at 75 million
+
+00:03:16.940 --> 00:03:21.960
+CAR-T cells, and there were 25 patients in that group.
+
+00:03:21.960 --> 00:03:25.980
+Again, I will point out that it did allow one patient.
+
+00:03:25.980 --> 00:03:33.360
+There were patients who had only had one prior line of therapy, and in the fixed dose cohort
+
+00:03:33.360 --> 00:03:35.940
+that was right at 50%.
+
+00:03:35.940 --> 00:03:43.480
+They also allowed bridging therapy, which again was slightly over 50% of patients.
+
+00:03:43.480 --> 00:03:46.000
+The rate of CRS was actually quite low.
+
+00:03:46.000 --> 00:03:50.540
+The grade three CRS was two patients.
+
+00:03:50.540 --> 00:03:55.760
+With regards to ICANNs, again, very low toxicity was seen.
+
+00:03:55.980 --> 00:03:58.640
+What about the response rate?
+
+00:03:58.640 --> 00:04:05.340
+So when you look at the recommended phase two dose, they saw a 77% CR rate, or an overall
+
+00:04:05.340 --> 00:04:13.520
+response rate, you know, closing in on 100%, so quite well.
+
+00:04:13.520 --> 00:04:18.940
+Looking at a swimline plot, you know, you see very good responses, and some are very
+
+00:04:18.940 --> 00:04:23.440
+durable at the time of the report.
+
+00:04:23.440 --> 00:04:25.760
+So moving on to the third CAR.
+
+00:04:25.760 --> 00:04:29.660
+And I have two minutes and 34 seconds to review this.
+
+00:04:29.660 --> 00:04:30.660
+So XamtaCell.
+
+00:04:30.660 --> 00:04:40.840
+Again, this is a single, or it's a dual epitope-binding single transmembrane protein.
+
+00:04:40.840 --> 00:04:44.120
+What is unique about it is that it is a fresh product.
+
+00:04:44.120 --> 00:04:46.820
+It is not pro-preserved.
+
+00:04:46.820 --> 00:04:55.540
+So the vein-to-vein time on average was 13 days, so a much more abbreviated time to infusion.
+
+00:04:55.540 --> 00:05:02.940
+They did allow bridging chemotherapy, but that was only in 5% of the patients.
+
+00:05:02.940 --> 00:05:07.780
+They were fairly high-risk patients in general.
+
+00:05:07.780 --> 00:05:08.780
+You always have to wonder.
+
+00:05:08.780 --> 00:05:13.320
+You're giving bridging chemotherapy while patient's product is being made, so there's
+
+00:05:13.320 --> 00:05:14.320
+a risk there.
+
+00:05:14.320 --> 00:05:19.100
+But what they did demonstrate is that all of the patients were treated.
+
+00:05:19.100 --> 00:05:25.320
+91.3% were within specification, and the other 9% were still treated with their plant-based
+
+00:05:25.320 --> 00:05:27.520
+product.
+
+00:05:27.520 --> 00:05:32.020
+And again, the viral copy number, important to note that it's not too high, which increases
+
+00:05:32.020 --> 00:05:35.120
+risk with your product.
+
+00:05:35.120 --> 00:05:36.120
+So what did we see?
+
+00:05:36.120 --> 00:05:41.760
+An overall response rate of 72, 73%.
+
+00:05:41.760 --> 00:05:47.740
+The CR rate was 50%.
+
+00:05:47.740 --> 00:05:52.160
+When you look at the medium progression-free survival, it was 9 months, but in the, of
+
+00:05:52.160 --> 00:05:55.100
+course, with the CR group, it was greater than that.
+
+00:05:55.100 --> 00:06:02.940
+When you look at the median duration of response, again, 11.4 months.
+
+00:06:02.940 --> 00:06:04.860
+What about toxicity?
+
+00:06:04.860 --> 00:06:09.720
+There was a single patient with grade 3 ICANs.
+
+00:06:09.720 --> 00:06:12.080
+There were, no, actually two patients.
+
+00:06:12.080 --> 00:06:17.200
+There were no patients who developed grade 3 CRS.
+
+00:06:17.200 --> 00:06:22.700
+So in summary, and I'm keeping it under seven minutes, these are three what I consider front-running
+
+00:06:22.700 --> 00:06:24.880
+products.
+
+00:06:24.880 --> 00:06:54.660
+So the CRS was very manageable, typically low-grade.
+
+00:06:54.660 --> 00:06:55.500
+The CRS was very good.
+
+00:06:55.500 --> 00:06:56.500
+The CRS was very good.
+
+00:06:56.500 --> 00:06:57.500
+The CRS was very good.
+
+00:06:57.500 --> 00:06:58.500
+The CRS was very good.
+
+00:06:58.500 --> 00:06:59.500
+The CRS was very good.
+
+00:06:59.500 --> 00:07:00.500
+The CRS was very good.
+
+00:07:00.500 --> 00:07:01.500
+The CRS was very good.
+
+00:07:01.500 --> 00:07:02.500
+The CRS was very good.
+
+00:07:02.500 --> 00:07:03.500
+The CRS was very good.
+
+00:07:03.500 --> 00:07:04.500
+The CRS was very good.
+
+00:07:04.500 --> 00:07:05.500
+The CRS was very good.
+
+00:07:05.500 --> 00:07:06.500
+The CRS was very good.
+
+00:07:06.500 --> 00:07:07.500
+The CRS was very good.
+
+00:07:07.500 --> 00:07:08.500
+The CRS was very good.
+
+00:07:08.500 --> 00:07:09.500
+The CRS was very good.
+
+00:07:09.500 --> 00:07:10.500
+The CRS was very good.
+
+00:07:10.500 --> 00:07:11.500
+The CRS was very good.
+
+00:07:11.500 --> 00:07:12.500
+The CRS was very good.
+
+00:07:12.500 --> 00:07:13.500
+The CRS was very good.
+
+00:07:13.500 --> 00:07:14.500
+The CRS was very good.
+
+00:07:14.500 --> 00:07:15.500
+The CRS was very good.
+
+00:07:15.500 --> 00:07:16.500
+The CRS was very, very good.
+
+00:07:16.500 --> 00:07:17.800
+The CRS was very, very good.

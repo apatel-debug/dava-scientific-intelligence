@@ -1,0 +1,439 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.320
+So I'm going to go more broad during the talk and just tell you what I think are critical
+
+00:00:08.320 --> 00:00:14.440
+things in designing a frontline clinical trial that incorporates menin inhibitor to standard
+
+00:00:14.440 --> 00:00:16.020
+of care treatments.
+
+00:00:17.060 --> 00:00:20.400
+So you've seen this multiple times now.
+
+00:00:20.720 --> 00:00:22.920
+Menin inhibitors are a new class of drug.
+
+00:00:23.100 --> 00:00:25.660
+They affect epigenetic regulation.
+
+00:00:25.660 --> 00:00:31.040
+They disrupt the binding of menin to KMT2A, cause differentiation and anti-leukemic effect.
+
+00:00:31.500 --> 00:00:36.660
+And the main genotypes that are being tested or used, menin inhibitors are used for are
+
+00:00:36.660 --> 00:00:42.720
+KMT2A rearranged leukemias, which is likely 5% of acute leukemias, 5 to 10%, and NPM1
+
+00:00:42.720 --> 00:00:44.180
+is 25 to 30%.
+
+00:00:44.180 --> 00:00:47.120
+So that's the first conundrum in designing a study.
+
+00:00:47.860 --> 00:00:49.880
+KMT2A is not common.
+
+00:00:49.880 --> 00:00:55.300
+So designing a frontline study for KMT2A is going to be challenging to be powered unless
+
+00:00:55.300 --> 00:01:00.260
+it's included with the NPM1 subset that would drive the primary objective.
+
+00:01:00.260 --> 00:01:06.200
+So most trials are using that strategy or even separating the KMT2A and not doing a
+
+00:01:06.200 --> 00:01:08.660
+full randomized study.
+
+00:01:08.660 --> 00:01:14.000
+Also to have the lay of the land, to understand what is the standard of care.
+
+00:01:14.000 --> 00:01:20.620
+So for young FIT, the standard of care, if FLT3 mutant, we're going to make a distinction
+
+00:01:20.620 --> 00:01:24.940
+between FLT3 positive, so all mutations, mydastorin, or FLT3 FLT3-quizartinib.
+
+00:01:24.940 --> 00:01:30.800
+And the cutoff that is used here is based on the trial that led to approval of quizartinib,
+
+00:01:30.800 --> 00:01:33.000
+so EVAF more than 3%.
+
+00:01:33.000 --> 00:01:38.160
+So any trial that's going to be testing a menin inhibitor cannot be incorporating a population
+
+00:01:38.160 --> 00:01:42.180
+for which a FLT3 inhibitor is the standard.
+
+00:01:42.180 --> 00:01:48.200
+So majority are going to do an eligibility below 3% FLT3.
+
+00:01:48.200 --> 00:01:53.700
+The TKDs is probably more of a question mark, especially that they may benefit from menin
+
+00:01:53.700 --> 00:01:54.700
+inhibition.
+
+00:01:54.700 --> 00:02:00.120
+Take away from this slide, eligibility, if we're designing a young FIT trial, has to
+
+00:02:00.120 --> 00:02:05.940
+be NPM1, FLT3, mostly wild type, or FLT3 less than 3%.
+
+00:02:05.940 --> 00:02:08.700
+For older unfit, the standard of care is AZA/VEN.
+
+00:02:08.700 --> 00:02:14.360
+There's no distinction in this case for FLT3, even though there's growing data that FLT3
+
+00:02:14.360 --> 00:02:18.820
+mutations affect prognosis and maybe the addition of FLT3 inhibitor improves outcomes.
+
+00:02:18.820 --> 00:02:20.400
+But for now, this is standard.
+
+00:02:20.400 --> 00:02:24.460
+So it is a straightforward AZA/VEN plus or minus menin inhibitor.
+
+00:02:24.460 --> 00:02:29.720
+We also have to understand the expected outcomes.
+
+00:02:29.720 --> 00:02:37.120
+So for NPM1 and newly diagnosed AML, they do really well as a relative when you look
+
+00:02:37.120 --> 00:02:38.120
+at the myeloma data.
+
+00:02:38.120 --> 00:02:48.960
+They do well for AML people, which is a response rate that is high, 90% roughly, and a five-year
+
+00:02:48.960 --> 00:02:54.220
+survival that is with a median of 88%.
+
+00:02:54.220 --> 00:03:01.980
+So this is lumping FLT3 plus NPM1, the NPM1 not FLT3 co-mutated do a little better.
+
+00:03:01.980 --> 00:03:09.680
+But nevertheless, we are dealing with an endpoint, if it is EFS, that would happen much longer
+
+00:03:09.680 --> 00:03:14.940
+and is going to, if we're testing the addition of a drug, it's going to be hopefully a large
+
+00:03:14.940 --> 00:03:16.780
+benefit to see that difference.
+
+00:03:16.780 --> 00:03:23.240
+For AZA/VEN, it is relatively easier on the outcomes to test the addition of a drug, the
+
+00:03:23.240 --> 00:03:24.220
+outcomes.
+
+00:03:24.220 --> 00:03:28.980
+Not as good, even though they're better than other co-mutations.
+
+00:03:28.980 --> 00:03:36.940
+So potentially, there is the possibility of doing a menin inhibitor and powering for OS.
+
+00:03:36.940 --> 00:03:41.740
+For KMT2A, there is a clear benefit of high-intensity chemotherapy.
+
+00:03:41.740 --> 00:03:47.000
+So whenever the paradigm study is discussed, I always get nervous about drawing a conclusion
+
+00:03:47.000 --> 00:03:50.760
+that HMA/VEN is useful for KMT2A.
+
+00:03:50.760 --> 00:03:53.980
+By far, high-intensity chemotherapy is better than HMA/VEN.
+
+00:03:53.980 --> 00:04:00.140
+So any patient that could get high-intensity chemo should be getting high-intensity chemo.
+
+00:04:00.140 --> 00:04:04.800
+There is potential advantage of adding venetoclax, and that's a separate discussion.
+
+00:04:04.800 --> 00:04:09.120
+So primary endpoint, the gold standard according to the FDA is overall survival.
+
+00:04:09.120 --> 00:04:13.300
+The main limitation of doing overall survival is that we're dealing with a good prognosis
+
+00:04:13.300 --> 00:04:15.120
+leukemia.
+
+00:04:15.120 --> 00:04:20.460
+So time to event is going to be long, magnitude of the effect needs to be high.
+
+00:04:20.460 --> 00:04:23.740
+Event-free survival is an accepted endpoint now in the FDA.
+
+00:04:23.740 --> 00:04:25.760
+Curative intent chemo.
+
+00:04:25.760 --> 00:04:27.080
+So that is reasonable.
+
+00:04:27.080 --> 00:04:31.380
+And then we're dealing with surrogate endpoints that are now accepted by the FDA for accelerated
+
+00:04:31.380 --> 00:04:32.460
+approval.
+
+00:04:32.460 --> 00:04:36.460
+So a definition of a surrogate endpoint by the FDA should be validated and reasonably
+
+00:04:36.460 --> 00:04:40.600
+likely to predict clinical benefit, and in this case, overall survival.
+
+00:04:40.600 --> 00:04:46.160
+So if this is met, drug gets accelerated approval, but it has to be verified and the full study
+
+00:04:46.160 --> 00:04:48.100
+to get the full approval.
+
+00:04:48.100 --> 00:04:53.500
+So for MPM1, it is the best example for a validated MRD endpoint.
+
+00:04:53.500 --> 00:04:58.300
+And acute myeloid leukemia, there's excellent studies from the UK showing that at patient
+
+00:04:58.300 --> 00:05:04.320
+level data, MPM1 positivity correlate with outcomes, and it is an independent marker
+
+00:05:04.320 --> 00:05:05.320
+of prognosis.
+
+00:05:05.320 --> 00:05:11.040
+If you lump a bunch of things in AML, you could track MPM1 MRD and still have a correlation
+
+00:05:11.040 --> 00:05:12.780
+with overall survival.
+
+00:05:12.780 --> 00:05:18.620
+So MPM1 meets what the FDA wants for a surrogate endpoint.
+
+00:05:18.620 --> 00:05:22.360
+So back to the ACE of N, relatively more straightforward.
+
+00:05:22.360 --> 00:05:23.260
+Primary endpoint.
+
+00:05:23.260 --> 00:05:24.340
+Overall survival.
+
+00:05:24.340 --> 00:05:27.160
+Maybe you can have a surrogate endpoint of a CR.
+
+00:05:27.160 --> 00:05:29.960
+This is a study that would read relatively earlier.
+
+00:05:29.960 --> 00:05:33.640
+You would have ACE of N, plus or minus menin inhibitor.
+
+00:05:33.640 --> 00:05:37.220
+For young FIT, this is where there would be more of the challenge.
+
+00:05:37.220 --> 00:05:41.560
+So seven plus three, plus or minus a menin inhibitor versus placebo.
+
+00:05:41.560 --> 00:05:42.560
+Primary endpoint.
+
+00:05:42.560 --> 00:05:45.420
+Overall survival is going to be a large study that's going to take a long time.
+
+00:05:45.420 --> 00:05:47.700
+So no one is doing that.
+
+00:05:47.700 --> 00:05:53.020
+Event-free survival is an endpoint accepted by the FDA for curative intent treatment.
+
+00:05:53.020 --> 00:05:57.740
+You have to be careful about the FDA definition of an event-free survival.
+
+00:05:57.740 --> 00:06:02.400
+So this would be lack of CR by day 42.
+
+00:06:02.400 --> 00:06:06.340
+And if it is not met, that event happens day zero.
+
+00:06:06.340 --> 00:06:09.040
+That's because there's variability in the treatment induction.
+
+00:06:09.040 --> 00:06:12.580
+That's how the FDA defines an event.
+
+00:06:12.580 --> 00:06:15.280
+CR MRD negative is accepted.
+
+00:06:15.280 --> 00:06:22.780
+The FDA prefers DNA, even though they were hesitant at first about DNA versus RNA.
+
+00:06:22.780 --> 00:06:25.160
+DNA is probably favored.
+
+00:06:25.160 --> 00:06:30.600
+And even though a lot of the data on NPM1 is from peripheral blood, the majority of
+
+00:06:30.600 --> 00:06:34.180
+what's being done is now bone marrow DNA.
+
+00:06:34.180 --> 00:06:37.600
+So this is the possible structure.
+
+00:06:37.600 --> 00:06:40.340
+The simplest is just to focus on the green.
+
+00:06:40.340 --> 00:06:47.220
+So you take seven plus three and NPM1, maybe KMT2A, but you wouldn't power for KMT2A.
+
+00:06:47.220 --> 00:06:50.540
+Exclude FLT3, VAF more than 5%.
+
+00:06:50.540 --> 00:06:52.540
+Have an age stratification.
+
+00:06:52.540 --> 00:06:57.960
+Addition of GO or addition of quesartanib, there could be more toxicity in older patients.
+
+00:06:57.960 --> 00:06:59.740
+So that needs to be noted.
+
+00:06:59.740 --> 00:07:01.820
+And then you do menin inhibitor plus placebo.
+
+00:07:01.820 --> 00:07:07.760
+But because of the adjuvant treatment in lung cancer and the possibility of contribution
+
+00:07:07.760 --> 00:07:14.100
+of phases in the clinical trial, the FDA now wants within each trial to have assessment
+
+00:07:14.100 --> 00:07:16.300
+of phase specific contributions.
+
+00:07:16.300 --> 00:07:21.160
+In other words, if you're having maintenance and you want an approval for the drug and
+
+00:07:21.160 --> 00:07:22.300
+maintenance.
+
+00:07:22.300 --> 00:07:24.240
+You want that contribution tested.
+
+00:07:24.240 --> 00:07:30.720
+So in that case, the model would be adding a third arm where you have placebo as maintenance.
+
+00:07:30.720 --> 00:07:36.120
+The pitfalls of all of this, when I think of what could go wrong, one could be clonal
+
+00:07:36.120 --> 00:07:37.360
+evolution.
+
+00:07:37.360 --> 00:07:41.960
+What if we target NPM1 and something else would relapse without NPM1?
+
+00:07:41.960 --> 00:07:44.360
+I think it is less likely than FLT3 mutations.
+
+00:07:44.360 --> 00:07:49.440
+I think this is one of the bigger problems of very specific FLT3 inhibitors where you
+
+00:07:49.440 --> 00:07:52.060
+could target FLT3 and you have emergence.
+
+00:07:52.060 --> 00:07:55.420
+I'm hoping for NPM1, it would be different.
+
+00:07:55.420 --> 00:07:57.080
+We still have to learn that.
+
+00:07:57.080 --> 00:08:00.780
+The other pitfall I think of when I look at these trials is underestimating the efficacy
+
+00:08:00.780 --> 00:08:02.380
+in the control arm.
+
+00:08:02.380 --> 00:08:05.120
+Just NPM1 does well with chemo.
+
+00:08:05.120 --> 00:08:11.780
+What if we're basing our power calculations on cohorts where that NPM1 did it well and
+
+00:08:11.780 --> 00:08:13.600
+we're going to test that the NPM1 do better.
+
+00:08:13.600 --> 00:08:15.400
+So that's going to be an issue.
+
+00:08:15.400 --> 00:08:20.800
+I don't think we have enough data on MRD negativity with a menin inhibitor.
+
+00:08:20.800 --> 00:08:21.820
+What if there's an expansion of the treatment?
+
+00:08:21.820 --> 00:08:23.400
+One of the transcript before a drop?
+
+00:08:23.400 --> 00:08:28.100
+What if two cycles, which is established for chemotherapy is not the optimal timing for
+
+00:08:28.100 --> 00:08:29.680
+that endpoint?
+
+00:08:29.680 --> 00:08:34.840
+That is the pitfall, for example, of GILT versus mitostaurin where the time to MRD was
+
+00:08:34.840 --> 00:08:38.580
+later, not at the time it was tested.
+
+00:08:38.580 --> 00:08:44.460
+And the fourth bullet point is probably the main issue, which is what if we improve efficacy,
+
+00:08:44.460 --> 00:08:47.320
+we target MRD, but also increase toxicity.
+
+00:08:47.320 --> 00:08:51.580
+So that's why all the trials that are designing the regimens for addition of menin inhibitor,
+
+00:08:51.580 --> 00:08:54.980
+we have to be careful about the dosing and selection.
+
+00:08:54.980 --> 00:09:00.460
+And then ultimately, if we test something and the control arm is not great and it doesn't
+
+00:09:00.460 --> 00:09:06.060
+lead to uptake of people using it, and I'm specifically talking about Azaven for KNT2A,
+
+00:09:06.060 --> 00:09:11.700
+whereas the young patients should be getting intensive chemo and venetoclax, for example.
+
+00:09:11.700 --> 00:09:14.360
+Nevertheless, I'm excited about all of this.
+
+00:09:14.360 --> 00:09:18.060
+I think there are multiple pivoted trials and hopefully that would lead to an approval
+
+00:09:18.060 --> 00:09:19.340
+of a menin inhibitor front line.
+
+00:09:19.340 --> 00:09:20.340
+I think the majority of the clinical trials are very positive.
+
+00:09:20.340 --> 00:09:21.340
+I think there are a lot of trials that are very positive.
+
+00:09:21.340 --> 00:09:25.740
+I think the majority of the clinical trials have taken all these things into consideration.
+
+00:09:25.740 --> 00:09:31.280
+I would like to see more data on MRD from the combination studies with menin inhibitors
+
+00:09:31.280 --> 00:09:34.300
+so we clearly outline the dynamics of MRD response.
+
+00:09:34.300 --> 00:09:35.300
+Thank you.

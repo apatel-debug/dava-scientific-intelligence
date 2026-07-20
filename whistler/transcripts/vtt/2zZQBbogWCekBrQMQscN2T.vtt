@@ -1,0 +1,364 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.080
+And I'll be presenting our data on a combinatorial cell therapy with ORCA-T and allogeneic CAR-T
+
+00:00:07.080 --> 00:00:08.380
+for high-risk BALL.
+
+00:00:10.440 --> 00:00:16.420
+So following up on what Logan said and summarized so beautifully, we know that in the setting
+
+00:00:16.420 --> 00:00:22.140
+of autologous CD19 CAR-T cells for BALL, there's low durable remission rates.
+
+00:00:22.140 --> 00:00:26.920
+So I'm showing here the data for ZUMA3 with Brexacel and Felix-Obacel.
+
+00:00:27.280 --> 00:00:32.440
+When we look at those publications for both of these studies, what we find is exactly
+
+00:00:32.440 --> 00:00:37.060
+what Logan was saying is that in the patients who retrieved CAR-T cells on those studies,
+
+00:00:37.320 --> 00:00:42.080
+that the exposure to transplant either pre- or post-CAR-T was about 60%.
+
+00:00:42.620 --> 00:00:48.980
+So this is showing us that the patients who are getting CAR-T are getting allotransplant
+
+00:00:48.980 --> 00:00:50.900
+at some point during their course of therapy.
+
+00:00:52.080 --> 00:00:57.000
+Our Stanford experience with novel cell therapies is something that I want to highlight just
+
+00:00:57.000 --> 00:00:57.100
+briefly.
+
+00:00:57.280 --> 00:01:01.960
+Before getting into the trial, some of you may be familiar with the ORCA-T graft, which
+
+00:01:01.960 --> 00:01:06.920
+is a graft engineered strategy that came out of research from the laboratory of Rob Negrin,
+
+00:01:07.320 --> 00:01:12.700
+where they found that regulatory T cells help to prevent graft versus host disease.
+
+00:01:13.120 --> 00:01:18.020
+As a result, this was translated to the clinic, to ORCA-Bio, and they have a phase three clinical
+
+00:01:18.020 --> 00:01:21.260
+trial that was just published in Blood earlier this year.
+
+00:01:21.780 --> 00:01:26.860
+Essentially, the approach with this graft engineering strategy allows for the isolation
+
+00:01:26.860 --> 00:01:27.000
+of the graft.
+
+00:01:27.000 --> 00:01:30.900
+So this is just a demonstration of the hematopoietic stem cells and the regulatory T cells, as
+
+00:01:30.900 --> 00:01:37.300
+well as T-cons, such that the Tregs and HSPCs are delivered or administered on day zero
+
+00:01:37.300 --> 00:01:39.280
+and T-cons on day two.
+
+00:01:40.440 --> 00:01:44.260
+Another cell therapy that I want to highlight, which is relevant to the clinical trial that
+
+00:01:44.260 --> 00:01:49.840
+I'm about to report on, is an autologous bispecific CD1922 CAR that came out of Crystal
+
+00:01:49.840 --> 00:01:50.600
+Mackel's lab.
+
+00:01:50.960 --> 00:01:54.560
+It's a CAR for which we readily had vector for manufacturing at Stanford.
+
+00:01:55.120 --> 00:01:56.800
+The publication from that.
+
+00:01:56.880 --> 00:02:04.020
+Nature Medicine in 2021 did show in the subset of patients with BALL, 17 patients who received
+
+00:02:04.020 --> 00:02:12.060
+BALL on that trial, that the overall response rate was 100% with a CR of 88%, but the durable
+
+00:02:12.060 --> 00:02:13.460
+remission was also limited.
+
+00:02:13.940 --> 00:02:17.560
+And one of the reasons for that, when they did deeper analysis of the CAR signaling,
+
+00:02:17.760 --> 00:02:22.400
+is that they found that, in fact, the CAR predominantly signaled through CD19 and the
+
+00:02:22.400 --> 00:02:23.980
+CD22 signaling was limited.
+
+00:02:23.980 --> 00:02:26.700
+So it was effectively a CD1941BB CAR.
+
+00:02:26.760 --> 00:02:33.220
+But, because we had that vector readily available, we wanted to look at these two approaches
+
+00:02:33.220 --> 00:02:34.020
+in combination.
+
+00:02:34.600 --> 00:02:41.440
+And part of that rationale or desire to combine allotransplant and CAR-T as a post-transplant
+
+00:02:41.440 --> 00:02:46.780
+prophylaxis against relapse came from some preclinical data from my time as a postdoc
+
+00:02:46.780 --> 00:02:51.700
+at Memorial Sloan Kettering in the lab of Marcel Vandenbrink, where we found that
+
+00:02:51.700 --> 00:02:56.600
+administration of CAR-T cells in the post-transplant setting had a low signal of
+
+00:02:56.600 --> 00:02:57.640
+graft-versus-host disease.
+
+00:02:57.720 --> 00:03:00.060
+So we thought this was a viable strategy to translate.
+
+00:03:01.180 --> 00:03:06.860
+As a result, we developed this allocar transplant, or we call it ACT, and this is ACT-1 because
+
+00:03:06.860 --> 00:03:11.560
+we're now working on ACT-2, the strategy of combining allocar with transplant.
+
+00:03:12.200 --> 00:03:16.940
+So our hypothesis was that for patients with high-risk BALL who received a myeloblative
+
+00:03:16.940 --> 00:03:21.340
+ORCA-T from a matched-related or unrelated donor, and I'll highlight that we did
+
+00:03:21.340 --> 00:03:26.380
+incorporate unrelated donors as well because we amended our protocol to include donors,
+
+00:03:26.480 --> 00:03:27.360
+not just from the NMVP.
+
+00:03:27.920 --> 00:03:32.780
+We hypothesized that the addition of the donor CAR-T cells would augment graft-versus-leukemia
+
+00:03:32.780 --> 00:03:38.220
+without increasing acute graft-versus-host disease, grade 3 or 4, or graft failure.
+
+00:03:39.180 --> 00:03:44.900
+Our primary endpoint was to assess the incidence of engraftment without grade 3 to 4 GVHD at
+
+00:03:44.900 --> 00:03:45.460
+day 42.
+
+00:03:45.680 --> 00:03:47.380
+You can see our key secondary endpoints.
+
+00:03:47.920 --> 00:03:49.600
+We also incorporated others.
+
+00:03:49.820 --> 00:03:56.200
+And key eligibility was adult patients, good performance status, high-risk BALL features who had,
+
+00:03:56.360 --> 00:03:57.960
+and eligible matched donor.
+
+00:03:58.460 --> 00:04:00.940
+And these are the three CAR-T cell doses.
+
+00:04:01.240 --> 00:04:06.440
+So the lowest dose was 1 times 10 to the 6 CAR-positive cells per kilogram, all the way up
+
+00:04:06.440 --> 00:04:11.620
+to the dose level 3, 3 times 10 to the 6, and we used a Bayesian dose escalation design.
+
+00:04:13.140 --> 00:04:14.960
+So here is the strategy.
+
+00:04:15.100 --> 00:04:17.400
+So I'll walk you through because it is a bit complex.
+
+00:04:17.400 --> 00:04:21.280
+So for our eligible donors, they underwent two cell collections.
+
+00:04:21.860 --> 00:04:26.240
+The first was a leukophoresis, so that was steady state, and those leukophoresis,
+
+00:04:26.240 --> 00:04:29.420
+products were then used for the CAR-T manufacturing.
+
+00:04:29.780 --> 00:04:37.460
+Next, the donor underwent a GCSF-mobilized apheresis, which was used for the ORCA-T engineering.
+
+00:04:37.820 --> 00:04:44.240
+At the same time, the eligible donor, patients eligible for myeloblative conditioning,
+
+00:04:44.480 --> 00:04:48.640
+underwent their myeloblative conditioning with TBI, PSI, or bufluthaotepa.
+
+00:04:49.460 --> 00:04:56.120
+And then you can see day 0 got the stem cells and Tregs, day 2, the Tcons, which again is a part of the
+
+00:04:56.120 --> 00:04:59.840
+approach, and we added on to day 2, CAR-T cell infusion.
+
+00:05:00.380 --> 00:05:04.600
+Day 3 was tacrolimus, and then again, our safety endpoint in day 42.
+
+00:05:06.000 --> 00:05:15.460
+So for the inclusion, we enrolled 18 patients, of which 16 got the combined cell therapies.
+
+00:05:15.700 --> 00:05:21.200
+One patient had CAR manufacturing and then couldn't proceed because of infectious complications,
+
+00:05:21.860 --> 00:05:26.100
+and then that was before they even got the transplant, and then there was one,
+
+00:05:26.100 --> 00:05:29.800
+patient who got a transplant and no CAR-T because the day before the CAR-T infusion,
+
+00:05:30.000 --> 00:05:33.900
+she had a metanuma virus infection and for that reason didn't get the CAR-T.
+
+00:05:34.540 --> 00:05:39.380
+So here are the characteristics of the patients who were included, median age of 31,
+
+00:05:40.120 --> 00:05:45.020
+majority were Hispanic, which really tracks with the BALL population in California, so
+
+00:05:45.020 --> 00:05:46.960
+70% were Hispanic.
+
+00:05:47.520 --> 00:05:52.040
+The high-risk features that you see could have been in multiple high-risk features in a patient,
+
+00:05:52.040 --> 00:05:55.740
+those are noted there, and prior therapies of note.
+
+00:05:55.980 --> 00:05:58.840
+I want to just show that the majority of the patients had a matched sibling donor.
+
+00:06:00.080 --> 00:06:08.060
+So in terms of the safety, no delays in engraftment, you can see the numbers of acute and chronic
+
+00:06:08.060 --> 00:06:13.980
+graft-versus-host disease, so all low-grade and resolved patients are on no ongoing immune
+
+00:06:13.980 --> 00:06:14.820
+suppression for that.
+
+00:06:15.160 --> 00:06:20.640
+Low rates of CRS and ICANS, and one patient developed, you know, occlusive disease and
+
+00:06:20.640 --> 00:06:25.060
+subsequently had normal resolution of hepatic function at day 42.
+
+00:06:25.860 --> 00:06:34.040
+Fifteen of the patients had MRD-negative CR and two patients had an MRD-positive CR by
+
+00:06:34.040 --> 00:06:39.280
+clonoseq, but otherwise BCR-able and fluocytometry-negative, and this data was just
+
+00:06:39.280 --> 00:06:43.340
+recently updated with a date cutoff of March 15th.
+
+00:06:44.140 --> 00:06:48.580
+In terms of the median follow-up, we have about a year and a half of median follow-up.
+
+00:06:48.580 --> 00:06:54.020
+All patients are surviving and disease-free survival is also 100%.
+
+00:06:54.780 --> 00:06:55.740
+Our long-term...
+
+00:06:55.740 --> 00:06:58.520
+Our longest patient is out to almost three years.
+
+00:06:59.940 --> 00:07:06.340
+So here is a swimmer's plot showing the 100% MRD-negativity by fluocytometry, BCR-able,
+
+00:07:06.480 --> 00:07:10.600
+and clonoseq, and I just want to draw your attention to a couple of things on this.
+
+00:07:10.600 --> 00:07:16.200
+So baseline, seven patients were MRD-positive, one patient had active disease, and so in
+
+00:07:16.200 --> 00:07:22.980
+the two that were MRD-positive post-transplant, subjects four and subject 11, at the last
+
+00:07:22.980 --> 00:07:25.460
+clonoseq assessments, they are now clonoseq zero.
+
+00:07:25.620 --> 00:07:28.400
+So there's a lot of evidence that that's not true, and I think it's important to keep
+
+00:07:28.400 --> 00:07:29.400
+that in mind as well.
+
+00:07:29.400 --> 00:07:31.860
+We do note that there is long-term CAR-T cell persistence.
+
+00:07:31.860 --> 00:07:38.220
+So by fluocytometry in the top line, the majority of those cells that are persisting are the
+
+00:07:38.220 --> 00:07:42.420
+CD4 subset, which really tracks with data that we've seen from long-term CAR-T cell
+
+00:07:42.420 --> 00:07:43.420
+persistence.
+
+00:07:43.420 --> 00:07:48.340
+We're in the process of analyzing additional samples so we can have more robust numbers
+
+00:07:48.340 --> 00:07:53.840
+for that analysis, and also for the qPCR from a quantitative perspective, they're showing
+
+00:07:53.840 --> 00:07:55.500
+long-term persistence.
+
+00:07:55.500 --> 00:07:59.420
+QPCR and CAR facts are correlating well.
+
+00:07:59.420 --> 00:08:03.940
+We didn't see any issues with donor chimerism, as you can see here, both for CD3 and whole
+
+00:08:03.940 --> 00:08:04.940
+blood.
+
+00:08:04.940 --> 00:08:11.300
+So in summary, we have the understanding that most adults with high-risk BALL who receive
+
+00:08:11.300 --> 00:08:16.140
+CAR also received a synchronous allotransplant during their treatment course, that in adults
+
+00:08:16.140 --> 00:08:21.620
+with high-risk BALL, ACT with allocar and ORCA-T led to durable remission.
+
+00:08:21.620 --> 00:08:25.380
+So we believe that ACT is a rational approach that merits further investigation.
+
+00:08:25.380 --> 00:08:30.760
+For high-risk B-cell malignancies, as well as other malignancies, correlative data suggests
+
+00:08:30.760 --> 00:08:35.060
+that these CARs are persisting beyond one year, and so now we're going to be doing some deeper
+
+00:08:35.060 --> 00:08:36.620
+correlative analysis.
+
+00:08:36.620 --> 00:08:39.540
+With that, I would like to acknowledge Lori Muffley, the PI of the study.
+
+00:08:39.540 --> 00:08:41.280
+I am the IND holder.
+
+00:08:41.280 --> 00:08:46.220
+Also, our faculty and funding sources and manufacturing, etc.
+
+00:08:46.220 --> 00:08:46.700
+Thank you so much.

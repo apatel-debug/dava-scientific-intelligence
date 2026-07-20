@@ -1,0 +1,307 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.280
+Thanks. And despite the title, it's actually flip-through mutated and unmutated that we're
+
+00:00:04.280 --> 00:00:10.060
+going to be talking about today. So this is an update from our study of despetinib. And I'm
+
+00:00:10.060 --> 00:00:13.700
+going to start with my disclosures and pay special attention to the top line, because in addition to
+
+00:00:13.700 --> 00:00:18.140
+my academic role at UC San Diego, I'm also the chief medical officer at Aftos Biosciences. I
+
+00:00:18.140 --> 00:00:22.960
+wrote this protocol, and I am the medical monitor on this study. So let me start by talking about
+
+00:00:22.960 --> 00:00:27.980
+the despetinib mechanism of action. This is a relatively unique kinase. It has activity against
+
+00:00:27.980 --> 00:00:32.600
+almost exactly the kinases you would want to hit in a myeloid malignancy, specifically all forms
+
+00:00:32.600 --> 00:00:39.100
+of FLT3, including the TKD, the FLT3, and the wild-type, SICK, mutant forms of KIT, JAK1, JAK2,
+
+00:00:39.500 --> 00:00:44.640
+and even downstream of the RASMAT kinase signaling in terms of RSK1 and RSK2 inhibition. But you can
+
+00:00:44.640 --> 00:00:48.880
+see from the kinome tree, it doesn't hit a lot of the other kinases that are significant in terms
+
+00:00:48.880 --> 00:00:53.020
+of toxicity and other potential concerns. And that may explain the relatively clean toxicity
+
+00:00:53.020 --> 00:00:57.560
+profile that despetinib has in the clinic. I want to start with some of the preclinical activity.
+
+00:00:57.980 --> 00:01:04.640
+These are mouse models of resistance mutations in a FLT3 FLT3 model compared between despetinib and
+
+00:01:04.640 --> 00:01:09.540
+giltaritinib, showing that despetinib is superior on an equivalent dose basis in terms of prolonging
+
+00:01:09.540 --> 00:01:13.860
+survival in these animal models, and in terms of the degree of inhibition of the relevant pathways
+
+00:01:13.860 --> 00:01:19.440
+like phospho-FLT3, phospho-SICK, and phospho-ERG. Looked at another way, we can compare the tumor
+
+00:01:19.440 --> 00:01:24.240
+volume in these animal models treated with different drugs. The black line is vehicle,
+
+00:01:24.240 --> 00:01:27.960
+the yellow line is entosputinib, which is a SICK inhibitor.
+
+00:01:27.980 --> 00:01:32.660
+And then the blue line is giltaritinib by itself. Down there at the bottom is a red line. That's
+
+00:01:32.660 --> 00:01:38.780
+despetinib as a single agent. And right underneath it is giltaritinib plus entosputinib, where you're
+
+00:01:38.780 --> 00:01:43.100
+combining FLT3 inhibition and SICK inhibition, suggesting that despetinib can do this as a single
+
+00:01:43.100 --> 00:01:48.980
+drug, as a multidrug in one pill. We can also combine with venetoclax. If we reduce the dose
+
+00:01:48.980 --> 00:01:54.260
+of despetinib tenfold to provide some tumor left for venetoclax to kill, you can put the two drugs
+
+00:01:54.260 --> 00:01:57.940
+together and you can see some synergistic activity. And that's indeed where we're headed with this
+
+00:01:57.980 --> 00:02:04.220
+clinically. Looked at another way, you can show how venetoclax inhibits BCL2 and could lead to
+
+00:02:04.220 --> 00:02:09.400
+resistance by upregulation of MCL1. Despetinib sits downstream of the growth factor signaling
+
+00:02:09.400 --> 00:02:16.220
+pathway, blocking this upregulation of MCL1 in lab models and potentially restoring sensitivity
+
+00:02:16.220 --> 00:02:20.280
+to venetoclax. And we've also looked at the reverse, where we've made resistance cell lines
+
+00:02:20.280 --> 00:02:24.900
+to despetinib that we then treat with venetoclax and show that there's actually a hypersensitivity
+
+00:02:24.900 --> 00:02:27.260
+to venetoclax in that TUS-resistant context.
+
+00:02:27.980 --> 00:02:31.740
+Again, suggesting that with different mechanisms of resistance, putting these two drugs together
+
+00:02:31.740 --> 00:02:36.860
+may prevent the emergence of resistance overall. So let me jump now to the clinical data. We first
+
+00:02:36.860 --> 00:02:41.480
+had experience with despetinib and relapsed refractory AML as a single agent through a dose
+
+00:02:41.480 --> 00:02:46.340
+escalation and subsequent dose expansion where we treated over 90 patients, only seeing a DLT at the
+
+00:02:46.340 --> 00:02:50.840
+highest dose level. And then we went on to do a doublet study with venetoclax in the same relapsed
+
+00:02:50.840 --> 00:02:55.460
+refractory population, giving venetoclax at full doses as there is no significant drug-drug
+
+00:02:55.460 --> 00:02:56.860
+interaction between these two agents.
+
+00:02:57.980 --> 00:03:03.140
+So on the left, I'm showing the bone marrow blast reductions of despetinib monotherapy. On the right,
+
+00:03:03.140 --> 00:03:08.120
+in combination with venetoclax. And you can see at the monotherapy, you see reductions in almost
+
+00:03:08.120 --> 00:03:12.020
+half of the patients at multiple different dose levels, including patients with those little red
+
+00:03:12.020 --> 00:03:16.160
+triangles at the top that have been treated with a prior fluid 3 inhibitor. There aren't as many
+
+00:03:16.160 --> 00:03:20.840
+black triangles, which represent prior venetoclax exposure on the right side of this graph. However,
+
+00:03:20.840 --> 00:03:25.280
+when you go to the doublet study, you see that many more patients with prior ven exposure were
+
+00:03:25.280 --> 00:03:27.020
+receiving benefit from this combination.
+
+00:03:27.020 --> 00:03:31.880
+Again, suggesting that the combination can salvage patients that are unlikely to respond to either
+
+00:03:31.880 --> 00:03:37.040
+agent alone. If I look at the overall response rates in the monotherapy portion of the study,
+
+00:03:37.040 --> 00:03:43.460
+it's 29% CRC for all comers that are active dose levels. It compares favorably to what we see in a
+
+00:03:43.460 --> 00:03:49.280
+much more ven pretreated population in the doublet study with an overall response rate of 25%. Again,
+
+00:03:49.280 --> 00:03:53.660
+better in the ven naive patients, but still respectable in the patients who have received
+
+00:03:53.660 --> 00:03:56.960
+prior venetoclax. And again, in a mutation agnostic fashion,
+
+00:03:57.020 --> 00:04:00.860
+it didn't matter where patients had three mutations or not. And we had several with
+
+00:04:00.860 --> 00:04:07.160
+really adverse geno genetics in this cohort. Knowing that we can give venetoclax and
+
+00:04:07.160 --> 00:04:12.380
+tuspetinib together, we went on to describe the Tuscany frontline AML study, putting all three
+
+00:04:12.380 --> 00:04:17.060
+drugs together in a triplet combination. And here we are giving standard doses of venetoclax and
+
+00:04:17.060 --> 00:04:22.160
+azacitidine. We didn't have to dose reduce in anticipation of severe myelosuppression because
+
+00:04:22.160 --> 00:04:26.660
+tuspetinib seems to be less myelosuppressive than other drugs in this class. We are doing a bone
+
+00:04:27.020 --> 00:04:30.980
+biopsy mid-cycle one. And if patients have cleared their blasts and have cytopenias, we'll
+
+00:04:30.980 --> 00:04:34.760
+hold venetoclax for that last week of that first cycle, and then allow a treatment-free interval
+
+00:04:34.760 --> 00:04:41.540
+for count recovery to occur while patients are encouraged to get GCSF. The study criteria are
+
+00:04:41.540 --> 00:04:47.300
+almost identical to VLAA in terms of the entry criteria. Again, this is a mutation agnostic study,
+
+00:04:47.300 --> 00:04:51.080
+including most patients who are actually FLT3 wild type in this study and includes patients
+
+00:04:51.080 --> 00:04:56.960
+with TP53 and complex karyotype. We began at 40 milligrams and have now completed dose escalation,
+
+00:04:57.020 --> 00:05:02.360
+all the way through 160, and have open cohorts for dose expansion at their highest dose levels.
+
+00:05:03.680 --> 00:05:09.980
+So this is the study slide as of last week. And you can see that many of these patients are so early
+
+00:05:09.980 --> 00:05:14.360
+in their course of therapy. And you can see from the middle graph there that many of these include
+
+00:05:14.360 --> 00:05:19.280
+highly adverse genetics, patients with TP53 mutations, complex karyotypes, RAS mutations,
+
+00:05:19.280 --> 00:05:25.280
+and patients with many MDS-related changes. But from the middle there, you can also see in green
+
+00:05:25.280 --> 00:05:26.780
+that many of these patients have achieved
+
+00:05:26.780 --> 00:05:31.820
+meaningful responses, CRs, CRHs, CRIs, and that many of these are MRD-negative. And I'll go into
+
+00:05:31.820 --> 00:05:38.120
+the details in just a moment. When we look at safety, the drug has been remarkably safe, both
+
+00:05:38.120 --> 00:05:42.320
+in the monotherapy and doublet experience, but also now in the triplet frontline setting. The
+
+00:05:42.320 --> 00:05:46.460
+most frequent adverse events are hematologic toxicity, seen primarily in patients during
+
+00:05:46.460 --> 00:05:51.080
+the time when they have active leukemia. This is followed by some GI toxicity that is mostly grade
+
+00:05:51.080 --> 00:05:55.460
+1 and 2, and is partially explained in part by the presence of azacitidine, although we did see some
+
+00:05:55.460 --> 00:06:00.500
+of this in the monotherapy experience as well. But even the febrile intravenia rate is quite moderate
+
+00:06:00.500 --> 00:06:05.600
+compared to the ILA-A, where it was about 42%. We're seeing it thus far in 25% of patients.
+
+00:06:06.320 --> 00:06:10.820
+But overall, we don't see differentiation syndrome, we don't see QTC prolongation,
+
+00:06:10.820 --> 00:06:15.500
+we don't see significant CPK elevations or significant transaminases, and there doesn't
+
+00:06:15.500 --> 00:06:19.580
+seem to be a pattern of prolonged mild depression, even at the higher doses for subjects who achieve
+
+00:06:19.580 --> 00:06:25.220
+a remission. The count recovery has largely occurred before day 42 for almost all patients,
+
+00:06:25.220 --> 00:06:30.560
+with some patients having residual thrombocytopenia. And again, their low rates of febrile intravenia.
+
+00:06:31.640 --> 00:06:36.680
+The overall response rate in this Tuskegee study also has been fairly impressive. I'm comparing
+
+00:06:36.680 --> 00:06:41.900
+it here to the response rates reported for the ILA-A. Similar entry criteria, although the patient
+
+00:06:41.900 --> 00:06:45.440
+populations are a little bit different now when other studies are competing. For example, we have
+
+00:06:45.440 --> 00:06:53.180
+very few MPM1 mutant patients. But the CRC response rate has been 77%. The MRD negativity rate is
+
+00:06:53.180 --> 00:06:59.720
+actually quite high. It's measured by central flow cytometry, down to a rate of 0.1% of leukemic
+
+00:06:59.720 --> 00:07:05.060
+events. And we're seeing that in 75% of our responders and 62% of our patients, if you include
+
+00:07:05.060 --> 00:07:10.880
+them all in an intent-to-treat analysis. And these remissions that are MRD-negative are actually
+
+00:07:10.880 --> 00:07:15.560
+happening earlier than you might expect. I think in the ILA-A, 50% of the MRD-negative remissions
+
+00:07:15.560 --> 00:07:21.380
+occurred by cycle 4. We're seeing the majority of these by cycle 2. And in summary, we're seeing
+
+00:07:21.380 --> 00:07:25.880
+responses in FLT3 mutant and FLT3 wild-type patients. Patients with TP53 mutation are
+
+00:07:25.880 --> 00:07:30.320
+responding, as are patients with RAS mutations, patients with myelodysplastic-related changes and
+
+00:07:30.320 --> 00:07:34.400
+complex karyotype. We've had patients that have gone on to stem cell transplantation, including
+
+00:07:34.400 --> 00:07:39.080
+two that have resumed dosing after transplant and another who plans to, and have only seen one death
+
+00:07:39.080 --> 00:07:44.540
+in cycle 1. And enrollment is ongoing, so some of these responses may mature over time. So to
+
+00:07:44.540 --> 00:07:49.040
+summarize, TISPET is a focused multi-kinase inhibitor targeting drivers of myeloid malignancy,
+
+00:07:49.040 --> 00:07:51.380
+significant single-agent activity in relapsed
+
+00:07:51.380 --> 00:07:56.540
+and refractory AML regardless of mutation status, can be combined with azaven at standard dosing
+
+00:07:56.540 --> 00:08:00.920
+without prolonged myelosuppression, and preliminary activity in the frontline setting is promising
+
+00:08:00.920 --> 00:08:05.840
+with high rates of MRD-negative remissions across a broad range of genotypes. The study is ongoing,
+
+00:08:05.840 --> 00:08:10.820
+and there is a future study plan of TISPETnit+ chemotherapy in younger AML patients that we're
+
+00:08:10.820 --> 00:08:14.660
+hoping to do with the Myelomatch Consortium beginning later this year. Thank you.

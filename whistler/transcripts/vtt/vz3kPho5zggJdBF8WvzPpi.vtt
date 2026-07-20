@@ -1,0 +1,271 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.460
+this isn't a novel therapy. It's more of a predictive and prognostic thing that we're
+
+00:00:03.460 --> 00:00:08.060
+looking at that might be explaining why some patients have a deep response in both CAR-T
+
+00:00:08.060 --> 00:00:13.340
+therapy and bispecific therapy. So we all know we've had fantastic responses still to cell
+
+00:00:13.340 --> 00:00:17.820
+patients having what could be considered a cure now with five years of aggression-free survival
+
+00:00:17.820 --> 00:00:23.760
+or greater, but there are still patients that do not have that response. And we did a deep dive to
+
+00:00:23.760 --> 00:00:26.780
+see what was causing that. And we published a paper and other individuals said it too,
+
+00:00:27.120 --> 00:00:30.800
+that at month one, there might be myeloid suppression that's in preventing this long
+
+00:00:30.800 --> 00:00:34.860
+durable response in patients. So if you see here in the red, at month one, there's an expansion
+
+00:00:34.860 --> 00:00:38.800
+of these myeloid-derived suppressor cells that is present in patients that do not have a PFS
+
+00:00:38.800 --> 00:00:43.060
+of greater than five years. And when we looked at the gene expression profile of those myeloid,
+
+00:00:43.080 --> 00:00:50.800
+of MDSCs, we found that they were, we found that they were enriched for S100A8 and A9 gene
+
+00:00:50.800 --> 00:00:56.460
+expression. And S100A8 and A9 is a calprotectin. It's a damage-associated molecular protein.
+
+00:00:56.820 --> 00:01:00.740
+It's produced by myeloid cells, stromal cells, and mesenchyne cells. And it acts as an alarmin.
+
+00:01:01.160 --> 00:01:06.460
+It promotes more MDSCs and actually expansion of T-regulatory T-cells, T-regulatory cells,
+
+00:01:06.600 --> 00:01:10.560
+and in general creates an immunosuppressive microenvironment. And this has been known
+
+00:01:10.560 --> 00:01:14.920
+to be elevated in blood cancer, such as myeloma, and it's associated with negative prognosis.
+
+00:01:15.360 --> 00:01:19.200
+So we wanted to validate this in our patients. So we took a separate cohort of patients. We took
+
+00:01:19.200 --> 00:01:23.540
+four patients that had rapid progression or median PFS of less than nine days and compared
+
+00:01:23.540 --> 00:01:26.520
+those to had a durable response. And we looked at soluble,
+
+00:01:26.520 --> 00:01:30.520
+S100 levels in the peripheral blood. And we can see at month one, we have the rapid
+
+00:01:30.520 --> 00:01:34.880
+regression is having a significantly higher presence of this S100A8, A9. And when we looked
+
+00:01:34.880 --> 00:01:39.520
+at the immune microenvironment, they actually also had higher T-regs, higher MDSCs. And more
+
+00:01:39.520 --> 00:01:43.340
+importantly, we couldn't find circulating CAR-T. So there's truncated CAR-T expansion in these
+
+00:01:43.340 --> 00:01:48.440
+patients. We thought, is this specific to CAR-T or is this for all T-cell-directed therapies?
+
+00:01:48.580 --> 00:01:53.400
+We moved to look at this in our bispecific treated patients. So we took a cohort of 19 patients here
+
+00:01:53.400 --> 00:01:56.220
+and we looked at S100 levels at baseline.
+
+00:01:56.220 --> 00:02:01.860
+And during therapy, what we can see is that the patients who did not achieve, who had greater than
+
+00:02:01.860 --> 00:02:07.800
+a VGPR had significantly lower S100 levels in the blood at both baseline and then during
+
+00:02:07.800 --> 00:02:12.200
+bispecific therapy around cycle three, day one. So patients who had a deep response had significantly
+
+00:02:12.200 --> 00:02:17.240
+lower S100. When we looked at it in terms of progression-free survival, we looked at the
+
+00:02:17.240 --> 00:02:21.820
+median between those who had high and less high and low S100. We found that the patients who had
+
+00:02:21.820 --> 00:02:25.920
+higher S100 had significantly lower progression-free survival. And in general,
+
+00:02:25.920 --> 00:02:32.480
+the levels of S100 in the peripheral blood correlated negatively with PFS. So more S100,
+
+00:02:32.480 --> 00:02:37.440
+less progression-free survival in our patients. So we wanted to see, did that affect the T-cells
+
+00:02:37.440 --> 00:02:42.180
+of our patients who have a short PFS? So we did a immunophenotyping and looked to see,
+
+00:02:42.180 --> 00:02:45.660
+are there any changes within the T-cell microenvironment in these patients?
+
+00:02:45.660 --> 00:02:49.500
+First thing we looked at was TOCS, which is a transcriptional factor that's known to be in
+
+00:02:49.500 --> 00:02:55.620
+exhausted cells and does drive general exhaustion markers at PD1 and CD39. And we found that the
+
+00:02:55.620 --> 00:03:01.320
+short PFS in general had higher presence of these CD3 TOCS cells. When we used spatial
+
+00:03:01.320 --> 00:03:05.860
+transpectomics, we actually found that the myeloid cells that had S100 co-localized with
+
+00:03:05.860 --> 00:03:09.740
+exhausted T-cells. So in the corner in the yellow, you see these blue myeloid cells that
+
+00:03:09.740 --> 00:03:14.520
+are S100 negative, and they're co-localizing to T-cells that are also TOCS negative. While in the
+
+00:03:14.520 --> 00:03:19.200
+red, you see the yellow myeloid cells that express S100, and they co-localize to these
+
+00:03:19.200 --> 00:03:23.980
+purple TOCS positive T-cells, indicating that there is enrichment of these myeloid cells to
+
+00:03:24.620 --> 00:03:25.320
+exhausted T-cells.
+
+00:03:25.320 --> 00:03:30.360
+And when we do correlations again, we see that in general, progression-free survival
+
+00:03:30.360 --> 00:03:34.900
+negatively correlates with TOCS presence. So less progression-free survival with more of
+
+00:03:34.900 --> 00:03:39.820
+these cells that have higher TOCS, and S100 correlated significantly with the amount of
+
+00:03:39.820 --> 00:03:43.680
+TOCS cells. Now we wanted to make sure, because there's a lot of debate of what is an exhausted
+
+00:03:43.680 --> 00:03:47.000
+cell, we want to make sure that this TOCS expression correlated with actual functionality.
+
+00:03:47.560 --> 00:03:51.260
+So we took our patient cells, we actually co-cultured them with myeloma cells and
+
+00:03:51.260 --> 00:03:55.020
+teclistamab, and we wanted to see, does this lead to reduced cytotoxicity?
+
+00:03:55.020 --> 00:03:59.440
+And what we ended up seeing is that just like in the TOCS presence, the patients who had short
+
+00:03:59.440 --> 00:04:05.460
+PFS actually had significantly lower cytotoxicity in our in vitro culture. And like we saw before,
+
+00:04:05.520 --> 00:04:10.400
+this correlated actually with the amount of TOCS cells and the amount of S100. So you had less
+
+00:04:10.400 --> 00:04:15.700
+cytotoxicity with the more presence of these TOCS positive cells, and you had less cytotoxicity with
+
+00:04:15.700 --> 00:04:20.080
+the amount of S100 that was there. So we wanted to validate this in vitro.
+
+00:04:20.440 --> 00:04:23.840
+We wanted to make sure that this is a direct effect and not just a correlation. So we took
+
+00:04:23.840 --> 00:04:24.600
+healthy donor,
+
+00:04:24.720 --> 00:04:32.060
+PBMCs, and then derived CAR-Ts from them and incubated them 72 hours with S100. And then we
+
+00:04:32.060 --> 00:04:36.420
+captured dynamic changes. In the interest of time, I'm not going to show it, but they did increase in
+
+00:04:36.420 --> 00:04:40.520
+TOCS levels and they actually did differentiate more into T regulatory cells. But functionally,
+
+00:04:40.600 --> 00:04:46.780
+on the top here, you see that cytotoxicity and both CAR-T cytotoxicity were dose-dependently
+
+00:04:46.780 --> 00:04:50.220
+inhibited by the amount of S100 that we cultured them for time.
+
+00:04:50.800 --> 00:04:54.420
+So the more S100 that we added to the media, the less cytotoxicity the cells
+
+00:04:54.420 --> 00:05:00.840
+were in vitro. So what we end up getting is a system where you have this immunosuppressive
+
+00:05:00.840 --> 00:05:08.080
+ligand that's attaching, influencing CAR-T cells and T cells and making them not able to attack
+
+00:05:08.080 --> 00:05:14.420
+the myeloma cell. So in conjunction with Albert Einstein Medicine and Amit Verna and
+
+00:05:14.420 --> 00:05:18.460
+Roshan Therapeutics, they actually formulated a monoclonal antibody that blocks the binding of
+
+00:05:18.460 --> 00:05:24.120
+S100 to all of its receptors. And we tested this in vitro in our ongoing studies in vivo to see if
+
+00:05:24.120 --> 00:05:28.620
+this does actually recapitulate the response that we had and prevent T cell dysfunction.
+
+00:05:29.460 --> 00:05:33.280
+So this is some of the results that we have from there. On the left, you have healthy derived CAR-T
+
+00:05:33.280 --> 00:05:37.700
+cells that were incubated, again, 72 hours with S100. And on the right, you have peripheral blood
+
+00:05:37.700 --> 00:05:42.600
+mononuclear cells that were incubated 72 hours. And then in the blue is with nothing added. In
+
+00:05:42.600 --> 00:05:47.260
+the red, you have the inhibitory effect that we're mentioning S100 has on the T cells and CAR-T cells.
+
+00:05:47.640 --> 00:05:52.600
+And then strikingly, the pink is the salvage that's done when you add the monoclonal antibody to prevent
+
+00:05:52.600 --> 00:05:53.820
+this T cell exhaustion. And then on the right, you have the monoclonal antibody that was incubated
+
+00:05:53.820 --> 00:05:58.540
+to prevent this T cell exhaustion. And again, I'm not including a lot of this, but you do see a lot of
+
+00:05:58.540 --> 00:06:03.440
+less differentiation of T cells when you add this monoclonal, less differentiation of T regulatory
+
+00:06:03.440 --> 00:06:06.940
+cells when you add this monoclonal antibody. In the immune microbiome, you also have less
+
+00:06:06.940 --> 00:06:11.220
+differentiation of myeloid derived suppressor cells. So you, in general, you have a less
+
+00:06:11.220 --> 00:06:16.220
+immunosuppressive microenvironment. So with this, I just want to conclude by saying that we are
+
+00:06:16.220 --> 00:06:22.180
+seeing that S100-88 and A9 does predict inferior depth of response in patients, especially those
+
+00:06:22.180 --> 00:06:23.520
+who are receiving T cell-directed therapy. And we're seeing that S100-88 does predict inferior depth of
+
+00:06:23.520 --> 00:06:25.180
+response in patients, especially those who are receiving T cell-directed therapy. It promotes the
+
+00:06:25.180 --> 00:06:29.560
+increase of tox, reduced cytokine production, which I don't show here, but it did have a universal
+
+00:06:29.560 --> 00:06:34.160
+decrease of cytokine, antigen-specific cytokine production, and cytotoxicity. And when you
+
+00:06:34.160 --> 00:06:38.780
+neutralize it using a monoclonal antibody, you can actually salvage this T cell dysfunction,
+
+00:06:39.140 --> 00:06:44.420
+making it a strong therapeutic target for not just multiple myeloma, but all T cell-directed therapy.
+
+00:06:45.480 --> 00:06:47.640
+And with that, I want to thank everyone for all that.

@@ -1,0 +1,334 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.480
+So this is going to be a two-hour discussion, but in seven minutes.
+
+00:00:04.700 --> 00:00:07.820
+So optimization of haplotransplant, 2026 perspective.
+
+00:00:08.880 --> 00:00:10.000
+No disclosures.
+
+00:00:10.700 --> 00:00:13.840
+This is the overview of what we will discuss.
+
+00:00:14.080 --> 00:00:18.220
+Optimization mainly through donor selection, as well as other factors.
+
+00:00:19.200 --> 00:00:22.900
+So when we're selecting a donor, there are so many factors to consider.
+
+00:00:23.180 --> 00:00:25.020
+Obviously, not all of them are equal.
+
+00:00:25.020 --> 00:00:30.240
+So the question is, which ones of these factors are actually important that we should prioritize?
+
+00:00:31.440 --> 00:00:36.840
+When we look at the NMDP guidelines for selecting haplotransplants, there isn't really much
+
+00:00:36.840 --> 00:00:37.880
+to guide the process.
+
+00:00:38.020 --> 00:00:42.140
+However, they do say to avoid DSA, I don't think there's any ambiguity about this.
+
+00:00:42.620 --> 00:00:47.620
+They do say select a younger donor, specifically younger than 31 years.
+
+00:00:47.660 --> 00:00:48.740
+We'll talk more about that.
+
+00:00:49.320 --> 00:00:54.100
+They do also suggest that there are certain HLA factors that we should be considering.
+
+00:00:55.020 --> 00:01:02.600
+So donor age from the very first seminal study in 2001 had been shown to be associated with survival.
+
+00:01:02.960 --> 00:01:12.000
+Since 2001 to now, there has been a tremendous amount of studies that showed us that there is an association with survival.
+
+00:01:12.260 --> 00:01:15.700
+So much so that it is now part of the guidelines for donors.
+
+00:01:16.020 --> 00:01:23.160
+However, as you can see, there is multiple variations to what is the exact age that we should be selecting for our donors.
+
+00:01:23.940 --> 00:01:25.000
+Now, the problem with this is that we don't have an exact age.
+
+00:01:25.000 --> 00:01:29.400
+The problem with this is that when you're thinking about saying a donor is either young or old,
+
+00:01:29.480 --> 00:01:31.780
+you're essentially putting the donors in two different buckets.
+
+00:01:32.320 --> 00:01:36.700
+In every group, you're assuming that everyone has the same risk factors.
+
+00:01:37.100 --> 00:01:42.880
+So we're saying a 31-year-old is similar to a 65-year-old donor, and that just biologically doesn't make sense.
+
+00:01:44.000 --> 00:01:49.860
+When we looked at donor age in a recent era and we used conditional methods,
+
+00:01:49.940 --> 00:01:54.120
+we saw that there is no association between donor age and overall survival.
+
+00:01:54.980 --> 00:02:22.820
+So we saw that the relationship between donor age and survival was rather non-linear.
+
+00:02:22.820 --> 00:02:24.900
+So you can see that the optimal age of a donor is not linear.
+
+00:02:24.900 --> 00:02:24.960
+So we saw that the relationship between donor age and survival is rather non-linear.
+
+00:02:24.960 --> 00:02:28.360
+The ideal age for donors is somewhere between 20 to mid-40s.
+
+00:02:28.700 --> 00:02:34.420
+So there is more flexibility than what we think when we come up with these arbitrary age cutoffs.
+
+00:02:35.060 --> 00:02:39.840
+And what that gives you also is the opportunity to consider other factors for selection of donors.
+
+00:02:40.860 --> 00:02:45.800
+We know that donor age is influenced by multiple factors, including patient's age,
+
+00:02:45.920 --> 00:02:48.500
+as well as conditioning regimen intensity.
+
+00:02:48.720 --> 00:02:54.860
+When we used machine learning models to look at the interaction between patient age,
+
+00:02:54.940 --> 00:02:59.240
+and donor age, we found that there is a significant synergistic effect
+
+00:02:59.240 --> 00:03:04.760
+where you have the worst survival when you pair an older patient with an older donor,
+
+00:03:05.160 --> 00:03:08.500
+as you can see here in this heat map with the yellow corner.
+
+00:03:09.160 --> 00:03:14.280
+The best outcomes in the lower risk of mortality were associated with younger patients
+
+00:03:14.280 --> 00:03:18.560
+who are paired with a donor that's somewhere between 20 to mid-40s.
+
+00:03:18.860 --> 00:03:21.820
+Again, it shows you that donor age is not an independent factor,
+
+00:03:21.820 --> 00:03:24.760
+but rather it's modulated by multiple factors,
+
+00:03:24.920 --> 00:03:25.940
+including patient age.
+
+00:03:26.860 --> 00:03:30.760
+So this foundational study showed us that in terms of HLA,
+
+00:03:31.040 --> 00:03:36.060
+there is a specific favorable HLA profile that we should be or recommended for us to follow.
+
+00:03:36.180 --> 00:03:42.720
+This is a B-liter match, DQ match, DR mismatch, and DPB1 non-permissive mismatch.
+
+00:03:43.260 --> 00:03:47.740
+When we looked at recent era of transplant, again, using machine learning models,
+
+00:03:47.740 --> 00:03:54.320
+we found that the non-permissive, the DPB1 non-permissive mismatch is actually associated with worse survival.
+
+00:03:54.900 --> 00:04:00.800
+However, B-liter and DQ match continued to show survival benefits.
+
+00:04:01.100 --> 00:04:06.400
+We also were able to rank these HLA so we can choose which ones are more important than others.
+
+00:04:06.660 --> 00:04:13.540
+And with this, we have a suggested favorable HLA profile, which is DPB1 avoidance of non-permissive mismatch,
+
+00:04:13.540 --> 00:04:16.340
+but continue to look for B-liter and DQ matches.
+
+00:04:17.880 --> 00:04:19.860
+So how can you put all of this together?
+
+00:04:19.860 --> 00:04:24.720
+We came up with a prediction of a predictive model that,
+
+00:04:24.880 --> 00:04:28.360
+we stratified our patients into four different quartiles,
+
+00:04:28.360 --> 00:04:31.960
+and this is based on their three-year overall survival.
+
+00:04:31.960 --> 00:04:39.760
+And if you do use the best donor case based on these HLA markers and the donor age range from 20 to early 40s,
+
+00:04:39.760 --> 00:04:45.040
+you're actually able to improve the prediction of your patient's survival.
+
+00:04:45.040 --> 00:04:51.840
+So for instance, patients in the orange here in the third quartile, they have a prediction of 20% at three years,
+
+00:04:51.840 --> 00:04:54.560
+and you're able to improve that up to 50%.
+
+00:04:54.860 --> 00:05:01.220
+Patients who have the worst outcome at 10% were actually able to improve up to 30%.
+
+00:05:01.220 --> 00:05:08.340
+So donor selection can actually improve your predicted survival of patients when you're using a donor, a haplodonor.
+
+00:05:09.500 --> 00:05:15.980
+Other factors that may not be as considered when we're looking at selection.
+
+00:05:15.980 --> 00:05:19.740
+So bone marrow have been associated with lower GVHD.
+
+00:05:19.740 --> 00:05:22.740
+However, it hasn't changed our practice much.
+
+00:05:22.740 --> 00:05:24.840
+We know that peripheral blood continues to be the,
+
+00:05:24.840 --> 00:05:28.340
+most commonly used and generally as we talked,
+
+00:05:28.340 --> 00:05:33.040
+donor age seems to be always more considered than other factors.
+
+00:05:33.040 --> 00:05:37.280
+We saw that with peripheral blood and female donors,
+
+00:05:37.280 --> 00:05:43.400
+the risk of chronic GVHD is much higher than if you choose an older donor.
+
+00:05:43.400 --> 00:05:44.240
+So you can see here,
+
+00:05:44.240 --> 00:05:47.720
+if you go from an 18-year-old to a 50-year-old donor,
+
+00:05:47.720 --> 00:05:54.280
+using a bone marrow male graft has a risk factor of 27% with chronic GVH,
+
+00:05:54.280 --> 00:05:54.820
+which is still,
+
+00:05:54.820 --> 00:05:59.300
+still lower than using an 18-year-old female peripheral blood graft.
+
+00:05:59.300 --> 00:06:02.620
+So it is important to consider other factors,
+
+00:06:02.620 --> 00:06:04.560
+knowing that we have the flexibility.
+
+00:06:05.460 --> 00:06:06.420
+Conditioning regimen,
+
+00:06:06.420 --> 00:06:09.700
+probably one of the most controversial topic in transplant.
+
+00:06:09.700 --> 00:06:12.840
+Now we know that it is influenced by multiple factors,
+
+00:06:12.840 --> 00:06:16.140
+including donor type, patient age.
+
+00:06:16.140 --> 00:06:21.760
+We did not find that myeloablation provide any survival outcomes,
+
+00:06:21.760 --> 00:06:24.800
+survival benefits in AML, MDS, and AMC.
+
+00:06:24.800 --> 00:06:27.600
+MPN, irrespective of age.
+
+00:06:27.600 --> 00:06:30.600
+Surprisingly, we did find that in ALL,
+
+00:06:30.600 --> 00:06:36.380
+reduced intensity flucide TBI was associated with superior outcomes in terms of survival,
+
+00:06:36.380 --> 00:06:39.000
+similar relapse in lower NRM.
+
+00:06:39.000 --> 00:06:40.480
+This is still a work in progress.
+
+00:06:40.480 --> 00:06:44.040
+However, we did share this in EBMT just a couple of weeks ago,
+
+00:06:44.040 --> 00:06:50.920
+but it is important to emphasize that myeloablation is not always the answer.
+
+00:06:50.920 --> 00:06:54.780
+We know that a third of our patients don't have matched donors,
+
+00:06:54.780 --> 00:06:58.620
+and with the donor selection prognosis score,
+
+00:06:58.620 --> 00:07:05.440
+we know now that we're able to predict which of these donors are less likely to have an unrelated matched donor,
+
+00:07:05.440 --> 00:07:08.800
+which allows us to move to transplant without delays.
+
+00:07:08.800 --> 00:07:17.400
+And the BMT CT on 1702 showed us that the overall survival is similar between those patients.
+
+00:07:17.400 --> 00:07:23.880
+We also know that a second and a third degree haploid donors have the same outcomes as a first degree.
+
+00:07:23.880 --> 00:07:24.760
+So expanding
+
+00:07:24.760 --> 00:07:28.280
+the search and moving early is important.
+
+00:07:28.280 --> 00:07:29.240
+Future directions.
+
+00:07:29.240 --> 00:07:34.140
+We are using machine learning models to personalize donor selection,
+
+00:07:34.140 --> 00:07:39.980
+where you can use these calculators and input all of the complex factors.
+
+00:07:39.980 --> 00:07:43.320
+This is led by Ritesh Mehta in our department.
+
+00:07:43.320 --> 00:07:48.720
+And in conclusion, donor selection can improve your predicted survival of your patients.
+
+00:07:48.720 --> 00:07:54.740
+We know that HLA factors are important and should be considered for survival, patient age and disease risk,
+
+00:07:54.740 --> 00:07:58.720
+are more dominant factors, more so than donor age.
+
+00:07:58.720 --> 00:08:01.400
+We should be avoiding older haploid donors.
+
+00:08:01.400 --> 00:08:05.180
+If you have an older patient, maybe you can expand beyond the first degree.
+
+00:08:05.180 --> 00:08:07.240
+Consider grandchildren.
+
+00:08:07.240 --> 00:08:11.360
+Haploid donor search should be done early and upfront without delays.
+
+00:08:11.360 --> 00:08:17.180
+We know that arbitrary age cutoffs can be misleading and we know that age is actually flexible,
+
+00:08:17.180 --> 00:08:24.720
+which allows you to consider other factors such as a male donor and bone marrow and myeloablation is
+
+00:08:24.720 --> 00:08:28.160
+not always the answer. And with that, I thank you for your attention.

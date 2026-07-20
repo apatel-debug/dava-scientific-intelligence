@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.560
+here we go. But I promise I'm not actually a depressing person. So climate change drives
+
+00:00:06.560 --> 00:00:10.320
+many different exposures that are linked across the continuum of cancer care.
+
+00:00:10.900 --> 00:00:14.820
+These include greater exposures to known carcinogens, influences on human behavior
+
+00:00:14.820 --> 00:00:20.320
+that similarly increase risk of cancer acquisition, as well as disruptions in cancer
+
+00:00:20.320 --> 00:00:25.760
+treatments and additional issues into survivorship. This diagram gives us an overview of how
+
+00:00:25.760 --> 00:00:29.700
+emissions lead to climate change and then how they interact with various cancers.
+
+00:00:30.060 --> 00:00:35.780
+So far, this has been best described for lung, skin, GI cancers, and the mechanisms for exposure
+
+00:00:35.780 --> 00:00:43.320
+include direct changes to the air, like increases in particulate matter exposure that lead to
+
+00:00:43.320 --> 00:00:47.740
+higher incidence of lung cancer, changes in clothing worn during the spring months leading
+
+00:00:47.740 --> 00:00:52.080
+to increased UV exposure and higher rates of melanoma, decreased nutritional quality leading
+
+00:00:52.080 --> 00:00:53.940
+to higher rates of GI cancers, et cetera.
+
+00:00:55.580 --> 00:00:55.740
+But.
+
+00:00:55.760 --> 00:01:00.140
+But while a lot of exposure studies focus on cancer acquisition, there are recent examples
+
+00:01:00.140 --> 00:01:05.500
+relevant to oncology clinicians, such as this example showing how wildfire exposure for
+
+00:01:05.500 --> 00:01:09.540
+individuals who just underwent a curative lung cancer surgery is associated with higher rates
+
+00:01:09.540 --> 00:01:14.500
+of death, with the greatest risk associated with exposures in the first six months after surgery,
+
+00:01:14.900 --> 00:01:22.220
+which is something potential. Oh, yeah, yeah, sorry. Sorry. So just this, this is one example
+
+00:01:22.220 --> 00:01:25.580
+connection that's been drawn that's relevant to oncology.
+
+00:01:25.580 --> 00:01:29.800
+Clinicians, which is essentially that patients who just went to underwent curative lung cancer
+
+00:01:29.800 --> 00:01:34.580
+surgery and were exposed to wildfires within the first six months after the surgery had
+
+00:01:34.580 --> 00:01:40.680
+higher risk of death. And you can kind of see the dose response here. But but the thing is that
+
+00:01:40.680 --> 00:01:45.980
+outside of lung GI skin cancers, there's limited data. So we're wondering what might be clinically
+
+00:01:45.980 --> 00:01:50.860
+intervenable issue in the heme malignancies. And despite me not being a myeloma clinician,
+
+00:01:50.860 --> 00:01:55.400
+we settled on myeloma because there is environmental health literature,
+
+00:01:55.400 --> 00:02:00.720
+that there's consistent associations between heat exposure and death that are mediated in the short
+
+00:02:00.720 --> 00:02:05.640
+term by heat stroke and cardiovascular death and in the long term by renal dysfunction. And we all
+
+00:02:05.640 --> 00:02:11.200
+know that in myeloma, there's a variety of mechanisms through which myeloma impacts renal
+
+00:02:11.200 --> 00:02:15.580
+function and is also associated with increased mortality. So we really wanted to know if this
+
+00:02:15.580 --> 00:02:20.340
+heat exposure in patients with myeloma increased the risk of death. And if so, to what extent was
+
+00:02:20.340 --> 00:02:25.220
+that mediated by renal dysfunction? So we teamed up with some partners in the
+
+00:02:25.220 --> 00:02:30.080
+American Cancer Society and NASA who have access to the National Cancer Database, and then granular
+
+00:02:30.080 --> 00:02:35.000
+longitudinal heat exposure data across the US to assess that question. And we looked at all patients
+
+00:02:35.000 --> 00:02:41.000
+diagnosed from 2004 to 2022. And we use generally accepted definitions of heat exposure, looking to
+
+00:02:41.000 --> 00:02:46.440
+see initially if there was a proxy signal for death by assessing peri diagnostic heat exposure,
+
+00:02:46.440 --> 00:02:55.040
+so heat exposure in the first week after diagnosis. And then when patients have uncontrolled disease,
+
+00:02:55.040 --> 00:02:59.900
+an AKI, and then we looked at the kind of the cumulative heat exposure across their whole disease
+
+00:02:59.900 --> 00:03:07.260
+course. So there were 335,000 patients in this analysis. And for the peri diagnostic kind of
+
+00:03:07.260 --> 00:03:12.140
+first look, about 1% of those had any heat exposure in the first week, and then a smaller
+
+00:03:12.140 --> 00:03:16.940
+number had heat exposure kind of in the heatwave definition of four more days. And as you can see,
+
+00:03:16.940 --> 00:03:20.280
+on the right, there's kind of this hint of a signal, which is just what we were looking for.
+
+00:03:20.660 --> 00:03:24.860
+Since this is just peri diagnostic exposure, we really surmise that this association was
+
+00:03:24.860 --> 00:03:30.020
+likely driven by exposure to additional heat throughout the treatment courses for the patients
+
+00:03:30.020 --> 00:03:34.700
+that had it in their first week. And you can see somewhat of a dose response here as you get to four,
+
+00:03:34.700 --> 00:03:38.840
+five, six, seven days with the hazard ratios going up, albeit modestly.
+
+00:03:40.460 --> 00:03:46.220
+But this is kind of the main slide, essentially. Our main interest was really this cumulative
+
+00:03:46.220 --> 00:03:50.600
+exposure, which you can see here. And we used what is called a marginal structural model,
+
+00:03:50.600 --> 00:03:54.680
+where you estimate the probability that each person actually had their observed
+
+00:03:54.680 --> 00:03:59.420
+exposure at the time point that they had it, and then weights individuals so their exposure becomes
+
+00:03:59.420 --> 00:04:04.160
+independent of confounders, meaning like, if two people were the same other than their heat
+
+00:04:04.160 --> 00:04:09.140
+exposure history, how would their survival differ? This approach accounts for time-varying dynamic
+
+00:04:09.140 --> 00:04:15.200
+exposures like heat, confounders that impact prior exposure like renal dysfunction, as well
+
+00:04:15.200 --> 00:04:19.580
+as things that we generally adjust for age, sex, race, comorbidities, hospital type,
+
+00:04:19.580 --> 00:04:23.120
+year of diagnosis, location, transplant in a time-varying way.
+
+00:04:24.500 --> 00:04:29.660
+The nice thing about this approach is that it's causal inference. And so instead of providing just
+
+00:04:29.660 --> 00:04:34.640
+an association between heat exposure and survival, it allows us to kind of causally infer the degree
+
+00:04:34.640 --> 00:04:40.100
+to which heat actually causes death. And so you can see here there was a dose response relationship
+
+00:04:40.100 --> 00:04:44.300
+where the more heat you're exposed to, the greater your likelihood of death. And I put
+
+00:04:44.300 --> 00:04:49.880
+up where U.S. cities fall on this in terms of the fraction of days per year that they have
+
+00:04:49.880 --> 00:04:54.320
+with our definition of heat exposure. And you can see that for places like Boston, where I
+
+00:04:54.320 --> 00:04:59.840
+am, it may not be such a big issue, but places like Houston, Phoenix, this is getting into
+
+00:04:59.840 --> 00:05:05.480
+territory where we think it really might matter. One thing that we did see was on the bottom left
+
+00:05:05.480 --> 00:05:11.240
+that only about 22% of this increase in the hazard ratio was actually attributable to renal dysfunction,
+
+00:05:11.240 --> 00:05:17.720
+which makes us think that there's probably other longer-term cardiovascular impacts that have been
+
+00:05:17.720 --> 00:05:24.140
+coming out more recently as it relates to heat exposure in the general population. So we're
+
+00:05:24.140 --> 00:05:30.320
+going back right now to do some more of those analyses. So what does this mean for us? Here are
+
+00:05:30.320 --> 00:05:35.060
+some of the take-home messages for climate change studies in general that are relevant for people
+
+00:05:35.060 --> 00:05:39.740
+with cancer. And I've bolded the two that I've mentioned today. A lot of the worst effects of
+
+00:05:39.740 --> 00:05:44.300
+climate change are being borne out by those in the Global South and low-middle-income countries. But
+
+00:05:44.300 --> 00:05:48.920
+I think we also need to recognize that those with chronic illnesses like cancer and myeloma need to
+
+00:05:48.920 --> 00:05:52.520
+be considered as very vulnerable to this and something that we should really think about
+
+00:05:52.520 --> 00:05:53.960
+during our current practice. Thanks.
+
+00:05:53.960 --> 00:05:54.840
+Thank you.

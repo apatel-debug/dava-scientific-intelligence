@@ -1,0 +1,160 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.420
+So I've been tasked with talking about assays and technologies for MRD with a focus on free
+
+00:00:08.420 --> 00:00:14.980
+nucleic acids. We heard a lot about MRD in the context of cellular disease detection for myeloma
+
+00:00:14.980 --> 00:00:21.780
+and leukemia. We'll change gears a little bit in the context of this lymphoma session, talk about
+
+00:00:21.780 --> 00:00:32.800
+DNA. These are my disclosures. So when we talk about MRD, I think we just
+
+00:00:32.800 --> 00:00:38.640
+have the operational definition. We're talking about a small volume of tumor cells remaining
+
+00:00:38.640 --> 00:00:45.660
+after treatment when we otherwise have no evidence of measurable disease. And we typically associate
+
+00:00:45.660 --> 00:00:51.760
+this with relapse risk, and we want a good way to measure this. In lymphomas, this concept
+
+00:00:51.760 --> 00:00:59.040
+is quite old, with even before the advent of the polymerase chain reaction, use of direct
+
+00:00:59.040 --> 00:01:06.480
+nucleic acid-based methods for in situ hybridization, and then later PCR, finding that we could detect
+
+00:01:06.480 --> 00:01:14.240
+and could monitor MRD. Though unfortunately, the sensitivity of these assays has
+
+00:01:14.240 --> 00:01:21.740
+not been borne out in terms of improving outcomes, for example, on follicle lymphoma, a randomized trial using MRD
+
+00:01:21.740 --> 00:01:30.860
+to inform therapy did not find the FOL12 Italian study an improvement in outcomes when using MRD to
+
+00:01:30.860 --> 00:01:37.900
+inform maintenance. So might we approach this a bit differently? And I think this graphic kind
+
+00:01:37.900 --> 00:01:43.900
+of gives us a sense for that. If we talk about a given blood vacutainer container,
+
+00:01:45.660 --> 00:01:51.720
+a vacutainer tube, and the number of molecules that we can interrogate in the blood from the
+
+00:01:51.720 --> 00:01:58.320
+leukocytes versus the plasma, we deal with several orders of magnitude different, a few million cells
+
+00:01:58.320 --> 00:02:04.300
+worth of DNA in the cellular fraction, and a few thousand cells worth of DNA in the acellular
+
+00:02:04.300 --> 00:02:10.240
+fraction. And we can tackle those million or thousand cells with different techniques.
+
+00:02:11.020 --> 00:02:15.520
+And I want to see if I can convince you that with a few thousand cells, you can achieve
+
+00:02:15.520 --> 00:02:21.640
+parts per million detection, as was alluded to earlier, with sensitive DNA methods.
+
+00:02:21.700 --> 00:02:29.020
+So I think just some other operational definitions that are worth talking through are the distinction
+
+00:02:29.020 --> 00:02:36.300
+between tumor-informed and tumor-naive DNA detection. With the tumor-informed detection,
+
+00:02:36.620 --> 00:02:39.840
+we've talked a lot about the clonoseq assay and others. We're talking about
+
+00:02:39.840 --> 00:02:51.680
+defining a genetic signature or a barcode of tumor identity through the somatic changes that are
+
+00:02:51.680 --> 00:03:06.600
+occurring in the blood. We've talked a lot about the clonoseq assay and others. We've talked a lot
+
+00:03:06.600 --> 00:03:20.500
+about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've
+
+00:03:20.500 --> 00:03:20.700
+talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and
+
+00:03:20.700 --> 00:03:20.740
+others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:03:20.740 --> 00:03:20.800
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:03:20.800 --> 00:03:21.660
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:03:21.660 --> 00:03:51.640
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:03:51.640 --> 00:04:21.620
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:04:21.620 --> 00:04:51.600
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:04:51.600 --> 00:05:21.580
+I've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:05:21.580 --> 00:05:51.560
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:05:51.560 --> 00:06:21.540
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:06:21.540 --> 00:06:51.520
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:06:51.520 --> 00:07:21.500
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:07:21.500 --> 00:07:51.480
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:07:51.480 --> 00:08:21.460
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:08:21.460 --> 00:08:51.440
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:08:51.440 --> 00:09:21.420
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:09:21.420 --> 00:09:51.400
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:09:51.400 --> 00:10:21.380
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:10:21.380 --> 00:10:51.360
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:10:51.360 --> 00:11:21.340
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:11:21.340 --> 00:11:51.320
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:11:51.320 --> 00:12:21.300
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:12:21.300 --> 00:12:51.280
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:12:51.280 --> 00:13:21.260
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:13:21.260 --> 00:13:51.240
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:13:51.240 --> 00:14:21.220
+We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others. We've talked a lot about the clonoseq assay and others.
+
+00:14:21.220 --> 00:14:37.100
+If we have opportunities to make advances, as the myeloma community has, for accelerating our drug approvals and lymphomas, with that, I'd like to thank the people who did the work, our patients, and our funding sources. Thank you.

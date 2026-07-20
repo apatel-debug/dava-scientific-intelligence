@@ -1,0 +1,367 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.000
+Um, so we've been really interested in targeting the 9P amplicon, and as everyone knows, this
+
+00:00:06.000 --> 00:00:08.040
+leads to upregulation of PD-L1 and 2.
+
+00:00:08.240 --> 00:00:14.080
+It also leads to upregulation of JAK1 and 2, which then also contributes to PD-L1 and
+
+00:00:14.080 --> 00:00:14.660
+2 expression.
+
+00:00:14.860 --> 00:00:20.100
+So it's kind of like a positive feedback loop within the 9P amplicon, and this leads to
+
+00:00:20.100 --> 00:00:22.620
+both increased proliferation and immune evasion.
+
+00:00:22.620 --> 00:00:30.940
+And as you know, 9P is amplified, you know, hallmark in Hodgkin lymphoma, highly in primary
+
+00:00:30.940 --> 00:00:33.760
+mediastinal, and a little less so in the pre-surgery cell lymphoma.
+
+00:00:34.900 --> 00:00:41.520
+Very closely accompanying 9P amplification is rearrangements in 16P, and this leads to
+
+00:00:41.520 --> 00:00:48.040
+loss of CT2A, which leads to decreased MHC expression, and then further sort of allows
+
+00:00:48.040 --> 00:00:50.460
+for an immune privilege phenotype.
+
+00:00:50.460 --> 00:00:52.460
+So we're interested in trying to sort of...
+
+00:00:52.620 --> 00:00:54.780
+target both of these derangements.
+
+00:00:56.040 --> 00:01:01.620
+This work was led by one of my mentees, Siddharth Tolu, who's now an assistant professor at
+
+00:01:01.620 --> 00:01:06.300
+Columbia University, and her hypothesis was that perhaps dual targeting of 9P amplicon
+
+00:01:06.300 --> 00:01:11.940
+with JAK/SAT inhibitor ruxolitinib and immune checkpoint blockade pembrolizumab will
+
+00:01:11.940 --> 00:01:16.800
+enhance immunogenicity, modulate lymphomagenesis, and induce cell death.
+
+00:01:19.380 --> 00:01:22.020
+So we looked at JAK inhibition across...
+
+00:01:22.620 --> 00:01:27.920
+a panel of lymphoma cell lines enriched in 9P amplification, found that there was a nice
+
+00:01:30.180 --> 00:01:33.860
+viability curve, cytotoxicity curve, and that there was a little bit more sensitivity in the
+
+00:01:33.860 --> 00:01:35.940
+9P amplified lymphomas.
+
+00:01:37.220 --> 00:01:44.580
+We looked at drivers of immunogenicity and cell growth and found that ruxolitinib led to
+
+00:01:45.080 --> 00:01:53.500
+increased CT2A expression, decreased PD-L1 and 2 expression, and decreased MYC expression.
+
+00:01:53.500 --> 00:01:58.140
+And these were most pronounced in those with a sort of higher 9P amplification.
+
+00:02:00.140 --> 00:02:06.640
+Looking at RNA sequencing, we found a number of modulated genes, and specifically we found decreased
+
+00:02:06.640 --> 00:02:13.880
+stat RNA sequencing, decreased MYC, and also decreased PD-L1 and 2.
+
+00:02:15.080 --> 00:02:20.140
+We also found that there was increased MHC-2 expression across the board, more or less.
+
+00:02:21.200 --> 00:02:29.440
+And looking at the profiles, we found that they were upregulated genes in lymphocyte differentiation,
+
+00:02:29.440 --> 00:02:35.200
+immune response, as well as response to type 1 interferon.
+
+00:02:36.440 --> 00:02:39.960
+And so with that, we were interested in looking at what was going on in the peripheral milieu.
+
+00:02:40.200 --> 00:02:43.980
+So we collected peripheral blood from Hodgkin and primary mediastinal patients,
+
+00:02:44.360 --> 00:02:48.880
+treated them ex vivo with ruxolitinib, and also pembrolizumab and the combination,
+
+00:02:48.880 --> 00:02:55.120
+and found that we were able to increase, so these are blood without any lymphoma within them,
+
+00:02:55.180 --> 00:02:58.460
+or are curious what was happening in the peripheral blood, and found that it increased
+
+00:02:58.460 --> 00:03:05.580
+encased T cells, decreased Tregs, and decreased PD-L1 expression in both CD4 and CD8 T cells.
+
+00:03:06.900 --> 00:03:09.320
+We then decided to create...
+
+00:03:09.320 --> 00:03:15.040
+We then decided to create lymphoma organoids or spheroids using a 9P amplified cell lines.
+
+00:03:15.240 --> 00:03:20.780
+Then we co-cultured these with healthy CD8 T cells, and we exposed them to both ruxolitinib,
+
+00:03:20.780 --> 00:03:27.220
+pembrolizumab, or the combination, to see how these impacted both cell kill and T cell infiltration.
+
+00:03:29.000 --> 00:03:35.380
+And so looking first just at these organoids or spheroids treated with ruxolitinib alone,
+
+00:03:35.800 --> 00:03:38.780
+hopefully it projects somewhat okay, but in the...
+
+00:03:39.320 --> 00:03:43.560
+The green are the live lymphoma cells, and the red represents the dead cells,
+
+00:03:43.560 --> 00:03:48.360
+and you can see sort of like a dose response with ruxolitinib, and you can really see in the 2.5
+
+00:03:48.360 --> 00:03:56.220
+microliter, micromolar concentration that there's really increased cell kill with ruxolitinib.
+
+00:03:56.840 --> 00:03:59.880
+Then when we add T cells, we don't really see that much of a change,
+
+00:04:00.380 --> 00:04:07.440
+but when we pretreat T cells with pembrolizumab and the organoids with ruxolitinib, we find that
+
+00:04:07.440 --> 00:04:09.300
+there's really robust cell kill.
+
+00:04:09.320 --> 00:04:16.440
+We then wanted to see how T cells were infiltrating within the organoid, and so this is...
+
+00:04:16.440 --> 00:04:23.260
+Here, the green, again, is the live cells, and the purple is the CD3 positive T cells.
+
+00:04:24.080 --> 00:04:29.660
+And we found when we added pembrolizumab to the T cells, you see, you know, nice infiltration
+
+00:04:29.660 --> 00:04:35.780
+to the organoid, but when we combine this with ruxolitinib, we really see intense infiltration
+
+00:04:35.780 --> 00:04:36.560
+of the spheroid.
+
+00:04:38.240 --> 00:04:39.300
+So again, we wanted to see how T cells were infiltrating within the organoid, and so this is
+
+00:04:39.320 --> 00:04:41.620
+we wanted to look what was happening in vivo.
+
+00:04:42.280 --> 00:04:49.940
+We used partially matched humanized mouse and grafted with carpus, a 9P amplified lymphoma cell
+
+00:04:49.940 --> 00:04:56.780
+line, and we found in mice treated, in the peripheral blood, again, in the combination,
+
+00:04:57.000 --> 00:05:04.880
+there was reduced Tregs, increased activation of CD4 cells, CD4 T cells with CD4 ligand and CD69.
+
+00:05:05.520 --> 00:05:08.880
+We looked also in an immune...
+
+00:05:09.320 --> 00:05:16.740
+A competent mouse model engrafted with a lymphoma mouse cell line, and again, after treatment
+
+00:05:16.740 --> 00:05:22.320
+with the combination, we found, again, decreased Tregs, also decreased MDSCs and increased
+
+00:05:22.320 --> 00:05:23.160
+NK cells.
+
+00:05:23.540 --> 00:05:32.220
+We found increased activation of CD4 T cells with CD25 and CD44, and decreased exhaustion
+
+00:05:32.220 --> 00:05:38.840
+with decreased LAG3 and decreased PD-L1, and similar findings in the CD8 T cell population.
+
+00:05:39.320 --> 00:05:47.920
+When we combined ruxolitinib and pembrolizumab in this immune-competent mouse model, we found
+
+00:05:47.920 --> 00:05:52.760
+really prolonged overall survival and decreased growth with the combination.
+
+00:05:54.320 --> 00:05:58.900
+So using the humanized mouse, we performed single-cell RNA sequencing to try to get a
+
+00:05:58.900 --> 00:06:01.920
+better idea of what was going on within the tumor microenvironment.
+
+00:06:02.140 --> 00:06:07.100
+We were able to detect different types of cell types within the tumor, sort of different
+
+00:06:07.100 --> 00:06:08.100
+B-cell cell types.
+
+00:06:09.320 --> 00:06:11.860
+We were able to detect different types of cell types as well as stromal cells and T-cells.
+
+00:06:12.680 --> 00:06:17.700
+And we found this a little small, but we found that there was really increased T-cell infiltration
+
+00:06:17.700 --> 00:06:21.160
+with pembrolizumab and perhaps as well with the combination.
+
+00:06:21.860 --> 00:06:29.300
+And interestingly, the tumor had decreased MDSCs, increased activation of CD3-positive
+
+00:06:29.300 --> 00:06:32.420
+T cells within the tumor compartment.
+
+00:06:33.960 --> 00:06:39.300
+So sometimes we think of ruxolitinib as perhaps a way to reduce CD3-positive T cells, but
+
+00:06:39.320 --> 00:06:39.460
+it's not.
+
+00:06:39.460 --> 00:06:39.500
+It's not.
+
+00:06:39.500 --> 00:06:39.560
+It's not.
+
+00:06:39.560 --> 00:06:39.580
+It's not.
+
+00:06:39.580 --> 00:06:39.600
+It's not.
+
+00:06:39.600 --> 00:06:39.620
+It's not.
+
+00:06:39.620 --> 00:06:39.660
+It's not.
+
+00:06:39.660 --> 00:06:39.680
+It's not.
+
+00:06:39.680 --> 00:06:39.720
+It's not.
+
+00:06:39.720 --> 00:06:39.740
+It's not.
+
+00:06:39.740 --> 00:06:39.760
+It's not.
+
+00:06:39.760 --> 00:06:39.800
+It's not.
+
+00:06:39.800 --> 00:06:39.820
+It's not.
+
+00:06:39.820 --> 00:06:39.920
+It's not.
+
+00:06:39.920 --> 00:06:39.980
+It's not.
+
+00:06:39.980 --> 00:06:40.000
+It's not.
+
+00:06:40.000 --> 00:06:40.040
+It's not.
+
+00:06:40.040 --> 00:06:40.080
+It's not.
+
+00:06:40.080 --> 00:06:40.380
+It's not.
+
+00:06:40.380 --> 00:06:40.420
+It's not.
+
+00:06:40.420 --> 00:06:40.440
+It's not.
+
+00:06:40.440 --> 00:06:40.460
+It's not.
+
+00:06:40.460 --> 00:06:47.640
+Here we found that in certain types of contacts, ruxolitinib can increase immunogenicity
+
+00:06:47.640 --> 00:06:52.880
+in lymphoma cells by increasing the CT2A and MHC2 and suppress PD-L1 and 2.
+
+00:06:53.300 --> 00:07:00.740
+It decreased MYC-driven growth and it primed peripheral blood for increased NK cells,
+
+00:07:00.900 --> 00:07:03.780
+decreased Tregs, and decreased MDSCs.
+
+00:07:03.780 --> 00:07:11.480
+The combination enhanced organoid apoptosis and T cell infiltration, and it modulated
+
+00:07:11.480 --> 00:07:14.460
+the tumor microenvironment with increased T cell activation in vivo.
+
+00:07:15.140 --> 00:07:18.300
+The combination also led to prolonged survival in mice.
+
+00:07:19.060 --> 00:07:22.860
+So with that, we've developed a clinical trial, which is now open, and we're hoping
+
+00:07:22.860 --> 00:07:24.700
+to open it at collaborating sites.
+
+00:07:24.840 --> 00:07:26.840
+Some of the folks are here.
+
+00:07:27.660 --> 00:07:31.900
+There has been a clinical study looking at Ruxo plus Nevo and Hodgkin lymphoma.
+
+00:07:31.900 --> 00:07:33.760
+So we only have really an exploratory arm.
+
+00:07:33.780 --> 00:07:39.120
+In that cohort, really to try to look at this biology, we're staggering ruxolitinib
+
+00:07:39.120 --> 00:07:44.200
+and pembrolizumab and collecting samples along the way to try to better understand what's
+
+00:07:44.200 --> 00:07:46.580
+happening in the peripheral blood, as well as in the tumors.
+
+00:07:47.080 --> 00:07:52.820
+And then given our interest in sort of these pathways in T cell lymphomas, there's been
+
+00:07:52.820 --> 00:07:58.080
+a lot of interest in Jaxa inhibition in T cell lymphoma, as well as immune checkpoint
+
+00:07:58.080 --> 00:07:58.700
+blockade.
+
+00:07:58.700 --> 00:08:03.620
+We have two cohorts in both nodal PTCL and CTCL.
+
+00:08:03.780 --> 00:08:08.420
+And in the CTCL patients, we're collecting paired samples along the way in the skin.
+
+00:08:08.420 --> 00:08:12.080
+So we'll be really excited to see what's happening in the tumor microenvironment there.
+
+00:08:13.080 --> 00:08:17.320
+So with that, I thank you for listening and really want to acknowledge Sadat Tolu, who
+
+00:08:17.320 --> 00:08:23.260
+did the bulk of this work, and Ted Prochinski in my lab, our clinical team, and our grand
+
+00:08:23.260 --> 00:08:24.080
+support and collaborators.
+
+00:08:24.400 --> 00:08:24.760
+Thank you.

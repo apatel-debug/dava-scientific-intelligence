@@ -1,0 +1,358 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.240
+This morning, some of my myeloma colleagues were mentioning how, you know, bispecifics
+
+00:00:07.240 --> 00:00:09.720
+can't really be done in the community, quote unquote.
+
+00:00:10.080 --> 00:00:14.240
+And so I'm really excited that they kind of laid the groundwork for me to be able to do
+
+00:00:14.240 --> 00:00:14.820
+this talk.
+
+00:00:15.480 --> 00:00:20.220
+So these are practical considerations for administering Bispecific for lymphoma
+
+00:00:20.220 --> 00:00:20.740
+in the community.
+
+00:00:20.880 --> 00:00:24.860
+This is more agnostic, but hopefully you'll enjoy it.
+
+00:00:25.980 --> 00:00:27.400
+These are my disclosures.
+
+00:00:30.000 --> 00:00:31.700
+That's my pet T cell.
+
+00:00:33.120 --> 00:00:39.740
+OK, so we've heard from I think I counted 30 sessions yesterday and then just throughout
+
+00:00:39.740 --> 00:00:43.700
+this morning, you know, really, we are in a pool of bispecifics, right?
+
+00:00:44.120 --> 00:00:48.740
+So these therapies are moving up the treatment landscape, whether it's lymphoma, myeloma,
+
+00:00:48.900 --> 00:00:49.500
+solid tumor.
+
+00:00:50.060 --> 00:00:52.620
+We know the patient volume is increasing, right?
+
+00:00:52.720 --> 00:00:56.180
+And, you know, inpatient model only is really not sustainable.
+
+00:00:57.000 --> 00:00:59.180
+But outpatient monitoring can be safe.
+
+00:00:59.280 --> 00:01:03.940
+I think a number of us, whether in academia and in community, have proven that this model,
+
+00:01:04.280 --> 00:01:06.360
+you know, when done correctly, can work.
+
+00:01:08.280 --> 00:01:14.640
+So every year I give this talk, I have watched the bispecific landscape just continue to
+
+00:01:14.640 --> 00:01:14.840
+grow.
+
+00:01:14.980 --> 00:01:19.420
+I think the first time I gave it, maybe three plus years ago, you know, we had a few drugs
+
+00:01:19.420 --> 00:01:22.120
+approved and now it just grows and grows and grows.
+
+00:01:22.120 --> 00:01:26.000
+And I think next year it'll grow even more with new combinations being approved.
+
+00:01:26.220 --> 00:01:29.260
+So the, you know, take home point is we need to figure out.
+
+00:01:29.280 --> 00:01:34.200
+How to be able to administer these therapies, not just in the academic setting, but in the
+
+00:01:34.200 --> 00:01:36.040
+community oncology setting as well.
+
+00:01:38.120 --> 00:01:40.340
+So let's dive into that T cell pool, right?
+
+00:01:40.340 --> 00:01:45.580
+Academic centers are going to have a limited capacity because we cannot refer every step up
+
+00:01:45.580 --> 00:01:50.540
+dose for every bispecific and CAR-T, you know, to the academic center because there is
+
+00:01:50.540 --> 00:01:51.520
+bottleneck, right?
+
+00:01:51.780 --> 00:01:54.160
+Most cancer care occurs in the community.
+
+00:01:54.160 --> 00:01:59.160
+So if we're not empowering community oncology to do this, that means a lot of patients may not be able to do this.
+
+00:01:59.160 --> 00:01:59.200
+So if we're not empowering community oncology to do this, that means a lot of patients may not be able to do this.
+
+00:01:59.200 --> 00:01:59.240
+That means a lot of patients may not be able to do this.
+
+00:01:59.240 --> 00:02:02.420
+That means a lot of patients may not even be getting the therapy that they should be getting.
+
+00:02:02.900 --> 00:02:04.280
+And then there's the rural patients.
+
+00:02:04.280 --> 00:02:09.260
+I can't talk rural patients that are really, you know, they don't get access to care.
+
+00:02:09.260 --> 00:02:21.260
+So, you know, I am in Des Moines, Iowa, which is a quote unquote bigger city, but I also service a clinic that's 90 miles away with farmers that don't have access to this care readily.
+
+00:02:21.260 --> 00:02:21.600
+Right?
+
+00:02:21.600 --> 00:02:23.360
+So how do we make it more available?
+
+00:02:23.720 --> 00:02:26.000
+Again, the bottleneck is no longer the science.
+
+00:02:26.000 --> 00:02:29.200
+It's the delivery and community oncology is the solution.
+
+00:02:29.200 --> 00:02:32.240
+The solution for access and scale and the time is now.
+
+00:02:32.240 --> 00:02:49.380
+So, you know, this is my kind of, I don't know, I'm kind of known for this building block slide and I even thought about having chat make it sexier, but I decided that no, because it really is the fundamentals of how I approach every community site that I speak to.
+
+00:02:49.380 --> 00:02:58.960
+And I think it's good for the academics in the room who don't know me very well to understand what I do when I go and I talk to community and I show them how they can do this.
+
+00:02:59.160 --> 00:03:03.340
+I always use the analogy that a house is not built from the roof down.
+
+00:03:03.340 --> 00:03:03.560
+Right?
+
+00:03:03.560 --> 00:03:08.480
+It is the bricks in the middle that give that house its sustainability and its strength.
+
+00:03:08.480 --> 00:03:12.260
+And much is true for a successful by specific program, right?
+
+00:03:12.260 --> 00:03:13.300
+It's these blocks.
+
+00:03:13.300 --> 00:03:16.300
+It's the, you know, step by step building of this program.
+
+00:03:16.300 --> 00:03:19.340
+You're not going to decide on a Friday to do this therapy on a Monday.
+
+00:03:19.780 --> 00:03:23.180
+So just because of time sake in this slide can take 30 minutes by itself.
+
+00:03:23.480 --> 00:03:29.120
+The way that I approach it is number one, you need to have a team without a team that can.
+
+00:03:29.120 --> 00:03:35.740
+Manage these patients, whether inpatient or outpatient, it doesn't work, and that can look different for different sites.
+
+00:03:35.740 --> 00:03:47.000
+For me, it's made up of the best nurses I have ever met in my entire life, you know, a few amazing, dedicated a PPS and, you know, and I have a lot of research staff too because of all the trials I do.
+
+00:03:47.000 --> 00:03:52.960
+But that can be very different depending on the site and sites need to learn from like minded sites.
+
+00:03:52.960 --> 00:03:59.080
+Community sites need to learn from each other because it's apples to apples, not apples to oranges.
+
+00:03:59.080 --> 00:04:07.240
+You know, and also having in services, I've led multiple in services for groups for hospitals to really educate on what this really looks like.
+
+00:04:07.240 --> 00:04:09.660
+And then it's knowing the by specifics, right?
+
+00:04:09.660 --> 00:04:10.700
+They're all different.
+
+00:04:10.700 --> 00:04:18.380
+I mean, whether they're onset of CRS, you know, their side effect profile, outpatient versus inpatient, they're completely different.
+
+00:04:18.380 --> 00:04:21.300
+You cannot just say, yep, this is how I'm going to do it for every patient.
+
+00:04:21.300 --> 00:04:24.300
+You need to understand the nuances with these drugs, right?
+
+00:04:24.300 --> 00:04:26.120
+And then a management plan.
+
+00:04:26.120 --> 00:04:29.040
+You've got to have a concise management plan.
+
+00:04:29.040 --> 00:04:35.800
+You have to have a plan for the team and a plan for the caregiver and the patient, as well as a checklist before you start a patient.
+
+00:04:35.800 --> 00:04:37.040
+And I'll get to that in a second.
+
+00:04:37.040 --> 00:04:40.620
+Then there's the not so fun part, the least fun part of all this.
+
+00:04:40.620 --> 00:04:42.420
+And that's the logistical part, right?
+
+00:04:42.420 --> 00:04:54.880
+The ERs, the hospital systems, even if you're doing these patients outpatient, they still have to be able to get into the hospital should they have an event, neutropenic fever, whatever that is, as well as knowing where your meds are, right?
+
+00:04:54.880 --> 00:04:59.000
+You know, Tostelizumab, Rarity and Anakinra, which fortunately,
+
+00:04:59.000 --> 00:05:04.620
+we don't have to use much with bispecifics, but you have to know where these meds are and how to get to them when you need them.
+
+00:05:04.620 --> 00:05:07.120
+I'm watching my time.
+
+00:05:07.120 --> 00:05:08.000
+I got to go faster.
+
+00:05:08.000 --> 00:05:13.840
+So this is the checklist that everybody in my group uses before they start a bispecific patient.
+
+00:05:13.840 --> 00:05:16.420
+I'm kind of the sheriff of all this and I police them.
+
+00:05:16.420 --> 00:05:22.240
+And if they don't send me the checklist before, you know, they want to do their patient, that patient doesn't get treated.
+
+00:05:22.240 --> 00:05:28.960
+And this is a way that I can make sure that safety comes first and everything is thought about from Tylenol, the pill in the pocket.
+
+00:05:28.960 --> 00:05:32.580
+To a phone number that works.
+
+00:05:32.580 --> 00:05:42.260
+Things that you can do before you even start the bispecific to mitigate the risk for CRS and neurotoxicity, education, communication, medical equipment.
+
+00:05:42.260 --> 00:05:46.620
+We hydrate the heck out of our patients pre and post administration of bispecifics.
+
+00:05:46.620 --> 00:05:48.460
+I'm a big believer in this.
+
+00:05:48.460 --> 00:05:50.380
+Premeds obviously are super important.
+
+00:05:50.380 --> 00:05:52.660
+Everybody has to have their pill in the pocket.
+
+00:05:52.660 --> 00:05:58.920
+Tylenol and ibuprofen that are actually in date from the century, you know, that patients and their caregiver, especially,
+
+00:05:58.920 --> 00:06:00.760
+know how to do the ice questions.
+
+00:06:00.760 --> 00:06:03.420
+We do ice questions at baseline, at our teachings.
+
+00:06:03.420 --> 00:06:10.460
+We have serial, you know, serial copies of this so we can compare those handwriting samples.
+
+00:06:10.460 --> 00:06:11.680
+We've made drug bracelets.
+
+00:06:11.680 --> 00:06:16.580
+I bought them off Amazon for all of our patients, pocket cards and question remote monitoring.
+
+00:06:16.580 --> 00:06:18.800
+That's a discussion for later.
+
+00:06:18.800 --> 00:06:20.120
+Everybody has the tables.
+
+00:06:20.120 --> 00:06:26.800
+These are the same tables that, you know, we made that are in the consensus guidelines that were published in blood in 2024.
+
+00:06:26.800 --> 00:06:28.880
+Everybody in our institution and the groups
+
+00:06:28.880 --> 00:06:32.220
+that I've helped all have these tables readily available.
+
+00:06:32.220 --> 00:06:33.380
+So what does this mean?
+
+00:06:33.380 --> 00:06:34.960
+Okay, I'm going to kind of go through this.
+
+00:06:34.960 --> 00:06:36.500
+This is what I want to show.
+
+00:06:36.500 --> 00:06:38.920
+And I hesitated showing this because I did just submit this.
+
+00:06:38.920 --> 00:06:43.760
+And obviously, even since I made this table six, whatever, eight weeks ago,
+
+00:06:43.760 --> 00:06:48.040
+we have treated eight more patients outpatient that are not included on here.
+
+00:06:48.040 --> 00:06:51.840
+This is only patients that were treated exclusively outpatient.
+
+00:06:51.840 --> 00:06:58.840
+We've probably treated over 100 and some patients at mission with bispecifics and that's across the board and I'm not including
+
+00:06:58.840 --> 00:07:02.500
+the 40 patients that have gotten Indeltra in our clinic.
+
+00:07:02.500 --> 00:07:05.500
+So what I want to show here, and I wish I would have highlighted this better,
+
+00:07:05.500 --> 00:07:12.380
+but I would have been highlighting every single box is that compared to the PI for these drugs,
+
+00:07:12.380 --> 00:07:15.540
+our rates of CRS are extremely low.
+
+00:07:15.540 --> 00:07:17.500
+We've had no grade three events.
+
+00:07:17.500 --> 00:07:23.960
+Nobody required hospitalization and nobody had any signs of ICANNs for whichever drug they received.
+
+00:07:23.960 --> 00:07:28.800
+And so I just want to highlight that not only can bispecifics be done in the outpatient, sorry,
+
+00:07:28.800 --> 00:07:34.500
+the community setting, but also safely in the outpatient setting if the proper steps are taken.
+
+00:07:34.500 --> 00:07:37.840
+So I just wanted to throw that in there.
+
+00:07:37.840 --> 00:07:42.340
+So basically, these therapies, you know, if you have structured workflows, they can be done.
+
+00:07:42.340 --> 00:07:46.880
+Community practices can safely deliver bispecifics if you give them the tools.
+
+00:07:46.880 --> 00:07:49.680
+It improves access and equity.
+
+00:07:49.680 --> 00:07:52.800
+And also, again, I think remote monitoring needs to be discussed.
+
+00:07:52.800 --> 00:07:58.760
+Better products that we have currently to help these centers that want to do this, you know,
+
+00:07:58.760 --> 00:08:02.520
+have it scalable. This is my vision.

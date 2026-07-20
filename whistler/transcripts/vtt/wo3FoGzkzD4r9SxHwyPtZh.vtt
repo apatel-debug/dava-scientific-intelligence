@@ -1,0 +1,307 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:09.640
+So the two approved ones and one in development, zilivertin and vedotin ADCs, they all have
+
+00:00:09.640 --> 00:00:10.640
+a common theme.
+
+00:00:10.640 --> 00:00:15.460
+They do lead to responses and we have invariably relapses.
+
+00:00:15.460 --> 00:00:19.360
+And so as single agents, they're not that helpful, but they're being used in combinations
+
+00:00:19.360 --> 00:00:23.360
+and they're used in situations where we need bridging to some other treatments such as
+
+00:00:23.360 --> 00:00:25.700
+bispecifics or CAR-Ts.
+
+00:00:25.700 --> 00:00:29.880
+So clearly there's a lot of room for improvement.
+
+00:00:29.880 --> 00:00:39.220
+So I asked my associate chat GPT to give me a little, of course with my instructions,
+
+00:00:39.220 --> 00:00:44.640
+to give a little picture of what is coming and what could be coming in the next generation
+
+00:00:44.640 --> 00:00:46.700
+of ADCs.
+
+00:00:46.700 --> 00:00:55.840
+So not to be left behind, there will be and there are bispecific ADCs that can go after
+
+00:00:55.840 --> 00:00:56.920
+two targets.
+
+00:00:56.920 --> 00:00:59.760
+There will be new warrants.
+
+00:00:59.760 --> 00:01:08.220
+New warheads, new delivery drugs, such as degraders, rather than just giving chemotherapeutics.
+
+00:01:08.220 --> 00:01:17.140
+You can combine the payloads, it doesn't have to be just one kind, the new site-specific
+
+00:01:17.140 --> 00:01:21.140
+conjugation methods being implied in a new targets.
+
+00:01:21.140 --> 00:01:27.500
+And one that I want to focus a little bit on is ROR1, so not a brand new target anymore,
+
+00:01:27.500 --> 00:01:29.640
+but it was identified.
+
+00:01:29.640 --> 00:01:37.540
+As an orphan receptor in 1992 by Dr. Kipps, it's now known that it's actually encoding
+
+00:01:37.540 --> 00:01:40.720
+a receptor for Win5A.
+
+00:01:40.720 --> 00:01:46.120
+What is interesting about it, it's an embryonic antigen that's expressed during embryogenesis,
+
+00:01:46.120 --> 00:01:52.980
+but virtually not at normal tissues in real life anymore, except when malignancies occur
+
+00:01:52.980 --> 00:01:57.560
+and cancer cells remind themselves of their maybe embryonic origin.
+
+00:01:57.560 --> 00:01:59.520
+So they do express to various degrees.
+
+00:01:59.520 --> 00:02:05.040
+ROR1, particularly heme malignancies, but across the board, many solid cancers do this
+
+00:02:05.040 --> 00:02:06.420
+as well.
+
+00:02:06.420 --> 00:02:14.340
+So Xiluvertimab-Vidotin was developed as an ADC targeting ROR1 and delivering the good
+
+00:02:14.340 --> 00:02:16.340
+old payload MMAE.
+
+00:02:16.340 --> 00:02:24.820
+It was initially developed by a company, Malus Bio, and it was taken over by Merck.
+
+00:02:24.820 --> 00:02:29.400
+So where is Xiluvertimab-Vidotin going these days?
+
+00:02:29.400 --> 00:02:33.620
+You see on the right side, it's single-agent activity in relapsed refractory large cell
+
+00:02:33.620 --> 00:02:34.620
+lymphoma.
+
+00:02:34.620 --> 00:02:38.200
+It does activity, but then rapid relapses.
+
+00:02:38.200 --> 00:02:42.340
+So there's activity in frontline trial development right now.
+
+00:02:42.340 --> 00:02:50.360
+There was a study of it in large cell lymphoma with 15 out of 15 patients responding.
+
+00:02:50.360 --> 00:02:54.740
+It was a short follow-up, reported at ASH24.
+
+00:02:54.740 --> 00:02:59.280
+In combination, it is compared with R-CHOP, so Xiluvertimab-Vidotin.
+
+00:02:59.280 --> 00:03:08.220
+Plus R-CHP versus R-CHOP, following the polar-tuzumab theme.
+
+00:03:08.220 --> 00:03:15.840
+But because there is polar-tuzumab, there's the study at the bottom, where the two ADCs,
+
+00:03:15.840 --> 00:03:23.500
+Polar and Xiluvertimab-Vidotin, are being compared, particularly in GCP DRPCRs, because Polar
+
+00:03:23.500 --> 00:03:26.660
+didn't improve outcomes in that setting.
+
+00:03:26.660 --> 00:03:29.160
+So that's where maybe there might be a niche for Xiluvertimab-Vidotin.
+
+00:03:29.160 --> 00:03:40.780
+Now, Immunome also has a ROR1 ADC, a new target, but also a new payload.
+
+00:03:40.780 --> 00:03:45.840
+So they're delivering a topoisomerase inhibitor.
+
+00:03:45.840 --> 00:03:52.820
+They have an undisclosed clevo linker, and they have a high load of drug-to-antibody
+
+00:03:52.820 --> 00:03:54.180
+of eight.
+
+00:03:54.180 --> 00:03:59.040
+So this ADC comes highly armed, and it's going on in trials right now.
+
+00:03:59.040 --> 00:04:05.420
+We're having it in startup at UCLA as well, so I look forward to testing this ADC as well.
+
+00:04:05.420 --> 00:04:12.740
+Now, Dennis Sleiman, our division chief at UCLA, has this TORA lab, and there they identified
+
+00:04:12.740 --> 00:04:21.840
+a G-protein coupler receptor that was specifically expressed in heme and lymphoid tissues as
+
+00:04:21.840 --> 00:04:24.040
+opposed to normal tissues.
+
+00:04:24.040 --> 00:04:28.920
+So highly expressed in B cells, NT cells, and myeloid cells.
+
+00:04:28.920 --> 00:04:35.400
+And the exact description of this G-protein coupler receptor is not public yet.
+
+00:04:35.400 --> 00:04:40.800
+You have to be under a CDA, and then you're known.
+
+00:04:40.800 --> 00:04:46.420
+If you look at different malignancies, it is highly expressed in AML and in large B
+
+00:04:46.420 --> 00:04:54.060
+cell informers, but not much in other malignancies, as you can see from this survey.
+
+00:04:54.060 --> 00:04:58.800
+If you look at a cell line bank.
+
+00:04:58.800 --> 00:05:02.980
+Sleiman lab has several hundred cell lines across the board.
+
+00:05:02.980 --> 00:05:06.520
+It's really expressed in myeloma, lymphoma, and AML.
+
+00:05:06.520 --> 00:05:10.060
+But that's it.
+
+00:05:10.060 --> 00:05:19.280
+Here you see a mouse model where mice-bearing human large lymphoma cells were treated with
+
+00:05:19.280 --> 00:05:25.780
+either a naked antibody or different doses of the ADC, and you could get to 100% tumor
+
+00:05:25.780 --> 00:05:28.680
+growth inhibition with the high ADC.
+
+00:05:28.680 --> 00:05:32.940
+And that's the highest load of the ADC.
+
+00:05:32.940 --> 00:05:40.940
+And so this study was just opened at UCLA, and we treated the first patients two weeks
+
+00:05:40.940 --> 00:05:41.940
+ago.
+
+00:05:41.940 --> 00:05:51.020
+It's the first in-human open-label TOL-5700 study, first in monotherapy and then also
+
+00:05:51.020 --> 00:05:53.840
+planned in combination with Vitaxa.
+
+00:05:53.840 --> 00:05:58.560
+Patients that are eligible for these studies are relapsed refractory non-Hodgkin lymphomas,
+
+00:05:58.560 --> 00:06:02.640
+including low-grade transformed and high-grade lymphomas.
+
+00:06:02.640 --> 00:06:05.280
+In part one, we're looking at dose finding.
+
+00:06:05.280 --> 00:06:11.820
+We don't require the targeted expression, but it will be a requirement for part two.
+
+00:06:11.820 --> 00:06:20.220
+So in part two, there will be dose expansions in de novo large lymphomas and mandelcellar
+
+00:06:20.220 --> 00:06:27.400
+lymphoma and follicular lymphomas, grade 1 to 3a, and then in part three, there are plans
+
+00:06:27.400 --> 00:06:28.440
+to start with non-Hodgkin lymphomas.
+
+00:06:28.440 --> 00:06:29.440
+In part two, there will be dose expansions.
+
+00:06:29.440 --> 00:06:30.440
+And in part three, there will be dose expansions.
+
+00:06:30.440 --> 00:06:31.440
+And in part three, there will be dose expansions.
+
+00:06:31.440 --> 00:06:32.440
+And in part four, there will be dose expansions.
+
+00:06:32.440 --> 00:06:33.440
+And in part five, there will be dose expansions.
+
+00:06:33.440 --> 00:06:34.440
+And in part six, there will be dose expansions.
+
+00:06:34.440 --> 00:06:35.440
+And in part seven, there will be dose expansions.
+
+00:06:35.440 --> 00:06:36.440
+And in part eight, there will be dose expansions.
+
+00:06:36.440 --> 00:06:37.440
+And in part nine, there will be dose expansions.
+
+00:06:37.440 --> 00:06:38.440
+And in part 10, there will be dose expansions.
+
+00:06:38.440 --> 00:06:39.440
+And in part 11, there will be dose expansions.
+
+00:06:39.440 --> 00:06:40.440
+And in part 12, there will be dose expansions.
+
+00:06:40.440 --> 00:06:41.440
+And in part 13, there will be dose expansions.
+
+00:06:41.440 --> 00:06:42.440
+And in part 14, there will be dose expansions.
+
+00:06:42.440 --> 00:06:43.440
+And in part 15, there will be dose expansions.
+
+00:06:43.440 --> 00:06:44.440
+And in part 16, there will be dose expansions.
+
+00:06:44.440 --> 00:06:45.440
+And in part 17, there will be dose expansions.
+
+00:06:45.440 --> 00:06:46.440
+And in part 18, there will be dose expansions.
+
+00:06:46.440 --> 00:06:47.440
+And in part 19, there will be dose expansions.
+
+00:06:47.440 --> 00:06:48.440
+And in part 20, there will be dose expansions.
+
+00:06:48.440 --> 00:06:49.440
+And in part 21, there will be dose expansions.
+
+00:06:49.440 --> 00:06:50.440
+And in part 22, there will be dose expansions.
+
+00:06:50.440 --> 00:06:51.440
+And in part 23, there will be dose expansions.
+
+00:06:51.440 --> 00:06:52.440
+And in part 24, there will be dose expansions.
+
+00:06:52.440 --> 00:06:53.440
+And in part 25, there will be dose expansions.
+
+00:06:53.440 --> 00:06:54.440
+And in part 26, there will be dose expansions.
+
+00:06:54.440 --> 00:06:55.440
+And in part 27, there will be dose expansions.

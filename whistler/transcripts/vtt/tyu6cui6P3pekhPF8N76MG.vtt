@@ -1,0 +1,610 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:09.180
+So I'm tasked with talking about liquid biopsies, not for genotyping or MRD, but as expression
+
+00:00:09.180 --> 00:00:10.720
+profiling platforms.
+
+00:00:11.440 --> 00:00:14.880
+Just as a matter of business, these are my disclosures.
+
+00:00:16.100 --> 00:00:21.840
+So when we talk about liquid biopsies, we can talk about a lot of different molecules,
+
+00:00:21.840 --> 00:00:29.120
+but some of the molecules of interest are DNA and RNA molecules that are shed from normal
+
+00:00:29.120 --> 00:00:35.300
+and malignant tissues into the circulation, and that can give us a non-invasive window
+
+00:00:35.300 --> 00:00:38.240
+into both health and disease.
+
+00:00:40.160 --> 00:00:50.300
+From a tube of blood, the plasma compartment can be studied to find DNA aberrations in
+
+00:00:50.960 --> 00:00:58.980
+genomic lesions, epigenetic landscape, some emerging methods.
+
+00:00:59.120 --> 00:01:04.780
+I'll talk about fragmentomic features, and then finally, gene expression, inferred and
+
+00:01:04.780 --> 00:01:06.940
+direct, and we'll be talking about that aspect.
+
+00:01:08.000 --> 00:01:14.640
+So what's been done so far, these are two kind of canvassing landscape-type papers.
+
+00:01:14.640 --> 00:01:20.560
+The first is a paper in Nature from a group in Israel using whole genome bisulfite sequencing
+
+00:01:20.560 --> 00:01:26.380
+and looking at cell-free nucleic acids to see what the composition is, but it's not
+
+00:01:26.380 --> 00:01:29.000
+so important to look at the pie chart and figure out.
+
+00:01:29.120 --> 00:01:33.300
+It's important to look at what the exact proportions are, but simply getting an idea
+
+00:01:33.300 --> 00:01:38.360
+that liquid biopsies can give us a window into many different cell types, including
+
+00:01:38.360 --> 00:01:40.240
+non-hematopoietic ones.
+
+00:01:40.240 --> 00:01:45.600
+On the right is another study from Stanford, from Steve Quake's group, looking at cell-free
+
+00:01:45.600 --> 00:01:48.280
+RNA and whole transcriptome profiling.
+
+00:01:48.280 --> 00:01:58.240
+Again, the pie has many slices that aggregate the experience of tissue homeostasis from
+
+00:01:58.240 --> 00:02:00.720
+many different organs.
+
+00:02:00.720 --> 00:02:03.760
+So what's been done with these kinds of technologies?
+
+00:02:03.760 --> 00:02:07.920
+One thing that you may have heard about is the idea of multi-cancer early detection,
+
+00:02:07.920 --> 00:02:11.580
+a drop of blood in tests for many cancer types.
+
+00:02:11.580 --> 00:02:13.680
+What are some of the key studies in this space?
+
+00:02:13.680 --> 00:02:15.680
+One is called the Pathfinder study.
+
+00:02:15.680 --> 00:02:22.400
+This was a study led by Grail using the GALERI methylation-based multi-cancer early detection
+
+00:02:22.400 --> 00:02:27.460
+test, and testing average-risk adults.
+
+00:02:27.460 --> 00:02:30.900
+The study was done in the United States, and it was done in the United States.
+
+00:02:30.900 --> 00:02:32.900
+The study was done in the United States, and it was done in the United States.
+
+00:02:32.900 --> 00:02:34.900
+The study was done in the United States, and it was done in the United States.
+
+00:02:34.900 --> 00:02:36.900
+The study was done in the United States, and it was done in the United States.
+
+00:02:36.900 --> 00:02:38.900
+The study was done in the United States, and it was done in the United States.
+
+00:02:38.900 --> 00:02:40.900
+The study was done in the United States, and it was done in the United States.
+
+00:02:40.900 --> 00:02:42.900
+The study was done in the United States, and it was done in the United States.
+
+00:02:42.900 --> 00:02:44.900
+The study was done in the United States, and it was done in the United States.
+
+00:02:44.900 --> 00:02:46.900
+The study was done in the United States, and it was done in the United States.
+
+00:02:46.900 --> 00:02:48.900
+The study was done in the United States, and it was done in the United States.
+
+00:02:48.900 --> 00:02:50.900
+The study was done in the United States, and it was done in the United States.
+
+00:02:57.460 --> 00:02:59.460
+The study was done in the United States, and it was done in the United States.
+
+00:02:59.460 --> 00:03:01.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:01.460 --> 00:03:03.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:03.460 --> 00:03:05.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:05.460 --> 00:03:07.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:07.460 --> 00:03:09.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:09.460 --> 00:03:11.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:11.460 --> 00:03:13.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:13.460 --> 00:03:15.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:15.460 --> 00:03:17.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:17.460 --> 00:03:19.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:27.460 --> 00:03:29.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:29.460 --> 00:03:31.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:31.460 --> 00:03:33.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:33.460 --> 00:03:35.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:35.460 --> 00:03:37.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:37.460 --> 00:03:39.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:39.460 --> 00:03:41.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:41.460 --> 00:03:43.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:43.460 --> 00:03:45.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:45.460 --> 00:03:47.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:47.460 --> 00:03:49.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:57.460 --> 00:03:59.460
+The study was done in the United States, and it was done in the United States.
+
+00:03:59.460 --> 00:04:01.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:01.460 --> 00:04:03.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:03.460 --> 00:04:05.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:05.460 --> 00:04:07.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:07.460 --> 00:04:09.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:09.460 --> 00:04:11.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:11.460 --> 00:04:13.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:13.460 --> 00:04:15.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:15.460 --> 00:04:17.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:17.460 --> 00:04:19.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:27.460 --> 00:04:29.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:29.460 --> 00:04:31.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:31.460 --> 00:04:33.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:33.460 --> 00:04:35.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:35.460 --> 00:04:37.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:37.460 --> 00:04:39.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:39.460 --> 00:04:41.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:41.460 --> 00:04:43.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:43.460 --> 00:04:45.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:45.460 --> 00:04:47.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:47.460 --> 00:04:49.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:57.460 --> 00:04:59.460
+The study was done in the United States, and it was done in the United States.
+
+00:04:59.460 --> 00:05:01.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:01.460 --> 00:05:03.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:03.460 --> 00:05:05.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:05.460 --> 00:05:07.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:07.460 --> 00:05:09.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:09.460 --> 00:05:11.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:11.460 --> 00:05:13.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:13.460 --> 00:05:15.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:15.460 --> 00:05:17.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:17.460 --> 00:05:19.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:27.460 --> 00:05:29.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:29.460 --> 00:05:31.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:31.460 --> 00:05:33.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:33.460 --> 00:05:35.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:35.460 --> 00:05:37.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:37.460 --> 00:05:39.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:39.460 --> 00:05:41.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:41.460 --> 00:05:43.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:43.460 --> 00:05:45.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:45.460 --> 00:05:47.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:47.460 --> 00:05:49.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:57.460 --> 00:05:59.460
+The study was done in the United States, and it was done in the United States.
+
+00:05:59.460 --> 00:06:01.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:01.460 --> 00:06:03.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:03.460 --> 00:06:05.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:05.460 --> 00:06:07.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:07.460 --> 00:06:09.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:09.460 --> 00:06:11.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:11.460 --> 00:06:13.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:13.460 --> 00:06:15.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:15.460 --> 00:06:17.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:17.460 --> 00:06:19.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:27.460 --> 00:06:29.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:29.460 --> 00:06:31.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:31.460 --> 00:06:33.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:33.460 --> 00:06:35.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:35.460 --> 00:06:37.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:37.460 --> 00:06:39.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:39.460 --> 00:06:41.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:41.460 --> 00:06:43.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:43.460 --> 00:06:45.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:45.460 --> 00:06:47.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:47.460 --> 00:06:49.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:57.460 --> 00:06:59.460
+The study was done in the United States, and it was done in the United States.
+
+00:06:59.460 --> 00:07:01.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:01.460 --> 00:07:03.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:03.460 --> 00:07:05.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:05.460 --> 00:07:07.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:07.460 --> 00:07:09.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:09.460 --> 00:07:11.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:11.460 --> 00:07:13.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:13.460 --> 00:07:15.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:15.460 --> 00:07:17.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:17.460 --> 00:07:19.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:27.460 --> 00:07:29.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:29.460 --> 00:07:31.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:31.460 --> 00:07:33.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:33.460 --> 00:07:35.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:35.460 --> 00:07:37.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:37.460 --> 00:07:39.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:39.460 --> 00:07:41.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:41.460 --> 00:07:43.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:43.460 --> 00:07:45.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:45.460 --> 00:07:47.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:47.460 --> 00:07:49.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:57.460 --> 00:07:59.460
+The study was done in the United States, and it was done in the United States.
+
+00:07:59.460 --> 00:08:01.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:01.460 --> 00:08:03.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:03.460 --> 00:08:05.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:05.460 --> 00:08:07.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:07.460 --> 00:08:09.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:09.460 --> 00:08:11.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:11.460 --> 00:08:13.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:13.460 --> 00:08:15.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:15.460 --> 00:08:17.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:17.460 --> 00:08:19.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:27.460 --> 00:08:29.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:29.460 --> 00:08:31.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:31.460 --> 00:08:33.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:33.460 --> 00:08:35.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:35.460 --> 00:08:37.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:37.460 --> 00:08:39.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:39.460 --> 00:08:41.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:41.460 --> 00:08:43.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:43.460 --> 00:08:45.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:45.460 --> 00:08:47.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:47.460 --> 00:08:49.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:57.460 --> 00:08:59.460
+The study was done in the United States, and it was done in the United States.
+
+00:08:59.460 --> 00:09:01.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:01.460 --> 00:09:03.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:03.460 --> 00:09:05.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:05.460 --> 00:09:07.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:07.460 --> 00:09:09.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:09.460 --> 00:09:11.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:11.460 --> 00:09:13.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:13.460 --> 00:09:15.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:15.460 --> 00:09:17.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:17.460 --> 00:09:19.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:27.460 --> 00:09:29.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:29.460 --> 00:09:31.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:31.460 --> 00:09:33.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:33.460 --> 00:09:35.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:35.460 --> 00:09:37.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:37.460 --> 00:09:39.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:39.460 --> 00:09:41.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:41.460 --> 00:09:43.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:43.460 --> 00:09:45.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:45.460 --> 00:09:47.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:47.460 --> 00:09:49.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:57.460 --> 00:09:59.460
+The study was done in the United States, and it was done in the United States.
+
+00:09:59.460 --> 00:10:01.460
+The study was done in the United States, and it was done in the United States.
+
+00:10:01.460 --> 00:10:03.460
+The study was done in the United States, and it was done in the United States.
+
+00:10:03.460 --> 00:10:05.460
+The study was done in the United States, and it was done in the United States.
+
+00:10:05.460 --> 00:10:07.460
+The study was done in the United States, and it was done in the United States.
+
+00:10:07.460 --> 00:10:09.460
+The study was done in the United States, and it was done in the United States.
+
+00:10:09.460 --> 00:10:11.460
+The study was done in the United States, and it was done in the United States.
+
+00:10:11.460 --> 00:10:13.460
+The study was done in the United States, and it was done in the United States.
+
+00:10:13.460 --> 00:10:15.460
+The study was done in the United States, and it was done in the United States.

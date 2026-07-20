@@ -1,0 +1,265 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.100
+um so i'll tell you um you know very much a technology development story um today hope i
+
+00:00:07.100 --> 00:00:12.780
+can do this in seven minutes usually my introduction alone is seven minutes um so
+
+00:00:12.780 --> 00:00:19.620
+these are my disclosures um so don't need to introduce this to this audience uh you know mds
+
+00:00:19.620 --> 00:00:27.520
+and aml are incredibly polyclonal diseases and for that reason we are very interested in this
+
+00:00:27.520 --> 00:00:32.560
+polyclonality, especially at the level of stem cells and pre-leukemic stem cells in those diseases.
+
+00:00:33.380 --> 00:00:38.760
+And while we and others have focused very much on genetic heterogeneity and genetic markers
+
+00:00:38.760 --> 00:00:44.980
+mutations to define subclones, there's other mechanisms of heterogeneity. And one of those
+
+00:00:44.980 --> 00:00:52.560
+mechanisms is actually transcription itself. And what I want to point out here is that transcription
+
+00:00:52.560 --> 00:00:59.640
+is actually very much a non-continuous process. And this is well known for a long time. We didn't
+
+00:00:59.640 --> 00:01:07.280
+discover this. We didn't come up with this. So basically every gene expression locus that has
+
+00:01:07.280 --> 00:01:15.260
+ever been studied shows that RNA transcription is not continuously occurring, but it occurs in
+
+00:01:15.260 --> 00:01:21.960
+short bursts. And you can see this. This is data from our lab on the P21 locus with the live cell
+
+00:01:22.560 --> 00:01:27.160
+reporter assay in collaboration with Rob Coleman's lab. What you can see now in this area under the
+
+00:01:27.160 --> 00:01:33.080
+curve is that there's really transcriptional bursts, these peaks, followed by periods of
+
+00:01:33.080 --> 00:01:38.260
+silence. And this is really how gene expression works. Ultimately, transcription machinery,
+
+00:01:38.460 --> 00:01:44.720
+transcription factors recruit one and exactly one molecule of polymerase 2. And then this one
+
+00:01:44.720 --> 00:01:50.160
+molecule of polymerase 2 is synthesizing one molecule of RNA. And then, of course, you can
+
+00:01:50.160 --> 00:01:52.540
+have multiple molecules and you can have a burst of.
+
+00:01:52.560 --> 00:01:57.040
+You can have five RNAs, you can have four, you can have three, you can have 10, but it's a defined
+
+00:01:57.040 --> 00:02:03.480
+number of RNA molecules that are synthesized. And then again, there is periods of silence. So
+
+00:02:03.480 --> 00:02:09.560
+transcription is very much a bursty process. What does it mean? So a few years ago, we asked a very
+
+00:02:09.560 --> 00:02:15.020
+fundamental question, and that is, is observed heterogeneity that we all find and describe in
+
+00:02:15.020 --> 00:02:21.260
+our single-cell RNA-seq studies, are those really describing true subpopulation diversity? Or is
+
+00:02:21.260 --> 00:02:22.540
+some of that simply driven by the fact that it's a single-cell RNA-seq study? And if so,
+
+00:02:22.560 --> 00:02:26.680
+is that really driven by the biophysical stochasticity and the bursting of the transcriptional
+
+00:02:26.680 --> 00:02:32.860
+process? And to do this, we used a methodology called single-molecule RNA fish. This was, again,
+
+00:02:32.960 --> 00:02:39.920
+in collaboration with Rob Singers and Rob Coleman's lab. In the interest of time, I can't go into
+
+00:02:39.920 --> 00:02:45.680
+technical details. We published this, took us a while to figure this out and to do this on primary
+
+00:02:45.680 --> 00:02:52.540
+cells, but you really get very robust assays that really can detect on an image, on an image, on an
+
+00:02:52.560 --> 00:02:57.820
+imaging basis, single molecules of RNA in a cell. Because it's imaging-based, you get a lot of
+
+00:02:57.820 --> 00:03:02.620
+information, accurate counts, you have subcellular localization, and you have the bursting
+
+00:03:02.620 --> 00:03:09.380
+information. If you have more than one molecule in the nucleus in one spot, you know that's where
+
+00:03:09.380 --> 00:03:13.960
+the bursts are occurring. And the only thing I want to point out here in the interest of time
+
+00:03:13.960 --> 00:03:21.640
+is that we are able to, of course, detect all the well-expressed RNAs, but also, as you can see here
+
+00:03:22.560 --> 00:03:29.140
+with hematopoietic subpopulations, we can reliably detect single digits of RNAs in the cell, so we're
+
+00:03:29.140 --> 00:03:35.040
+seeing much more. It's a locus-based assay, so it's not genome-wide like RNA-seq, but we do see
+
+00:03:35.040 --> 00:03:42.500
+transcripts that are well beyond the detection limit of what RNA-seq can do. Now, through live
+
+00:03:42.500 --> 00:03:49.080
+cell imaging, we asked the question, are transcription states primed early in stem
+
+00:03:49.080 --> 00:03:52.540
+cells, or are they still fluctuating, which is what we're trying to do. And we found that
+
+00:03:52.560 --> 00:03:59.300
+we hypothesized, and so we did this live cell imaging and transcriptional assessment assay,
+
+00:03:59.340 --> 00:04:05.040
+and what we found, I'll cut to the chase here in the interest of time, is that stem cells actually
+
+00:04:05.040 --> 00:04:11.640
+are not locked into certain transcriptional pathways from the get-go, but that hematopoietic
+
+00:04:11.640 --> 00:04:18.040
+stem cells actually shuttle between transcription states, pretty much what we had thought would
+
+00:04:18.040 --> 00:04:22.540
+happen if you think about the stochasticity of the process. This is here described,
+
+00:04:22.560 --> 00:04:29.120
+for the fluctuation between PU1, a very important myeloid and lymphoid transcription factor, and
+
+00:04:29.120 --> 00:04:35.460
+GATA, erythroid factors, and so really what you can see is that stem cells shuttle back and forth,
+
+00:04:35.540 --> 00:04:42.300
+so the same cell, dependent on the time of the assay, looks differently transcriptionally at
+
+00:04:42.300 --> 00:04:47.760
+different time points. And, you know, this is just visualizing this further, so you have cells
+
+00:04:47.760 --> 00:04:52.240
+that fluctuate in and out of PU1 high or GATA high states,
+
+00:04:52.560 --> 00:04:58.880
+at any given time point, you can detect, you know, if you want a transcriptional positioning,
+
+00:04:59.360 --> 00:05:04.080
+that doesn't mean the cell is staying there and is locked into, let's say, a PU1 high state,
+
+00:05:04.080 --> 00:05:09.840
+but it can come back, so there's a constant fluctuation, not just at the level of from
+
+00:05:09.840 --> 00:05:17.040
+cell to cell, but within the same cell, so the time point of the assay matters, and snapshot assays
+
+00:05:17.040 --> 00:05:22.500
+cannot reliably predict, you know, where the cell was before and where it will be in two hours,
+
+00:05:22.560 --> 00:05:29.360
+from now. Now, this is obviously very important, so we have now this amazing transcriptional plasticity,
+
+00:05:29.360 --> 00:05:35.520
+and we now say, you know, we actually, we try to avoid the term "state" to some extent, and we more
+
+00:05:35.520 --> 00:05:43.680
+describe it as a transcriptional space that cells and subclones actually occupy. Now, you ask, okay,
+
+00:05:43.680 --> 00:05:48.720
+this is all fine, this is RNA, how about protein? And I hope this video plays, so we've also made
+
+00:05:49.680 --> 00:05:51.200
+advances in the
+
+00:05:52.400 --> 00:05:57.360
+visualization of single protein molecules of transcription factor. Again, this is work in
+
+00:05:57.360 --> 00:06:02.640
+collaboration with Rock Coleman's lab, we use halo and snap-tagged proteins, and what you see
+
+00:06:02.640 --> 00:06:10.000
+here in this video are single molecules of PU1 as they move around in the nucleus, and so really,
+
+00:06:10.000 --> 00:06:15.280
+these are single transcription factor molecules that browse the genome, then you see some of them
+
+00:06:15.280 --> 00:06:22.240
+that actually sit there, and where you can visualize the, you know, where they are sitting, or that they are
+
+00:06:22.240 --> 00:06:27.440
+sitting on the chromatin, and then they move again. And what was surprising here, you can do a lot of
+
+00:06:27.440 --> 00:06:33.120
+quantification here, imaging-based, you know, what's surprising to us, and you see this on the left side,
+
+00:06:33.120 --> 00:06:38.640
+that only a very small number of molecules, around five percent of PU1 in this case, are actually
+
+00:06:38.640 --> 00:06:45.360
+really stably bound to the chromatin, and 95 percent are really just swishing around and looking for the
+
+00:06:45.360 --> 00:06:51.280
+next binding site. The other thing that was really quite shocking to us is we thought, okay, when it
+
+00:06:51.280 --> 00:06:56.560
+binds, we thought it's somewhat more stable, and it's really not. And you see this in the lower
+
+00:06:56.560 --> 00:07:02.320
+right, so the stable residence time, I mean, first of all, the majority of molecules upper right
+
+00:07:03.200 --> 00:07:08.640
+binds only less than one second, so that's the browsing kind of movement, but then even the
+
+00:07:08.640 --> 00:07:15.200
+ones that are more stable are only binding in the ballpark of 10 to 20, maximum 30 seconds, so it's a very
+
+00:07:15.200 --> 00:07:22.880
+very highly dynamic on-and-off system. And so it's very very dynamic, you know, it's very interesting,
+
+00:07:22.880 --> 00:07:27.840
+raises a lot of questions, you know, to what we're actually seeing in our ChIP-seq and Cut&Tag and
+
+00:07:27.840 --> 00:07:34.400
+other data sets, but also it makes it amenable for therapeutic interference, and that's what I'll talk
+
+00:07:34.400 --> 00:07:43.440
+about in my second talk later this afternoon, because as you all know, the transcription factors
+
+00:07:43.440 --> 00:07:45.040
+and transcriptional aberrations
+
+00:07:45.040 --> 00:07:51.520
+are one of the key features and hallmarks, in particular in pre-leukemic stem cells, and
+
+00:07:51.520 --> 00:07:58.000
+are key mediators of the differentiation block that's pathognomonic for MDS and AML, and so,
+
+00:07:58.000 --> 00:08:02.320
+you know, these are some of the factors that we identified over the years, and I'll talk about
+
+00:08:02.320 --> 00:08:08.000
+this later in the afternoon session. So just to summarize, again, pathogenesis of myeloid
+
+00:08:08.000 --> 00:08:14.880
+malignancies very much, you know, fundamentally polyclonal. I hope I've convinced you the transcription noise and
+
+00:08:14.880 --> 00:08:20.240
+transcription dynamics contributes to the stem cell heterogeneity and plasticity, it's not just
+
+00:08:20.240 --> 00:08:26.880
+genetics, and that single molecule methodologies are very powerful tools to get a handle on this.
+
+00:08:26.880 --> 00:08:31.760
+And then again, the last point is the pharmacological targeting of transcription
+
+00:08:31.760 --> 00:08:36.400
+factor dynamics and noise is fundamentally possible, and I'll tell you more about this
+
+00:08:36.400 --> 00:08:39.120
+later this afternoon. Thank you all so much.

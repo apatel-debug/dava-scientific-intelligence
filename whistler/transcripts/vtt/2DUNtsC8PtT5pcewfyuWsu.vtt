@@ -1,0 +1,247 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:11.780
+Okay. My disclosures. So is Hodgkin a heterogeneous disease? So the obvious answer is yes, everything
+
+00:00:11.780 --> 00:00:18.080
+is heterogeneous. If you look into the WHO classification currently, Hodgkin lymphoma
+
+00:00:18.080 --> 00:00:23.500
+is mainly divided by the appearance of the tumor microenvironment. That's just the biology
+
+00:00:23.500 --> 00:00:30.500
+of the disease, that there is a very heterogeneous mix of cells with the malignant cells in the
+
+00:00:30.500 --> 00:00:38.240
+minority. And these ecosystems are still very poorly understood, both the malignant cell
+
+00:00:38.240 --> 00:00:44.160
+genomics and then corresponding tumor microenvironment inflammatory reactions. So really an integrative
+
+00:00:44.160 --> 00:00:49.820
+approach is needed to come up with something better that is clinically relevant. So if
+
+00:00:49.820 --> 00:00:53.480
+you look into these four subtypes, nodular sclerosis, neuroendocrine, neuromuscular disease,
+
+00:00:53.480 --> 00:00:58.760
+mixed cilillarity, lymphocyte depleted, lymphocyte rich, so all of these don't really have a
+
+00:00:58.760 --> 00:01:03.360
+bearing on clinical decision making. And then the nodular lymphocyte predominant that you
+
+00:01:03.360 --> 00:01:10.960
+see on the far right here, so that's likely to lose the age and the Hodgkin might be dropped
+
+00:01:10.960 --> 00:01:17.720
+in future classifications. So we need to come up with something biologically informed and
+
+00:01:17.720 --> 00:01:23.460
+just also to polarize a little bit here. And I know that my co-speakers will expand on that,
+
+00:01:23.460 --> 00:01:29.680
+but just to polarize, there's regional differences in how people think about how to treat and
+
+00:01:29.680 --> 00:01:38.940
+there's two breakthrough studies that are, I'm sure, cited often in the next talks as
+
+00:01:38.940 --> 00:01:46.980
+well. New England Journal 2024, the volume of AVD being superior to BV AVD and then the
+
+00:01:46.980 --> 00:01:53.440
+more European interpretation, they are holding on to brentuximab and treatment intensification.
+
+00:01:53.440 --> 00:01:58.960
+So there's different thoughts, and the thoughts are mostly biologically uninformed, I would say.
+
+00:02:00.000 --> 00:02:08.160
+And so we tackled the problem by starting from the ground up with an integrative genomic study design,
+
+00:02:09.040 --> 00:02:14.880
+basically doing everything we can at the moment with modern technologies, single cell, spatial
+
+00:02:14.880 --> 00:02:22.640
+transcriptomics, TME characterizations by imaging mass cytometry, have Hodgkin-Reed-Sternberg cells
+
+00:02:22.640 --> 00:02:23.420
+microdissected, and then we can do a lot of other things, and then we can do a lot of other things
+
+00:02:23.420 --> 00:02:23.480
+as well. We can do a lot of other things, and then we can do a lot of other things, and then we can do a lot of other things
+
+00:02:23.480 --> 00:02:29.640
+that flow-sorted, and then for the same samples put onto tissue microarrays so that we can read
+
+00:02:29.640 --> 00:02:35.720
+out on the tumor microenvironment, and then outcome correlates and modeling as well.
+
+00:02:36.320 --> 00:02:42.200
+So this is the essence of the study that is now published in Cancer Discovery just a couple of
+
+00:02:42.200 --> 00:02:49.000
+weeks ago, where we discovered, based on NMF clustering on the mutational profiles, we just
+
+00:02:49.000 --> 00:02:53.400
+have four types that we labeled CST-CN91.
+
+00:02:53.400 --> 00:03:00.340
+3 STB and CN2P, so these are code names for actually the mutations that are found in these
+
+00:03:00.340 --> 00:03:08.020
+clusters, either copy number or simple mutations. And you can see on the right-hand side here that
+
+00:03:08.020 --> 00:03:17.300
+there's correlates to age and EBV, which there's hints in the literature, of course, that there is
+
+00:03:17.980 --> 00:03:22.340
+relevance to EBV positivity versus negative disease, and also
+
+00:03:23.380 --> 00:03:29.100
+individual mutations have been described before that are more enriched in pediatric or adolescent
+
+00:03:29.100 --> 00:03:34.140
+young adult lymphoma versus elderly Hodgkin lymphoma, so I don't want to linger too much
+
+00:03:34.140 --> 00:03:42.860
+on that. So this tool to distinguish now four Hodgkin lymphoma types is available as a tool
+
+00:03:42.860 --> 00:03:50.420
+publicly downloadable. We call it HLGEN, which has an unclassifiable group, and then the four
+
+00:03:50.420 --> 00:03:53.360
+types that I just referenced to you. And the good thing about this tool is that it's not just
+
+00:03:53.360 --> 00:03:58.340
+a single-use tool, it can be used to do a lot of other things. So the good news is this pretty much
+
+00:03:58.340 --> 00:04:02.720
+aligns with an earlier publication by Ash Elizadeh, who is in the conference, I don't see him here,
+
+00:04:02.720 --> 00:04:08.800
+but wonderful collaboration with Stefan Alig and Ash to actually show that this classification
+
+00:04:08.800 --> 00:04:18.000
+system also works on CT DNA, and future studies will hopefully validate these classes.
+
+00:04:18.000 --> 00:04:23.340
+So now moving on to a tumor microenvironment vignette in the very limited time.
+
+00:04:23.340 --> 00:04:31.400
+So, again, we did not only the mutational classification, we also interrogated simultaneously
+
+00:04:31.400 --> 00:04:38.800
+the tumor microenvironment by imaging mass cytometry, 35 protein markers, and we just looked
+
+00:04:38.800 --> 00:04:45.400
+into spatial vicinity to the Hodgkin-Rietz-Durnberg cells. So I think in Hodgkin, it's quite intuitive
+
+00:04:45.400 --> 00:04:52.120
+to ask the specific question, what is an immediate contact to the malignant cells or in an interaction
+
+00:04:52.120 --> 00:04:53.320
+radius of the malignant cells, and what is an immediate contact to the malignant cells, or in an
+
+00:04:53.320 --> 00:04:54.620
+interaction radius of the malignant cells, and what is an immediate contact to the malignant cells,
+
+00:04:54.620 --> 00:05:04.060
+and you see here a very concrete example that I will now show you. CSF2RB mutations in,
+
+00:05:04.060 --> 00:05:09.900
+that's the C in the CST, and a correlate to FOXP3-positive, CD4-positive cells,
+
+00:05:10.660 --> 00:05:20.820
+and then also a correlation to CCL17-positive, positivity on HRS cells, and as you know,
+
+00:05:20.820 --> 00:05:23.300
+CCL17 and CCR4, and that's a correlation to CCL17-positive, positivity on HRS cells,
+
+00:05:23.300 --> 00:05:31.840
+on regulatory T cells is an obvious link here. So, but before I go there, CSF2RB mutations are
+
+00:05:31.840 --> 00:05:37.260
+actually the most common truncating mutations that we see in mediastinal lymphomas, and that's not
+
+00:05:37.260 --> 00:05:42.980
+only Hodgkin's, this is also primary mediastinal, or Spiezel lymphoma, and mediastinal gray zone
+
+00:05:42.980 --> 00:05:49.080
+lymphoma. So there's something specific to the thymic mediastinal niche that selects for,
+
+00:05:49.080 --> 00:05:52.880
+in particular, these mutations, which are in the,
+
+00:05:52.880 --> 00:05:53.260
+um,
+
+00:05:53.260 --> 00:05:53.280
+um,
+
+00:05:53.280 --> 00:05:59.520
+common beta chain. So CSF2RB is the common beta chain to the IL-3 receptor alpha, IL-4 receptor
+
+00:05:59.520 --> 00:06:07.360
+alpha, and CSF2RA alpha receptors that, um, um, build these, um, these complexes and then signal,
+
+00:06:07.500 --> 00:06:14.060
+signal-bound stream, um, through, for example, JAK stats, um, and PI3 kinase, um, pathways.
+
+00:06:14.400 --> 00:06:20.040
+So here, the mutational profile, as you see, um, it's a hotspot mutation that is specifically found
+
+00:06:20.040 --> 00:06:23.260
+in, in, in Hodgkin's disease, but there's other, um,
+
+00:06:23.260 --> 00:06:30.100
+N-terminal, excuse me, C-terminal mutations that we have characterized. So here is one of the
+
+00:06:30.100 --> 00:06:37.840
+functional readouts. So to make a long story short, if we express these various mutants in
+
+00:06:37.840 --> 00:06:48.600
+Hodgkin models, we see an upregulation of CCL17 or TARC and IL13. And that this has a very nice
+
+00:06:48.600 --> 00:06:55.180
+correlate also then in the tumor microenvironment composition. So HRS cells that are high in TARC
+
+00:06:55.180 --> 00:07:04.140
+in CCL17, you see that there is a spatial contact with CCR4 positive T cells. And you see some
+
+00:07:04.140 --> 00:07:09.720
+representative false color images on the right. So we just see actually quite some diversity in
+
+00:07:09.720 --> 00:07:14.820
+these tumor microenvironments, some cases where the tumor microenvironments are packed with CCR4
+
+00:07:14.820 --> 00:07:18.580
+positive T cells when TARC is expressed by Hodgkin-Reed's term.
+
+00:07:18.600 --> 00:07:28.060
+So here's the model, for example, in the CST genomic subgroup now. So signaling through JAK-STAT,
+
+00:07:28.860 --> 00:07:34.460
+it's jumped here ahead, STAT5 signaling, upregulation of CCL17 and IL13, and this
+
+00:07:34.460 --> 00:07:40.680
+recruits a very specific tumor microenvironment. So there is linkage between Hodgkin-Reed-Sternberg
+
+00:07:40.680 --> 00:07:46.300
+cell genetics and TME architecture. So we can read out the mutational profiles through a new tool,
+
+00:07:46.300 --> 00:07:48.460
+HLGEN, and we can...
+
+00:07:48.600 --> 00:07:54.600
+easily discuss how now this might be a framework for targeted therapies, for example, JAK-STAT
+
+00:07:54.600 --> 00:08:04.280
+signaling or CCR4 interference. And yeah, happy to discuss that if desired. And finally, I want to
+
+00:08:04.840 --> 00:08:11.640
+thank my colleagues at the Center for Lymphoid Cancer. Tomohiro Aoki has moved on to Princess
+
+00:08:11.640 --> 00:08:17.940
+Margaret Cancer Center. Big thanks to him for driving the study. But yeah, my clinical colleagues
+
+00:08:17.940 --> 00:08:23.140
+and Ash Elizabeth Day and Stanford Medicine for the awesome collaboration. Thank you very much.

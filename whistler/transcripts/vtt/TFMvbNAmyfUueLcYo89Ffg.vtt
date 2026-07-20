@@ -1,0 +1,241 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.680
+I forgot the right button this time.
+
+00:00:02.480 --> 00:00:07.400
+So I'll be presenting on antibody drug conjugates targeting TRBC1 and TRBC2.
+
+00:00:07.820 --> 00:00:13.340
+This is all preclinical at this point and led by a colleague of mine at Johns Hopkins,
+
+00:00:13.500 --> 00:00:18.700
+Shuman Paul, and wanted to highlight some of this work and potential use for some of
+
+00:00:18.700 --> 00:00:19.600
+our patients in the future.
+
+00:00:20.720 --> 00:00:23.940
+Here are my disclosures and objectives.
+
+00:00:25.720 --> 00:00:32.060
+So as a very brief review, TCR receptor diversity comes from genetic recombination from the
+
+00:00:32.060 --> 00:00:33.500
+alpha chain and the beta chain.
+
+00:00:33.880 --> 00:00:39.500
+We have these VD and J gene segments rearranged, which allow for the variable region.
+
+00:00:40.100 --> 00:00:46.600
+And then we also have two constant regions, at least on the beta chain, that end up allowing
+
+00:00:46.600 --> 00:00:48.540
+for a mature T cell receptor.
+
+00:00:49.480 --> 00:00:55.700
+We know that each T cell, whether it's mature normal T cell or a mature malignant,
+
+00:00:55.720 --> 00:00:58.080
+T cell, will have a unique TCR.
+
+00:00:59.100 --> 00:01:04.240
+And most of these, about 95% will be alpha beta, a small subset will be gamma delta.
+
+00:01:04.920 --> 00:01:09.260
+But this has important therapeutic implications in terms of potential targets.
+
+00:01:09.980 --> 00:01:16.040
+Since each clone will have a gene segment that's represented from only one of these
+
+00:01:16.040 --> 00:01:20.480
+variable regions, there are approximately 30, depending on how you define these in various
+
+00:01:20.480 --> 00:01:20.880
+studies.
+
+00:01:21.380 --> 00:01:25.600
+But we initially looked at this, and Dr. Paul looked at this, targeting.
+
+00:01:25.720 --> 00:01:33.660
+One of these variable regions for various T cell lymphoma cell lines, and seeing if
+
+00:01:33.660 --> 00:01:39.300
+we could deplete the clone, while also depleting only a small subset of the otherwise healthy
+
+00:01:39.300 --> 00:01:39.920
+T cells.
+
+00:01:40.260 --> 00:01:43.480
+This approach was effective in preclinical evaluation.
+
+00:01:44.140 --> 00:01:48.440
+But from a practical standpoint, the concern is we would theoretically have to develop 30
+
+00:01:48.440 --> 00:01:51.900
+drugs for what is otherwise already a very rare disease.
+
+00:01:53.500 --> 00:01:55.680
+The other option is to target the constant.
+
+00:01:55.720 --> 00:01:59.860
+Regions we know that we have constant region one and constant region two, each clone
+
+00:01:59.860 --> 00:02:05.360
+representing one of these two options with the potential to deplete essentially half of the
+
+00:02:05.360 --> 00:02:11.980
+healthy T cells in the all 100% of hopefully of the malignant T cells.
+
+00:02:13.840 --> 00:02:19.640
+This approach has been evaluated clinically with a TRBC1 targeted CAR-T cell therapy coming
+
+00:02:19.640 --> 00:02:20.720
+out of the London group.
+
+00:02:21.260 --> 00:02:24.960
+This was the auto four study, a total of 10 patients that were evaluated.
+
+00:02:25.340 --> 00:02:25.720
+Of the.
+
+00:02:25.720 --> 00:02:33.040
+These five patients achieved a complete response and initially very promising activity.
+
+00:02:33.840 --> 00:02:37.280
+But the concern is most of these patients ultimately relapsed.
+
+00:02:37.280 --> 00:02:42.480
+And at one year, there were only two patients that were alive and without relapse and further
+
+00:02:42.480 --> 00:02:47.360
+evaluation realized essentially all of the CAR-T cells had been killed off.
+
+00:02:47.720 --> 00:02:55.340
+And the concern was that it was this lack of CAR-T persistence allowing for the escape of the T cell malignancy.
+
+00:02:55.720 --> 00:03:05.560
+In a paper we published a couple of years ago, we evaluated potential explanations and mechanisms for this led by Dr.
+
+00:03:05.560 --> 00:03:08.680
+Paul, and there are a few of these.
+
+00:03:08.680 --> 00:03:25.540
+And one of these, I think the one that is perhaps most well established is the concept of fratricide that if we're giving a CAR-T product that is targeting TRBC1 and the product itself includes TRBC1 positive CAR-T cells, they can kill each other off.
+
+00:03:25.720 --> 00:03:36.920
+There's also the concern of the non-CAR-T cells, the normal healthy T cells and the malignant T cells that are engaged at the time of the CAR-T cell coming into contact with them.
+
+00:03:37.180 --> 00:03:43.960
+And while the CAR-T becomes activated, the normal T cells also become activated and there's this bi-directional killing that occurs.
+
+00:03:45.460 --> 00:03:55.680
+So because of this, we evaluated a, an anti-TRBC1 ADC approach, slightly different target, but also in TRBC1, and the concept being that we.
+
+00:03:55.680 --> 00:04:03.720
+could again deplete approximately 50% of the healthy T cells and 100% hopefully of the malignant T cells.
+
+00:04:06.000 --> 00:04:25.140
+This is a somewhat busy slide here, but to highlight first the in vitro work, looking at the use, we looked at five different ADCs and five different payloads, ultimately selected this based on potency, limited it down to an MMAE payload and a pyrolobenzoderm.
+
+00:04:25.140 --> 00:04:25.140
+And we looked at five different ADCs and five different payloads, ultimately selected this based on potency, limited it down to an MMAE payload and a pyrolobenzoderm.
+
+00:04:25.140 --> 00:04:25.640
+And we looked at five different ADCs and five different payloads, ultimately selected this based on potency, limited it down to an MMAE payload and a pyrolobenzoderm.
+
+00:04:25.640 --> 00:04:25.800
+And we looked at five different ADCs and five different payloads, ultimately selected this based on potency, limited it down to an MMAE payload and a pyrolobenzoderm.
+
+00:04:25.800 --> 00:04:25.800
+And we looked at five different ADCs and five different payloads, ultimately selected this based on potency, limited it down to an MMAE payload and a pyrolobenzoderm.
+
+00:04:25.800 --> 00:04:25.880
+And we looked at five different ADCs and five different payloads, ultimately selected this based on potency, limited it down to an MMAE payload and a pyrolobenzoderm.
+
+00:04:25.880 --> 00:04:25.980
+And we looked at five different ADCs and five different payloads, ultimately selected this based on potency, limited it down to an MMAE payload and a pyrolobenzoderm.
+
+00:04:25.980 --> 00:04:26.000
+And we looked at five different ADCs and five different payloads, ultimately selected this based on potency, limited it down to an MMAE payload and a pyrolobenzoderm.
+
+00:04:41.980 --> 00:04:48.380
+a control. We did see that we were able to, as expected, deplete the TRBC1 positive T cells,
+
+00:04:48.500 --> 00:04:52.680
+both the malignant and the healthy cells. And you can see in the very bottom right there that
+
+00:04:52.680 --> 00:05:01.360
+the TRBC2 positive T cells were actually maintained. In mouse studies, we used this
+
+00:05:01.360 --> 00:05:06.040
+approach. There were a few different cell lines, but using GRCAT cell lines, H9 cell lines,
+
+00:05:06.180 --> 00:05:14.680
+and evaluated this by looking at those two different ADCs in addition to a control ADC.
+
+00:05:15.160 --> 00:05:21.780
+These were nude mice that were injected with TRBC1 positive cell lines that also expressed
+
+00:05:21.780 --> 00:05:26.840
+GFP and luciferase to allow for bioluminescence evaluation. And you can see in the first lane,
+
+00:05:27.020 --> 00:05:31.940
+this would include those with the control. The second lane, those who had the MMAE payload,
+
+00:05:32.100 --> 00:05:36.160
+and the third, the PBD payload, and a total of two treatments.
+
+00:05:36.180 --> 00:05:41.980
+For these mice. And at the end, these mice were alive, particularly in the third population,
+
+00:05:42.520 --> 00:05:49.560
+and without evidence of recurrence. We then evaluated a TRBC2 positive
+
+00:05:49.560 --> 00:05:58.940
+directed ADC using a similar approach. And again, in vitro work, looking at the same cell lines
+
+00:05:58.940 --> 00:06:04.500
+with a similar outcome, except this time depleting the TRBC2 positive cells and allowing for
+
+00:06:04.500 --> 00:06:06.160
+persistence of the TRBC1 positive cells. And again, in vitro work, looking at the same cell lines
+
+00:06:06.160 --> 00:06:13.620
+We used patient samples as well that were collected for those with circulating disease
+
+00:06:13.620 --> 00:06:22.420
+that had TRBC2 positive T cell lymphomas. And again, the same approach using the mice
+
+00:06:22.420 --> 00:06:29.100
+and evaluating this with the pyrolabinzidazepine payload, which looked to be the most potent in
+
+00:06:29.100 --> 00:06:34.980
+this particular study for our preclinical evaluation. These are two different cell lines
+
+00:06:34.980 --> 00:06:36.140
+that were evaluated. And again, in vitro work, looking at the same cell lines with a similar outcome,
+
+00:06:36.160 --> 00:06:37.860
+with similar responses.
+
+00:06:40.040 --> 00:06:46.580
+So in summary, TRBC1 and TRBC2 are potential targets that we believe are worth pursuing
+
+00:06:46.580 --> 00:06:51.660
+for antibody-based therapies in T cell lymphomas. There are some unique challenges with CAR-T cell
+
+00:06:51.660 --> 00:06:54.860
+therapy. I think there are some very creative ways to get around these, which we're going to
+
+00:06:54.860 --> 00:06:59.780
+hear about later, which are very exciting. But ADCs, we believe, also has a role in this situation
+
+00:06:59.780 --> 00:07:06.140
+and might allow us to not have the problems of fratricide and the killing of T cell lymphomas.
+
+00:07:06.140 --> 00:07:08.240
+So we're going to have to see if we can do something bidirectionally that we sometimes see with these
+
+00:07:08.240 --> 00:07:10.660
+CAR-T products. Thank you.

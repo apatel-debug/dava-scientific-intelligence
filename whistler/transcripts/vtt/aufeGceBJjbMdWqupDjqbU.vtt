@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:16.580
+Great. Thank you so much. So the talk is in a way, in part, a continuation of what I showed very early in the morning, and that's the role of transcriptional variability in leukemia pathogenesis. These are my disclosures.
+
+00:00:17.680 --> 00:00:37.560
+And again, I don't want to belabor this point. I think there's ample evidence, there's really polyclonal evolution in MDS and AML pathogenesis. So in a preventative setting, we really have to think about all the clones that are there and not just the ones that emerge at any given time as dominant clones.
+
+00:00:39.280 --> 00:00:47.280
+And again, I've shown this slide in the morning. So we're, for that reason, very interested in all sorts of heterogeneity at the pre-leukemic stem cell level.
+
+00:00:47.680 --> 00:00:58.160
+Genetics, we've done for a long time, and I've shown you this morning that there's non-genetic mechanisms of stem cell heterogeneity, including transcriptional variability.
+
+00:00:58.960 --> 00:01:16.980
+In addition, I want to say for the targeting and preventative targeting, potentially, of pre-leukemic stem cells, we believe it's important to recognize that there may be really distinct biological principles in this evolution, the polyclonal evolution at early stages.
+
+00:01:17.180 --> 00:01:17.660
+And again, I think there's ample evidence, there's ample evidence that there may be really distinct biological principles in this evolution, the polyclonal evolution at early stages.
+
+00:01:17.660 --> 00:01:17.660
+And again, I want to say for the targeting and preventative targeting, potentially, of pre-leukemic stem cells, we believe it's important to recognize that there may be really distinct biological principles in this evolution, the polyclonal evolution at early stages.
+
+00:01:17.660 --> 00:01:27.560
+And therefore, we have to likely look for targets and pathways that are uniquely important at that stage and at the pre-cancerous stage.
+
+00:01:27.780 --> 00:01:47.640
+And we have put a lot of effort, both in mouse genetic models, longitudinal models of the transformation process that we have developed over the last 15 plus years, as well as studies of sorted pre-leukemic stem cells from patients, and we've identified really a number of targets and validated targets and developed drugs over the years.
+
+00:01:47.640 --> 00:01:53.440
+And I would just say, they broadly, the most common targets fall into two categories.
+
+00:01:53.920 --> 00:02:15.500
+One, you see here on the left at the bottom, are targets that mediate cytokine stimuli, selection stimuli that act on the cells, including, for instance, IL-1 RAP, IL-8 CXCR2, PAK1, S100A8A9, we've heard about earlier today, and there's some others.
+
+00:02:15.500 --> 00:02:17.500
+And then the second one, and it's on the right, are triggers.
+
+00:02:17.640 --> 00:02:23.200
+And then the third one is the transcriptional regulators, and those I want to focus on first.
+
+00:02:23.820 --> 00:02:29.140
+And again, I had shown you this morning how important transcriptional variability is.
+
+00:02:29.200 --> 00:02:30.500
+So how do you target this?
+
+00:02:30.500 --> 00:02:41.800
+So one example, and we reported this in a bunch of papers in the last few years, is MDM4, obviously a canonical inhibitor of the transcription factor TP53.
+
+00:02:42.320 --> 00:02:47.620
+It is selectively elevated in pre-leukemic stem cells in AML versus age-matched healthy coronary.
+
+00:02:47.620 --> 00:02:54.300
+It's somewhat unique to AML, doesn't really go up in most other tumor types.
+
+00:02:54.540 --> 00:03:11.460
+And what we found at that time was really, if you look at the MDS patients, the MDM4 expression levels or MDMX really very strongly correlates with the transformation or the likelihood of transformation of MDS to AML.
+
+00:03:11.460 --> 00:03:17.460
+And we've also been successful in contributing to some drug testing.
+
+00:03:17.620 --> 00:03:19.180
+And we've also been successful in contributing to some drug development in that area.
+
+00:03:19.340 --> 00:03:25.160
+So this is a stapled peptide approach of a dual MDM4, MDM2 inhibitor we tested a few years ago.
+
+00:03:25.660 --> 00:03:36.560
+And I'm just showing you this to say, even in very aggressive preclinical models of this transition, and you can see this on the survival graph.
+
+00:03:36.560 --> 00:03:41.600
+So in the untreated group, very aggressive models, all animals are dead within 50 days.
+
+00:03:43.520 --> 00:03:47.440
+This pre-emptive treatment and reactivating P53.
+
+00:03:47.620 --> 00:03:53.860
+through these modulating peptides can actually lead to long-term cures, at least in this mouse model.
+
+00:03:54.380 --> 00:03:57.620
+So I think there is a lot of potential of this.
+
+00:03:57.680 --> 00:04:02.860
+This is not the usual just marginal shifts and curves that you see in preclinical models.
+
+00:04:02.980 --> 00:04:06.660
+This is really much more fundamental responses that we see in some of this.
+
+00:04:07.320 --> 00:04:16.880
+Now I want to show you, and I've talked about this this morning, PU1, a very important transcription factor in MDS and AML is affected through a variety of mechanisms.
+
+00:04:16.880 --> 00:04:17.600
+You're all well aware of that.
+
+00:04:17.680 --> 00:04:32.060
+And if you take it all together, PU1 targets and PU1 activity is downregulated in 50% to 70% of patients, and it's really a key mediator of the myeloid differentiation block that's observed in MDS and AML.
+
+00:04:32.520 --> 00:04:42.120
+Now I've showed you this morning how PU1 shuttles on and off target sites in very, very rapid succession within seconds, and it's really very dynamic.
+
+00:04:42.980 --> 00:04:47.460
+And what we have, and you say this is maybe highly problematic.
+
+00:04:47.580 --> 00:04:55.900
+The dynamics of the transcriptional process, but we've also viewed it as an opportunity to pharmacologically interfere with this process.
+
+00:04:56.060 --> 00:05:17.100
+And so a few years ago, we teamed up with a group of brilliant chemists at GSU led by Gregory Poon, and we developed really first-in-class heterocyclic diamidines that specifically block PU1 sites on the DNA and basically compete with PU1 for binding to the DNA.
+
+00:05:17.100 --> 00:05:17.560
+And so we've developed a group of brilliant chemists at GSU led by Gregory Poon, and we developed really first-in-class heterocyclic diamidines that specifically block PU1 sites on the DNA and basically compete with PU1 for binding to the DNA.
+
+00:05:17.560 --> 00:05:47.540
+And so we've developed a group of brilliant chemists at GSU led by Gregory Poon, and we developed really first-in-class heterocyclic diamidines that specifically block PU1 for binding to the DNA and basically compete with PU1 for binding to the DNA.
+
+00:05:47.540 --> 00:06:17.520
+And so we've developed a group of brilliant chemists at GSU led by Gregory Poon, and we developed really first-in-class heterocyclic diamidines that specifically block PU1 for binding to the DNA and basically compete with PU1 for binding to the DNA.
+
+00:06:17.520 --> 00:06:47.500
+And so we've developed a group of brilliant chemists at GSU led by Gregory Poon, and we developed really first-in-class heterocyclic diamidines that specifically block PU1 for binding to the DNA and basically compete with PU1 for binding to the DNA.
+
+00:06:47.500 --> 00:07:17.480
+And so we've developed a group of brilliant chemists at GSU led by Gregory Poon, and we developed really first-in-class heterocyclic diamidines that specifically block PU1 for binding to the DNA and basically compete with PU1 for binding to the DNA.
+
+00:07:17.480 --> 00:07:47.460
+And so we've developed a group of brilliant chemists at GSU led by Gregory Poon, and we developed really first-in-class heterocyclic diamidines that specifically block PU1 for binding to the DNA.
+
+00:07:47.460 --> 00:08:17.440
+And so we've developed a group of brilliant chemists at GSU led by Gregory Poon, and we developed really first-in-class heterocyclic diamidines that specifically block PU1 for binding to the DNA.
+
+00:08:17.440 --> 00:08:47.420
+And so we've developed a group of brilliant chemists at GSU led by Gregory Poon, and we developed really first-in-class heterocyclic diamidines that specifically block PU1 for binding to the DNA.
+
+00:08:47.420 --> 00:08:47.460
+And so we've developed a group of brilliant chemists at GSU led by Gregory Poon, and we developed really first-in-class heterocyclic diamidines that specifically block PU1 for binding to the DNA.
+
+00:08:47.460 --> 00:08:47.480
+And so we've developed a group of brilliant chemists at GSU led by Gregory Poon, and we developed really first-in-class heterocyclic diamidines that specifically block PU1 for binding to the DNA.
+
+00:08:47.480 --> 00:08:47.500
+And so we've developed a group of brilliant chemists at GSU led by Gregory Poon, and we developed really first-in-class heterocyclic diamidines that specifically block PU1 for binding to the DNA.
+
+00:08:47.500 --> 00:08:47.540
+And so we've developed a group of brilliant chemists at GSU led by Gregory Poon, and we developed really first-in-class heterocyclic diamidines that specifically block PU1 for binding to the DNA.

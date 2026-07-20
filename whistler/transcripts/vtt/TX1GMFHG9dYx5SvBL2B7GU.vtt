@@ -1,0 +1,958 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.420
+I'm actually going to talk about clonal hematopoiesis in breast cancer survivors treated with metformin
+
+00:00:05.420 --> 00:00:10.460
+as an allegory for how we might think about interventional clinical trials in clonal hematopoiesis.
+
+00:00:10.460 --> 00:00:13.640
+These are my disclosures.
+
+00:00:13.640 --> 00:00:16.680
+And before I talk about the specific project, I want to give you a little bit of background
+
+00:00:16.680 --> 00:00:19.260
+about clonal hematopoiesis in cancer generally.
+
+00:00:19.260 --> 00:00:24.440
+We understand that the rate of clonal hematopoiesis in cancer survivors is actually quite high.
+
+00:00:24.440 --> 00:00:27.880
+It is in about a third of individuals who are over the age of 65.
+
+00:00:27.880 --> 00:00:32.640
+I'll remind you that corresponds to a VAF of about 2% or greater in the size of these
+
+00:00:32.640 --> 00:00:33.680
+clones.
+
+00:00:33.680 --> 00:00:38.200
+On average, you could think of it as being 20 years accelerated compared to a non-cancer
+
+00:00:38.200 --> 00:00:39.200
+population.
+
+00:00:39.200 --> 00:00:43.720
+And we know that clonal hematopoiesis in this cancer survivor population has adverse outcomes,
+
+00:00:43.720 --> 00:00:49.840
+not just from the increased rates of therapy-related myeloid malignancies that we see, but outcomes
+
+00:00:49.840 --> 00:00:52.220
+that relate to overall survival more generally.
+
+00:00:52.220 --> 00:00:56.960
+And that's true not only in lymphoma cases with heavy chemotherapy exposure, but in cancers
+
+00:00:56.960 --> 00:00:57.860
+generally across the board.
+
+00:00:57.860 --> 00:01:03.980
+So, there are some differences in the pattern of clonal hematopoiesis that we see in cancer
+
+00:01:03.980 --> 00:01:05.460
+survivors as well.
+
+00:01:05.460 --> 00:01:09.640
+We know that there isn't just a higher rate of overall mutations in this population, but
+
+00:01:09.640 --> 00:01:12.920
+there is a particular difference in the type of mutations that we see.
+
+00:01:12.920 --> 00:01:20.040
+We see more mutations in DNA damage response genes like TP53, PPM1D, CHK2, and ATM.
+
+00:01:20.040 --> 00:01:24.420
+And while age is still the predominant risk factor, and DNMT3A is still by far the most
+
+00:01:24.420 --> 00:01:27.840
+common mutation, we see that several of these DNA damage responses are more common.
+
+00:01:27.840 --> 00:01:28.840
+And we see that the number of mutations in the DNA damage response genes are actually
+
+00:01:28.840 --> 00:01:34.080
+increased in response to this selective pressure of cytotoxic chemotherapy or radiation over
+
+00:01:34.080 --> 00:01:39.960
+time, whereas the more traditional chip genes, DNMT3A, TET2, and ASXL1, are less expanded
+
+00:01:39.960 --> 00:01:44.460
+by these interventions, even if they are more prevalent in this patient population.
+
+00:01:44.460 --> 00:01:49.940
+So with DNMT3A being the most common mutation, there's a lot of interest in designing clinical
+
+00:01:49.940 --> 00:01:53.840
+trials that might be able to target clonal hematopoiesis in this context to mitigate
+
+00:01:53.840 --> 00:01:57.640
+some of the adverse effects that we see in cardiovascular disease and other disease types.
+
+00:01:57.840 --> 00:02:00.820
+And I'll show you why this could be quite difficult.
+
+00:02:00.820 --> 00:02:05.960
+There is some real recent interest in doing this for a particular type of DNMT3A mutation,
+
+00:02:05.960 --> 00:02:11.180
+the R882 mutation, which is actually considered more adverse as it's enriched in AML over
+
+00:02:11.180 --> 00:02:15.280
+MDS and in MDS over the general population.
+
+00:02:15.280 --> 00:02:18.680
+And these three articles that were published recently suggest that this particular clone
+
+00:02:18.680 --> 00:02:22.560
+in DNMT3A is maintained by mitochondrial metabolism.
+
+00:02:22.560 --> 00:02:26.620
+And that targeting mitochondrial membrane potential may be a therapeutic modality to
+
+00:02:26.620 --> 00:02:27.820
+decrease the fitness of this clone.
+
+00:02:27.820 --> 00:02:32.120
+And that we might be able to do this with a common drug like metformin that not only
+
+00:02:32.120 --> 00:02:37.380
+lowers glucose levels, but targets cytochrome oxidase and inhibits this membrane mitochondrial
+
+00:02:37.380 --> 00:02:39.180
+membrane potential.
+
+00:02:39.180 --> 00:02:43.760
+So the evidence that supported this was noting that when you take mouse cells with an equivalent
+
+00:02:43.760 --> 00:02:48.680
+mutation in DNMT3A, that they have more colony formation in vitro, and you can mitigate this
+
+00:02:48.680 --> 00:02:51.080
+by adding metformin to the mix.
+
+00:02:51.080 --> 00:02:54.900
+You can actually do this in vivo in transgenic transplant models, where you can see greater
+
+00:02:54.900 --> 00:02:57.800
+engraftment with the mutant clone present.
+
+00:02:57.800 --> 00:03:04.720
+And you can even mimic this in human cells, that have had DNMT3A knocked down with a short
+
+00:03:04.720 --> 00:03:09.800
+hairpin, showing enhanced colony formation that again is mitigated by the addition of
+
+00:03:09.800 --> 00:03:10.800
+metformin.
+
+00:03:10.800 --> 00:03:14.720
+So it looks like a hopeful strategy for trying to remove the selective advantage these mutant
+
+00:03:14.720 --> 00:03:15.720
+cells might have.
+
+00:03:15.720 --> 00:03:21.000
+And in a very, I think, really elegant population study, and George Vassilou and his team looked
+
+00:03:21.000 --> 00:03:26.160
+at patients or individuals who had been sequenced for clonal metopoiesis genes, but who had received
+
+00:03:26.160 --> 00:03:27.780
+metformin with several curatives.
+
+00:03:27.780 --> 00:03:29.780
+So you can see that this is a very important study.
+
+00:03:29.780 --> 00:03:30.780
+And then you can see that this is a very important study.
+
+00:03:30.780 --> 00:03:31.780
+And you can see that this is a very important study.
+
+00:03:31.780 --> 00:03:32.780
+I'm going to show you the results.
+
+00:03:32.780 --> 00:03:33.780
+So this is the result.
+
+00:03:33.780 --> 00:03:34.780
+So this is the result.
+
+00:03:34.780 --> 00:03:35.780
+And I'm going to show you the results.
+
+00:03:35.780 --> 00:03:36.780
+And then I'm going to show you the results.
+
+00:03:36.780 --> 00:03:37.780
+And then I'm going to show you the results.
+
+00:03:37.780 --> 00:03:38.780
+And then I'm going to show you the results.
+
+00:03:38.780 --> 00:03:39.780
+And then I'm going to show you the results.
+
+00:03:39.780 --> 00:03:40.780
+And then I'm going to show you the results.
+
+00:03:40.780 --> 00:03:41.780
+And then I'm going to show you the results.
+
+00:03:41.780 --> 00:03:42.780
+And then I'm going to show you the results.
+
+00:03:42.780 --> 00:03:43.780
+And then I'm going to show you the results.
+
+00:03:43.780 --> 00:03:44.780
+And then I'm going to show you the results.
+
+00:03:44.780 --> 00:03:45.780
+And then I'm going to show you the results.
+
+00:03:45.780 --> 00:03:46.780
+And then I'm going to show you the results.
+
+00:03:46.780 --> 00:03:47.780
+And then I'm going to show you the results.
+
+00:03:47.780 --> 00:03:48.780
+And then I'm going to show you the results.
+
+00:03:48.780 --> 00:03:49.780
+And then I'm going to show you the results.
+
+00:03:49.780 --> 00:03:50.780
+And then I'm going to show you the results.
+
+00:03:50.780 --> 00:03:51.780
+And then I'm going to show you the results.
+
+00:03:51.780 --> 00:03:52.780
+And then I'm going to show you the results.
+
+00:03:52.780 --> 00:03:53.780
+And then I'm going to show you the results.
+
+00:03:53.780 --> 00:03:54.780
+And then I'm going to show you the results.
+
+00:03:54.780 --> 00:03:55.780
+And then I'm going to show you the results.
+
+00:03:55.780 --> 00:03:56.780
+And then I'm going to show you the results.
+
+00:03:56.780 --> 00:03:57.780
+And then I'm going to show you the results.
+
+00:03:57.780 --> 00:03:58.780
+And then I'm going to show you the results.
+
+00:03:58.780 --> 00:03:59.780
+And then I'm going to show you the results.
+
+00:03:59.780 --> 00:04:00.780
+And then I'm going to show you the results.
+
+00:04:00.780 --> 00:04:01.780
+And then I'm going to show you the results.
+
+00:04:01.780 --> 00:04:02.780
+And then I'm going to show you the results.
+
+00:04:02.780 --> 00:04:03.780
+And then I'm going to show you the results.
+
+00:04:03.780 --> 00:04:04.780
+And then I'm going to show you the results.
+
+00:04:04.780 --> 00:04:05.780
+And then I'm going to show you the results.
+
+00:04:05.780 --> 00:04:06.780
+And then I'm going to show you the results.
+
+00:04:06.780 --> 00:04:07.780
+And then I'm going to show you the results.
+
+00:04:07.780 --> 00:04:08.780
+And then I'm going to show you the results.
+
+00:04:08.780 --> 00:04:09.780
+And then I'm going to show you the results.
+
+00:04:09.780 --> 00:04:10.780
+And then I'm going to show you the results.
+
+00:04:10.780 --> 00:04:11.780
+And then I'm going to show you the results.
+
+00:04:11.780 --> 00:04:12.780
+And then I'm going to show you the results.
+
+00:04:12.780 --> 00:04:13.780
+And then I'm going to show you the results.
+
+00:04:13.780 --> 00:04:14.780
+And then I'm going to show you the results.
+
+00:04:14.780 --> 00:04:15.780
+And then I'm going to show you the results.
+
+00:04:15.780 --> 00:04:16.780
+And then I'm going to show you the results.
+
+00:04:16.780 --> 00:04:17.780
+And then I'm going to show you the results.
+
+00:04:17.780 --> 00:04:18.780
+And then I'm going to show you the results.
+
+00:04:18.780 --> 00:04:19.780
+And then I'm going to show you the results.
+
+00:04:19.780 --> 00:04:20.780
+And then I'm going to show you the results.
+
+00:04:20.780 --> 00:04:21.780
+And then I'm going to show you the results.
+
+00:04:21.780 --> 00:04:22.780
+And then I'm going to show you the results.
+
+00:04:22.780 --> 00:04:23.780
+And then I'm going to show you the results.
+
+00:04:23.780 --> 00:04:24.780
+And then I'm going to show you the results.
+
+00:04:24.780 --> 00:04:25.780
+And then I'm going to show you the results.
+
+00:04:25.780 --> 00:04:26.780
+And then I'm going to show you the results.
+
+00:04:26.780 --> 00:04:27.780
+And then I'm going to show you the results.
+
+00:04:27.780 --> 00:04:28.780
+And then I'm going to show you the results.
+
+00:04:28.780 --> 00:04:29.780
+And then I'm going to show you the results.
+
+00:04:29.780 --> 00:04:30.780
+And then I'm going to show you the results.
+
+00:04:30.780 --> 00:04:31.780
+And then I'm going to show you the results.
+
+00:04:31.780 --> 00:04:32.780
+And then I'm going to show you the results.
+
+00:04:32.780 --> 00:04:33.780
+And then I'm going to show you the results.
+
+00:04:33.780 --> 00:04:34.780
+And then I'm going to show you the results.
+
+00:04:34.780 --> 00:04:35.780
+And then I'm going to show you the results.
+
+00:04:35.780 --> 00:04:36.780
+And then I'm going to show you the results.
+
+00:04:36.780 --> 00:04:37.780
+And then I'm going to show you the results.
+
+00:04:37.780 --> 00:04:38.780
+And then I'm going to show you the results.
+
+00:04:38.780 --> 00:04:39.780
+And then I'm going to show you the results.
+
+00:04:39.780 --> 00:04:40.780
+And then I'm going to show you the results.
+
+00:04:40.780 --> 00:04:41.780
+And then I'm going to show you the results.
+
+00:04:41.780 --> 00:04:42.780
+And then I'm going to show you the results.
+
+00:04:42.780 --> 00:04:43.780
+And then I'm going to show you the results.
+
+00:04:43.780 --> 00:04:44.780
+And then I'm going to show you the results.
+
+00:04:44.780 --> 00:04:45.780
+And then I'm going to show you the results.
+
+00:04:45.780 --> 00:04:46.780
+And then I'm going to show you the results.
+
+00:04:46.780 --> 00:04:47.780
+And then I'm going to show you the results.
+
+00:04:47.780 --> 00:04:48.780
+And then I'm going to show you the results.
+
+00:04:48.780 --> 00:04:49.780
+And then I'm going to show you the results.
+
+00:04:49.780 --> 00:04:50.780
+And then I'm going to show you the results.
+
+00:04:50.780 --> 00:04:51.780
+And then I'm going to show you the results.
+
+00:04:51.780 --> 00:04:52.780
+And then I'm going to show you the results.
+
+00:04:52.780 --> 00:04:53.780
+And then I'm going to show you the results.
+
+00:04:53.780 --> 00:04:54.780
+And then I'm going to show you the results.
+
+00:04:54.780 --> 00:04:55.780
+And then I'm going to show you the results.
+
+00:04:55.780 --> 00:04:56.780
+And then I'm going to show you the results.
+
+00:04:56.780 --> 00:04:57.780
+And then I'm going to show you the results.
+
+00:04:57.780 --> 00:04:58.780
+And then I'm going to show you the results.
+
+00:04:58.780 --> 00:04:59.780
+And then I'm going to show you the results.
+
+00:04:59.780 --> 00:05:00.780
+And then I'm going to show you the results.
+
+00:05:00.780 --> 00:05:01.780
+And then I'm going to show you the results.
+
+00:05:01.780 --> 00:05:02.780
+And then I'm going to show you the results.
+
+00:05:02.780 --> 00:05:03.780
+And then I'm going to show you the results.
+
+00:05:03.780 --> 00:05:04.780
+And then I'm going to show you the results.
+
+00:05:04.780 --> 00:05:05.780
+And then I'm going to show you the results.
+
+00:05:05.780 --> 00:05:06.780
+And then I'm going to show you the results.
+
+00:05:06.780 --> 00:05:07.780
+And then I'm going to show you the results.
+
+00:05:07.780 --> 00:05:08.780
+And then I'm going to show you the results.
+
+00:05:08.780 --> 00:05:09.780
+And then I'm going to show you the results.
+
+00:05:09.780 --> 00:05:10.780
+And then I'm going to show you the results.
+
+00:05:10.780 --> 00:05:11.780
+And then I'm going to show you the results.
+
+00:05:11.780 --> 00:05:12.780
+And then I'm going to show you the results.
+
+00:05:12.780 --> 00:05:13.780
+And then I'm going to show you the results.
+
+00:05:13.780 --> 00:05:14.780
+And then I'm going to show you the results.
+
+00:05:14.780 --> 00:05:15.780
+And then I'm going to show you the results.
+
+00:05:15.780 --> 00:05:16.780
+And then I'm going to show you the results.
+
+00:05:16.780 --> 00:05:17.780
+And then I'm going to show you the results.
+
+00:05:17.780 --> 00:05:18.780
+And then I'm going to show you the results.
+
+00:05:18.780 --> 00:05:19.780
+And then I'm going to show you the results.
+
+00:05:19.780 --> 00:05:20.780
+And then I'm going to show you the results.
+
+00:05:20.780 --> 00:05:21.780
+And then I'm going to show you the results.
+
+00:05:21.780 --> 00:05:22.780
+And then I'm going to show you the results.
+
+00:05:22.780 --> 00:05:23.780
+And then I'm going to show you the results.
+
+00:05:23.780 --> 00:05:24.780
+And then I'm going to show you the results.
+
+00:05:24.780 --> 00:05:25.780
+And then I'm going to show you the results.
+
+00:05:25.780 --> 00:05:26.780
+And then I'm going to show you the results.
+
+00:05:26.780 --> 00:05:27.780
+And then I'm going to show you the results.
+
+00:05:27.780 --> 00:05:28.780
+And then I'm going to show you the results.
+
+00:05:28.780 --> 00:05:29.780
+And then I'm going to show you the results.
+
+00:05:29.780 --> 00:05:30.780
+And then I'm going to show you the results.
+
+00:05:30.780 --> 00:05:31.780
+And then I'm going to show you the results.
+
+00:05:31.780 --> 00:05:32.780
+And then I'm going to show you the results.
+
+00:05:32.780 --> 00:05:33.780
+And then I'm going to show you the results.
+
+00:05:33.780 --> 00:05:34.780
+And then I'm going to show you the results.
+
+00:05:34.780 --> 00:05:35.780
+And then I'm going to show you the results.
+
+00:05:35.780 --> 00:05:36.780
+And then I'm going to show you the results.
+
+00:05:36.780 --> 00:05:37.780
+And then I'm going to show you the results.
+
+00:05:37.780 --> 00:05:38.780
+And then I'm going to show you the results.
+
+00:05:38.780 --> 00:05:39.780
+And then I'm going to show you the results.
+
+00:05:39.780 --> 00:05:40.780
+And then I'm going to show you the results.
+
+00:05:40.780 --> 00:05:41.780
+And then I'm going to show you the results.
+
+00:05:41.780 --> 00:05:42.780
+And then I'm going to show you the results.
+
+00:05:42.780 --> 00:05:43.780
+And then I'm going to show you the results.
+
+00:05:43.780 --> 00:05:44.780
+And then I'm going to show you the results.
+
+00:05:44.780 --> 00:05:45.780
+And then I'm going to show you the results.
+
+00:05:45.780 --> 00:05:46.780
+And then I'm going to show you the results.
+
+00:05:46.780 --> 00:05:47.780
+And then I'm going to show you the results.
+
+00:05:47.780 --> 00:05:48.780
+And then I'm going to show you the results.
+
+00:05:48.780 --> 00:05:49.780
+And then I'm going to show you the results.
+
+00:05:49.780 --> 00:05:50.780
+And then I'm going to show you the results.
+
+00:05:50.780 --> 00:05:51.780
+And then I'm going to show you the results.
+
+00:05:51.780 --> 00:05:52.780
+And then I'm going to show you the results.
+
+00:05:52.780 --> 00:05:53.780
+And then I'm going to show you the results.
+
+00:05:53.780 --> 00:05:54.780
+And then I'm going to show you the results.
+
+00:05:54.780 --> 00:05:55.780
+And then I'm going to show you the results.
+
+00:05:55.780 --> 00:05:56.780
+And then I'm going to show you the results.
+
+00:05:56.780 --> 00:05:57.780
+And then I'm going to show you the results.
+
+00:05:57.780 --> 00:05:58.780
+And then I'm going to show you the results.
+
+00:05:58.780 --> 00:05:59.780
+And then I'm going to show you the results.
+
+00:05:59.780 --> 00:06:00.780
+And then I'm going to show you the results.
+
+00:06:00.780 --> 00:06:01.780
+And then I'm going to show you the results.
+
+00:06:01.780 --> 00:06:02.780
+And then I'm going to show you the results.
+
+00:06:02.780 --> 00:06:03.780
+And then I'm going to show you the results.
+
+00:06:03.780 --> 00:06:04.780
+And then I'm going to show you the results.
+
+00:06:04.780 --> 00:06:05.780
+And then I'm going to show you the results.
+
+00:06:05.780 --> 00:06:06.780
+And then I'm going to show you the results.
+
+00:06:06.780 --> 00:06:07.780
+And then I'm going to show you the results.
+
+00:06:07.780 --> 00:06:08.780
+And then I'm going to show you the results.
+
+00:06:08.780 --> 00:06:09.780
+And then I'm going to show you the results.
+
+00:06:09.780 --> 00:06:10.780
+And then I'm going to show you the results.
+
+00:06:10.780 --> 00:06:11.780
+And then I'm going to show you the results.
+
+00:06:11.780 --> 00:06:12.780
+And then I'm going to show you the results.
+
+00:06:12.780 --> 00:06:13.780
+And then I'm going to show you the results.
+
+00:06:13.780 --> 00:06:14.780
+And then I'm going to show you the results.
+
+00:06:14.780 --> 00:06:15.780
+And then I'm going to show you the results.
+
+00:06:15.780 --> 00:06:16.780
+And then I'm going to show you the results.
+
+00:06:16.780 --> 00:06:17.780
+And then I'm going to show you the results.
+
+00:06:17.780 --> 00:06:18.780
+And then I'm going to show you the results.
+
+00:06:18.780 --> 00:06:19.780
+And then I'm going to show you the results.
+
+00:06:19.780 --> 00:06:20.780
+And then I'm going to show you the results.
+
+00:06:20.780 --> 00:06:21.780
+And then I'm going to show you the results.
+
+00:06:21.780 --> 00:06:22.780
+And then I'm going to show you the results.
+
+00:06:22.780 --> 00:06:23.780
+And then I'm going to show you the results.
+
+00:06:23.780 --> 00:06:24.780
+And then I'm going to show you the results.
+
+00:06:24.780 --> 00:06:25.780
+And then I'm going to show you the results.
+
+00:06:25.780 --> 00:06:26.780
+And then I'm going to show you the results.
+
+00:06:26.780 --> 00:06:27.780
+And then I'm going to show you the results.
+
+00:06:27.780 --> 00:06:28.780
+And then I'm going to show you the results.
+
+00:06:28.780 --> 00:06:29.780
+And then I'm going to show you the results.
+
+00:06:29.780 --> 00:06:30.780
+And then I'm going to show you the results.
+
+00:06:30.780 --> 00:06:31.780
+And then I'm going to show you the results.
+
+00:06:31.780 --> 00:06:32.780
+And then I'm going to show you the results.
+
+00:06:32.780 --> 00:06:33.780
+And then I'm going to show you the results.
+
+00:06:33.780 --> 00:06:34.780
+And then I'm going to show you the results.
+
+00:06:34.780 --> 00:06:35.780
+And then I'm going to show you the results.
+
+00:06:35.780 --> 00:06:36.780
+And then I'm going to show you the results.
+
+00:06:36.780 --> 00:06:37.780
+And then I'm going to show you the results.
+
+00:06:37.780 --> 00:06:38.780
+And then I'm going to show you the results.
+
+00:06:38.780 --> 00:06:39.780
+And then I'm going to show you the results.
+
+00:06:39.780 --> 00:06:40.780
+And then I'm going to show you the results.
+
+00:06:40.780 --> 00:06:41.780
+And then I'm going to show you the results.
+
+00:06:41.780 --> 00:06:42.780
+And then I'm going to show you the results.
+
+00:06:42.780 --> 00:06:43.780
+And then I'm going to show you the results.
+
+00:06:43.780 --> 00:06:44.780
+And then I'm going to show you the results.
+
+00:06:44.780 --> 00:06:45.780
+And then I'm going to show you the results.
+
+00:06:45.780 --> 00:06:46.780
+And then I'm going to show you the results.
+
+00:06:46.780 --> 00:06:47.780
+And then I'm going to show you the results.
+
+00:06:47.780 --> 00:06:48.780
+And then I'm going to show you the results.
+
+00:06:48.780 --> 00:06:49.780
+And then I'm going to show you the results.
+
+00:06:49.780 --> 00:06:50.780
+And then I'm going to show you the results.
+
+00:06:50.780 --> 00:06:51.780
+And then I'm going to show you the results.
+
+00:06:51.780 --> 00:06:52.780
+And then I'm going to show you the results.
+
+00:06:52.780 --> 00:06:53.780
+And then I'm going to show you the results.
+
+00:06:53.780 --> 00:06:54.780
+And then I'm going to show you the results.
+
+00:06:54.780 --> 00:06:55.780
+And then I'm going to show you the results.
+
+00:06:55.780 --> 00:06:56.780
+And then I'm going to show you the results.
+
+00:06:56.780 --> 00:06:57.780
+And then I'm going to show you the results.
+
+00:06:57.780 --> 00:06:58.780
+And then I'm going to show you the results.
+
+00:06:58.780 --> 00:06:59.780
+And then I'm going to show you the results.
+
+00:06:59.780 --> 00:07:00.780
+And then I'm going to show you the results.
+
+00:07:00.780 --> 00:07:01.780
+And then I'm going to show you the results.
+
+00:07:01.780 --> 00:07:02.780
+And then I'm going to show you the results.
+
+00:07:02.780 --> 00:07:03.780
+And then I'm going to show you the results.
+
+00:07:03.780 --> 00:07:04.780
+And then I'm going to show you the results.
+
+00:07:04.780 --> 00:07:05.780
+And then I'm going to show you the results.
+
+00:07:05.780 --> 00:07:06.780
+And then I'm going to show you the results.
+
+00:07:06.780 --> 00:07:07.780
+And then I'm going to show you the results.
+
+00:07:07.780 --> 00:07:08.780
+And then I'm going to show you the results.
+
+00:07:08.780 --> 00:07:09.780
+And then I'm going to show you the results.
+
+00:07:09.780 --> 00:07:10.780
+And then I'm going to show you the results.
+
+00:07:10.780 --> 00:07:11.780
+And then I'm going to show you the results.
+
+00:07:11.780 --> 00:07:12.780
+And then I'm going to show you the results.
+
+00:07:12.780 --> 00:07:13.780
+And then I'm going to show you the results.
+
+00:07:13.780 --> 00:07:14.780
+And then I'm going to show you the results.
+
+00:07:14.780 --> 00:07:15.780
+And then I'm going to show you the results.
+
+00:07:15.780 --> 00:07:16.780
+And then I'm going to show you the results.
+
+00:07:16.780 --> 00:07:17.780
+And then I'm going to show you the results.
+
+00:07:17.780 --> 00:07:18.780
+And then I'm going to show you the results.
+
+00:07:18.780 --> 00:07:19.780
+And then I'm going to show you the results.
+
+00:07:19.780 --> 00:07:20.780
+And then I'm going to show you the results.
+
+00:07:20.780 --> 00:07:21.780
+And then I'm going to show you the results.
+
+00:07:21.780 --> 00:07:22.780
+And then I'm going to show you the results.
+
+00:07:22.780 --> 00:07:23.780
+And then I'm going to show you the results.
+
+00:07:23.780 --> 00:07:24.780
+And then I'm going to show you the results.
+
+00:07:24.780 --> 00:07:25.780
+And then I'm going to show you the results.
+
+00:07:25.780 --> 00:07:26.780
+And then I'm going to show you the results.
+
+00:07:26.780 --> 00:07:27.780
+And then I'm going to show you the results.
+
+00:07:27.780 --> 00:07:28.780
+And then I'm going to show you the results.
+
+00:07:28.780 --> 00:07:29.780
+And then I'm going to show you the results.
+
+00:07:29.780 --> 00:07:30.780
+And then I'm going to show you the results.
+
+00:07:30.780 --> 00:07:31.780
+And then I'm going to show you the results.
+
+00:07:31.780 --> 00:07:32.780
+And then I'm going to show you the results.
+
+00:07:32.780 --> 00:07:33.780
+And then I'm going to show you the results.
+
+00:07:33.780 --> 00:07:34.780
+And then I'm going to show you the results.
+
+00:07:34.780 --> 00:07:35.780
+And then I'm going to show you the results.
+
+00:07:35.780 --> 00:07:36.780
+And then I'm going to show you the results.
+
+00:07:36.780 --> 00:07:37.780
+And then I'm going to show you the results.
+
+00:07:37.780 --> 00:07:38.780
+And then I'm going to show you the results.
+
+00:07:38.780 --> 00:07:39.780
+And then I'm going to show you the results.
+
+00:07:39.780 --> 00:07:40.780
+And then I'm going to show you the results.
+
+00:07:40.780 --> 00:07:41.780
+And then I'm going to show you the results.
+
+00:07:41.780 --> 00:07:42.780
+And then I'm going to show you the results.
+
+00:07:42.780 --> 00:07:43.780
+And then I'm going to show you the results.
+
+00:07:43.780 --> 00:07:44.780
+And then I'm going to show you the results.
+
+00:07:44.780 --> 00:07:45.780
+And then I'm going to show you the results.
+
+00:07:45.780 --> 00:07:46.780
+And then I'm going to show you the results.
+
+00:07:46.780 --> 00:07:47.780
+And then I'm going to show you the results.
+
+00:07:47.780 --> 00:07:48.780
+And then I'm going to show you the results.
+
+00:07:48.780 --> 00:07:49.780
+And then I'm going to show you the results.
+
+00:07:49.780 --> 00:07:50.780
+And then I'm going to show you the results.
+
+00:07:50.780 --> 00:07:51.780
+And then I'm going to show you the results.
+
+00:07:51.780 --> 00:07:52.780
+And then I'm going to show you the results.
+
+00:07:52.780 --> 00:07:53.780
+And then I'm going to show you the results.

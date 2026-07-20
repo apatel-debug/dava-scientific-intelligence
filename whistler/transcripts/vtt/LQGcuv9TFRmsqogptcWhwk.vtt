@@ -1,0 +1,238 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.660
+Okay. So I'm going to continue what Courtney was talking about. I have some similar slides
+
+00:00:05.660 --> 00:00:13.420
+and hopefully we'll tell you something new. We all know about Menin now. It's important for
+
+00:00:13.420 --> 00:00:21.500
+leukemia development, KMT2A and MPM1. So it is a tumor suppressor in the endocrine glands. Maybe
+
+00:00:21.500 --> 00:00:27.980
+I glanced over it in previous talks. So mutations in Men1 cause the multiple endocrine neoplasia
+
+00:00:27.980 --> 00:00:34.800
+syndrome because this is a scaffold protein that affects transcription. So it is something that's
+
+00:00:34.800 --> 00:00:39.820
+going to be context and tissue dependent. So bear that in mind to think about the role of Menin,
+
+00:00:39.820 --> 00:00:46.640
+not just as impairing leukemogenesis, but could affect other genes that are important
+
+00:00:46.640 --> 00:00:54.500
+in transcription. So the main targets that are being investigated with Menin inhibitors are
+
+00:00:54.500 --> 00:00:57.740
+KMT2A rearranged leukemias, MPM1 mutant acute leukemias,
+
+00:00:57.980 --> 00:01:02.640
+and now we know NUP98 rearranged leukemias. And the mechanism is by disruption of binding of
+
+00:01:02.640 --> 00:01:07.620
+Menin to KMT2A that down-regulates Hox expression, has an anti-leukemic effect.
+
+00:01:08.320 --> 00:01:13.700
+So essentially maintenance is targeting MRD, even the MRD that we cannot measure.
+
+00:01:14.900 --> 00:01:20.960
+And in this case, we are trying to do through the Breakthrough Cancer Foundation. This is an effort
+
+00:01:20.960 --> 00:01:27.280
+between MD Anderson, MSK, Hopkins, MIT, and the Farber is to,
+
+00:01:27.980 --> 00:01:33.440
+not just target MRD, we have trials to target MRD, but we're trying to develop better methods to
+
+00:01:35.360 --> 00:01:43.220
+test MRD, including what Dr. Elizade was referring to. Part of this trial is something done by Lukas
+
+00:01:43.220 --> 00:01:50.900
+at Hopkins, where he's doing whole genome sequencing to find specific markers of MRD
+
+00:01:50.900 --> 00:01:56.480
+and allow us to measure MRD better. But we're also trying to collect samples so we understand why
+
+00:01:56.480 --> 00:02:02.180
+those cells persist, what makes them unique and develop methods to target MRD. So one of our
+
+00:02:02.180 --> 00:02:09.200
+targeting MRD trials is a combination of Revuminib plus Venetoclax. So it is very similar to the
+
+00:02:09.200 --> 00:02:16.160
+Intercept, except that we're trying to one-up Andrew Wei by adding Venetoclax. So MRD in here
+
+00:02:16.160 --> 00:02:24.740
+is FLO. The definition is 0.1%, the reason why, or the sensitivity is 0.1. We're trying to, we use FLO
+
+00:02:24.740 --> 00:02:30.500
+because that's the easiest way to get it through the FDA. Molecular would have been better, but it's
+
+00:02:30.500 --> 00:02:37.280
+not a validated assay across the US and it would have been harder to have an IDE for the NPM-1 MRD
+
+00:02:37.280 --> 00:02:46.580
+assay. So the primary endpoint is clearance of FLO by MRD by FLO, so to 0.1. And throughout the cycle,
+
+00:02:46.580 --> 00:02:52.880
+we are, throughout the treatment, we are collecting samples to understand MRD. Revuminib is at the
+
+00:02:52.880 --> 00:02:57.380
+recommended phase two dose. We're past dose escalation now, and we're adding Venetoclax day
+
+00:02:57.380 --> 00:03:05.540
+one to 14. But what I would also like to highlight as something particular about menin inhibition,
+
+00:03:05.540 --> 00:03:07.220
+this was brought up in previous talks,
+
+00:03:07.280 --> 00:03:13.400
+is that it may be modulating immune response. So it's not just direct targeting of leukemia.
+
+00:03:13.400 --> 00:03:19.820
+So menin inhibition affects expression of MHC-1 genes. This is by interacting with
+
+00:03:19.820 --> 00:03:25.640
+the polycomb complex. So in this paper, which was published in Nature Cell Biology in 2023,
+
+00:03:25.640 --> 00:03:32.780
+a small cell lung cancer model had better killing when combining T cells plus menin inhibition. And
+
+00:03:32.780 --> 00:03:37.100
+it showed that those T cells are activated and can kill, in this case,
+
+00:03:37.100 --> 00:03:37.160
+lung cancer models. And it showed that those T cells are activated and can kill, in this case,
+
+00:03:37.160 --> 00:03:37.160
+lung cancer models. And it showed that those T cells are activated and can kill, in this case,
+
+00:03:37.160 --> 00:03:37.160
+lung cancer models. And it showed that those T cells are activated and can kill, in this case,
+
+00:03:37.160 --> 00:03:37.160
+lung cancer models. And it showed that those T cells are activated and can kill, in this case,
+
+00:03:37.160 --> 00:03:44.540
+lung cancer. And this was taken further through a series of publications. So there's one
+
+00:03:44.540 --> 00:03:50.660
+publication in Hematologica focused on bleximinib that shows that this is what we see in leukemia
+
+00:03:50.660 --> 00:03:57.500
+as well, upregulation of MHC-1 and 2 genes and an anti-leukemic effect. So not just targeting MRD
+
+00:03:57.500 --> 00:04:04.460
+with bleximinib that is susceptible to BLEXI, so MPM1 or KMT2A, but also inducing a specific
+
+00:04:04.460 --> 00:04:07.040
+T cell killing in those. And there's a more
+
+00:04:07.040 --> 00:04:14.000
+recent paper published in Blood that showed that this is a phenomena across men and inhibitors. And
+
+00:04:14.000 --> 00:04:20.300
+there may be activation of these viral antigens that is inducing the T cell function and leading
+
+00:04:20.300 --> 00:04:27.020
+to an anti-leukemic effect through a dual role. So targeting of MRD and activation of the immune
+
+00:04:27.020 --> 00:04:34.940
+system. So this is the granularity of this data. You see upregulation of C1. You see that it
+
+00:04:34.940 --> 00:04:36.920
+happens with the MI.
+
+00:04:36.920 --> 00:04:40.680
+You see that it happens with S1. You see that it happens with S2. You see that it happens with
+
+00:04:40.680 --> 00:04:43.460
+S3. You see that it happens with S4. You see that it happens with S5. You see that it happens with
+
+00:04:43.460 --> 00:04:45.680
+S6. You see that it happens with S7. You see that it happens with S8. You see that it happens with
+
+00:04:45.680 --> 00:04:47.480
+S9. You see that it happens with S10. You see that it happens with S11. You see that it happens with
+
+00:04:47.480 --> 00:04:49.580
+S11. You see that it happens with S12. You see that it happens with S12. You see that it happens with
+
+00:04:49.580 --> 00:04:51.860
+S13. You see that it happens with S14. You see that it happens with S13. You see that it happens with
+
+00:04:51.860 --> 00:04:53.300
+S14. You see that it happens with S15. You see that it happens with S14. You see that it happens with
+
+00:04:53.300 --> 00:05:00.980
+in the intercept study so in steady state menin does not affect count recovery uh genetic knockdown
+
+00:05:00.980 --> 00:05:05.940
+of menin in this model and the steady state had stable counts white count neutrophil lymphocytes
+
+00:05:05.940 --> 00:05:11.060
+but if you see to the right whenever there is stress hematopoiesis so genetic knockdown of
+
+00:05:11.060 --> 00:05:17.940
+menin plus chemotherapy or radiation therapy there is an impact on hematopoietic stem cells and long
+
+00:05:17.940 --> 00:05:24.340
+term count recovery so that would tell us that in the setting of combination or post-transplant
+
+00:05:24.340 --> 00:05:31.620
+menin inhibitors could affect count recovery and this is what we saw with initial look on
+
+00:05:31.620 --> 00:05:36.420
+review minute post-transplant so all the review minute trials that have happened including the
+
+00:05:36.420 --> 00:05:43.060
+phase one and two uh included review and maintenance it was empowered to you know test
+
+00:05:43.060 --> 00:05:47.940
+the addition of reviewing a post-transplant but it gave us some experience showing that those drug
+
+00:05:47.940 --> 00:05:54.260
+can be given but the most common side effect is thrombocytopenia so similar to what was seen in
+
+00:05:54.260 --> 00:06:01.060
+the intercept most often we just reduce uh the drug by one dose level and it is sufficient um
+
+00:06:01.060 --> 00:06:06.580
+hannah goulard from uh from md anderson will be presenting at asco our experience with review
+
+00:06:06.580 --> 00:06:12.020
+minute post-transplant so we've had you know multiple patients now and it's mostly uh
+
+00:06:12.020 --> 00:06:16.420
+tolerable and hopefully improving relapse free survival based on historical control
+
+00:06:16.420 --> 00:06:22.420
+uh but the main side effect is thrombocytopenia so for these reasons i think there are multiple
+
+00:06:22.420 --> 00:06:27.460
+preclinical studies to support men and inhibition post-transplant maintenance so this would be a
+
+00:06:27.460 --> 00:06:34.660
+dual role it would be targeting mrd post-transplant so hopefully delaying relapse until the gvl kicks
+
+00:06:34.660 --> 00:06:40.260
+in but i also think that among drugs that are being tested men and inhibitors have a high
+
+00:06:40.260 --> 00:06:46.180
+potential of inducing gvl so hopefully we get you know more money for what we're doing by by
+
+00:06:46.180 --> 00:06:53.300
+inducing gvl it is critical to note that menin is important in stress hematopoiesis that's going to be
+
+00:06:54.180 --> 00:06:58.420
+potentially a factor in post-transplant maintenance so if we're trying to establish
+
+00:06:59.140 --> 00:07:03.780
+those doses post-transplant should be selected carefully so that there's no increased toxicity
+
+00:07:03.780 --> 00:07:08.980
+and that's why there are now multiple trials launched to test men and inhibitors post-transplant
+
+00:07:09.540 --> 00:07:10.900
+thank you

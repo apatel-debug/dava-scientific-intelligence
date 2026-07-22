@@ -774,18 +774,18 @@ function atlasTable(list){return `<div class="tbl-wrap"><div class="tbl-scroll">
    COMPANY LENS ENGINE — one science layer, many company views
    ===================================================================== */
 const COMPANY_PROFILES = {
-  "Johnson & Johnson":{assets:["Amivantamab","Lazertinib","RYBREVANT","LAZCLUZE","NBTXR3"],targets:["EGFR","MET"],adjacent:["HER3","HER2","DLL3","B7-H3","TROP2"],source:"https://www.investor.jnj.com/pipeline/development-pipeline/default.aspx"},
-  "Pfizer":{assets:["Lorlatinib","Sigvotatug vedotin","Fetrastobart vedotin","PF-07934040","PF-08634404"],targets:["ALK","Integrin β6","PD-L1"],adjacent:["ROS1","PD-1","VEGF","TROP2"],source:"https://www.pfizer.com/news/press-release/press-release-detail/pfizer-announces-topline-phase-3-results-sigvotatug-vedotin"},
-  "Eli Lilly":{assets:["Olomorasib","Selpercatinib"],targets:["KRAS G12C","RET"],adjacent:["pan-RAS","KRAS G12D","MET","EGFR"],source:"https://investor.lilly.com/news-releases/news-release-details/lillys-olomorasib-receives-us-fdas-breakthrough"},
-  "Amgen":{assets:["Sotorasib","Tarlatamab","AMG 193"],targets:["KRAS G12C","DLL3","MTAP/PRMT5"],adjacent:["B7-H3","pan-RAS","SEZ6"],source:"https://www.amgenpipeline.com/"},
-  "BioNTech":{assets:["Gotistobart","Pumitamig","BNT324","BNT327","BNT323","BNT325","BNT326"],targets:["CTLA-4","PD-1","VEGF","B7-H3","HER2","TROP2","HER3"],adjacent:["DLL3","EGFR"],source:"https://clinicaltrials.biontech.com/trials/BNT324-01"},
-  "Gilead":{assets:["Sacituzumab govitecan","Trodelvy"],targets:["TROP2"],adjacent:["HER2","PD-L1","SCLC"],source:"https://www.gilead.com/science/pipeline"},
-  "Jazz Pharmaceuticals":{assets:["Lurbinectedin","Zepzelca"],targets:["SCLC"],adjacent:["DLL3","PD-L1"],source:"https://www.jazzpharma.com/science/pipeline"},
-  "Nuvalent":{assets:["Neladalkib","Zidesamtinib","NVL-330"],targets:["ALK","ROS1","HER2"],adjacent:["EGFR"],source:"https://investors.nuvalent.com/2026-05-07-Nuvalent-Highlights-Recent-Pipeline-Progress%2C-Reiterates-Key-Anticipated-Milestones%2C-and-Reports-First-Quarter-2026-Financial-Results"},
-  "Nuvation Bio":{assets:["Taletrectinib"],targets:["ROS1"],adjacent:["ALK"],source:"https://www.nuvationbio.com/pipeline/"},
-  "Merck":{assets:["Pembrolizumab","Sacituzumab tirumotecan","MK-2870"],targets:["PD-1","TROP2"],adjacent:["VEGF","PD-L1"],source:"https://www.merck.com/research/product-pipeline/"},
-  "AstraZeneca / Daiichi Sankyo":{assets:["Osimertinib","Datopotamab deruxtecan","Dato-DXd","Trastuzumab deruxtecan"],targets:["EGFR","TROP2","HER2"],adjacent:["HER3","MET","PD-L1"],source:"https://www.astrazeneca.com/media-centre/press-releases/2025/datopotamab-deruxtecan-granted-priority-review-in-the-us-for-patients-with-previously-treated-advanced-egfr-mutated-non-small-cell-lung-cancer.html"},
-  "Roche/Genentech":{assets:["Atezolizumab","Tecentriq"],targets:["PD-L1"],adjacent:["SCLC","TIGIT","VEGF"],source:"https://www.roche.com/solutions/pipeline"}
+  "Johnson & Johnson":{assets:["Amivantamab","Lazertinib","RYBREVANT","LAZCLUZE","NBTXR3"],targets:["EGFR","MET"],adjacent:[],source:"https://www.investor.jnj.com/pipeline/development-pipeline/default.aspx"},
+  "Pfizer":{assets:["Lorlatinib","Sigvotatug vedotin","Fetrastobart vedotin","PF-07934040","PF-08634404","PF'4404","SSGJ-707","PD-1/VEGF Bispecific"],targets:["ALK","Integrin β6","PD-L1","PD-1 x VEGF-A"],adjacent:[],source:"https://www.pfizer.com/news/press-release/press-release-detail/pfizer-showcases-oncology-innovation-and-next-generation"},
+  "Eli Lilly":{assets:["Olomorasib","Selpercatinib"],targets:["KRAS G12C","RET"],adjacent:[],source:"https://investor.lilly.com/news-releases/news-release-details/lillys-olomorasib-receives-us-fdas-breakthrough"},
+  "Amgen":{assets:["Sotorasib","Tarlatamab","AMG 193"],targets:["KRAS G12C","DLL3","MTAP/PRMT5"],adjacent:[],source:"https://www.amgenpipeline.com/"},
+  "BioNTech":{assets:["Gotistobart","Pumitamig","BNT324","BNT327","BNT323","BNT325","BNT326"],targets:["CTLA-4","PD-1","VEGF","B7-H3","HER2","TROP2","HER3"],adjacent:[],source:"https://clinicaltrials.biontech.com/trials/BNT324-01"},
+  "Gilead":{assets:["Sacituzumab govitecan","Trodelvy"],targets:["TROP2"],adjacent:[],source:"https://www.gilead.com/science/pipeline"},
+  "Jazz Pharmaceuticals":{assets:["Lurbinectedin","Zepzelca"],targets:["SCLC"],adjacent:[],source:"https://www.jazzpharma.com/science/pipeline"},
+  "Nuvalent":{assets:["Neladalkib","Zidesamtinib","NVL-330"],targets:["ALK","ROS1","HER2"],adjacent:[],source:"https://investors.nuvalent.com/2026-05-07-Nuvalent-Highlights-Recent-Pipeline-Progress%2C-Reiterates-Key-Anticipated-Milestones%2C-and-Reports-First-Quarter-2026-Financial-Results"},
+  "Nuvation Bio":{assets:["Taletrectinib"],targets:["ROS1"],adjacent:[],source:"https://www.nuvationbio.com/pipeline/"},
+  "Merck":{assets:["Pembrolizumab","Sacituzumab tirumotecan","MK-2870"],targets:["PD-1","TROP2"],adjacent:[],source:"https://www.merck.com/research/product-pipeline/"},
+  "AstraZeneca / Daiichi Sankyo":{assets:["Osimertinib","Datopotamab deruxtecan","Dato-DXd","Trastuzumab deruxtecan"],targets:["EGFR","TROP2","HER2"],adjacent:[],source:"https://www.astrazeneca.com/media-centre/press-releases/2025/datopotamab-deruxtecan-granted-priority-review-in-the-us-for-patients-with-previously-treated-advanced-egfr-mutated-non-small-cell-lung-cancer.html"},
+  "Roche/Genentech":{assets:["Atezolizumab","Tecentriq"],targets:["PD-L1"],adjacent:[],source:"https://www.roche.com/solutions/pipeline"}
 };
 const LABELS = {
   portfolio:"Direct Portfolio Relevance", competitor:"Direct Competitor", emerging:"Emerging Threat",
@@ -801,7 +801,7 @@ function lensFor(company){
   const map={};
   TALKS.forEach(t=>{
     const owns = t.tg.filter(g=>P.targets.includes(g));
-    const adj  = t.tg.filter(g=>(P.adjacent||[]).includes(g));
+    const adj  = [];
     const ownAsset = t.drugs.filter(d=>P.assets.includes(d));
     const onOwn = owns.length>0;
     const compDrugs = onOwn ? t.drugs.filter(d=>!P.assets.includes(d)) : [];
@@ -815,8 +815,6 @@ function lensFor(company){
     else if(onOwn && t.resist){ key="resistance"; }
     else if(onOwn && /Biomarker|Translational|AI/.test(t.mod)){ key="biomarker"; }
     else if(onOwn){ key="competitor"; }
-    else if((t.resist||/Biomarker|Translational/.test(t.mod)) && adj.length){ key="biomarker"; }
-    else if(adj.length){ key="adjacent"; }
     else { key="context"; }
     // threat / priority
     let thr = key==="competitor" ? (t.phase==="Ph3"?3:2) : key==="emerging"?2 : key==="resistance"?1 : 0;
@@ -850,7 +848,7 @@ function impactFor(company){
   const ownAssets = uniq(TALKS.flatMap(t=>t.drugs).filter(d=>P.assets.includes(d))).length;
   const compAssets = uniq(TALKS.filter(t=>["competitor","emerging"].includes(L[t.id].key)).flatMap(t=>t.drugs)).length;
   const trials = uniq(rel.filter(t=>t.trial).flatMap(t=>t.trial.split(" / "))).length;
-  const tgBm = uniq([...rel.flatMap(t=>t.tg).filter(g=>P.targets.includes(g)||(P.adjacent||[]).includes(g)), ...rel.flatMap(t=>t.bm)]).length;
+  const tgBm = uniq([...rel.flatMap(t=>t.tg).filter(g=>P.targets.includes(g)), ...rel.flatMap(t=>t.bm)]).length;
   const resist = has("resistance").length;
   const combos = rel.filter(t=>/Combo|\+|combination|pembrolizumab|durvalumab|lazertinib/i.test(t.mod+" "+t.title)).length;
   const ph23 = rel.filter(t=>t.phase==="Ph3"||t.phase==="Ph1/2").length;
@@ -1263,12 +1261,12 @@ IND.biomarkers=()=>{const co=USER.company;const list=lensList(co,["biomarker","r
   const map=allBiomarkers();const entries=Object.entries(map).sort((a,b)=>b[1].length-a[1].length);
   return page({title:"Biomarker Landscape",sub:"Predictive, prognostic and resistance biomarkers shaping patient selection in your space.",
     body:`<div class="grid cards3">${entries.map(([b,l])=>`<div class="pl-card" onclick="go('biomarker','${esc(b)}')"><div class="aud">Biomarker</div><h4>⬡ ${esc(b)}</h4><p>${uniq(l.flatMap(t=>t.tg)).slice(0,4).join(", ")}</p><div class="foot"><span>${l.length} session${l.length>1?'s':''}</span></div></div>`).join("")}</div>`});};
-IND.targets=()=>{const co=USER.company,P=COMPANY_PROFILES[co]||{targets:[],adjacent:[]};const map=allTargets();
+IND.targets=()=>{const co=USER.company,P=COMPANY_PROFILES[co]||{targets:[]};const map=allTargets();
   const keys=Object.keys(map).sort((a,b)=>map[b].length-map[a].length);
-  return page({title:"Target Landscape",sub:"Every target at the meeting; your core and adjacent targets are flagged.",
+  return page({title:"Target Landscape",sub:"Every target at the meeting; your sponsor's core targets are flagged.",
     explain:"Target pages are company-agnostic — open one to see all players, modalities, trials and biomarkers on that axis.",
-    body:`<div class="grid cards3">${keys.map(k=>{const own=P.targets.includes(k),adj=(P.adjacent||[]).includes(k);
-      return `<div class="pl-card" onclick="go('target','${esc(k)}')"><div class="aud" style="color:${own?'#137a4e':adj?'#8a6d12':'var(--dim)'}">${own?'Core target':adj?'Adjacent':'Field'}</div><h4>◎ ${esc(k)}</h4><p>${uniq(map[k].flatMap(t=>t.drugs)).slice(0,4).join(", ")||"pathway / translational"}</p><div class="foot"><span>${map[k].length} sessions</span></div></div>`;}).join("")}</div>`});};
+    body:`<div class="grid cards3">${keys.map(k=>{const own=P.targets.includes(k);
+      return `<div class="pl-card" onclick="go('target','${esc(k)}')"><div class="aud" style="color:${own?'#137a4e':'var(--dim)'}">${own?'Core target':'Field'}</div><h4>◎ ${esc(k)}</h4><p>${uniq(map[k].flatMap(t=>t.drugs)).slice(0,4).join(", ")||"pathway / translational"}</p><div class="foot"><span>${map[k].length} sessions</span></div></div>`;}).join("")}</div>`});};
 IND.trials=()=>SHARED.trials();
 IND.speakers=()=>{const co=USER.company;const L=lensFor(co);const map=allSpeakers();
   const entries=Object.entries(map).map(([s,o])=>[s,o,o.talks.filter(t=>["portfolio","lifecycle","competitor","emerging"].includes(L[t.id].key)).length]).sort((a,b)=>b[2]-a[2]);
@@ -1297,7 +1295,7 @@ IND.discussions=()=>{const tracks={};TALKS.forEach(t=>{(tracks[t.s]=tracks[t.s]|
 IND.bookmarks=()=>SHARED.bookmarks();
 IND.downloads=()=>SHARED.downloads();
 
-IND.drugAtlas=()=>{const co=USER.company;const own=atlasForCompany(co);const core=(COMPANY_PROFILES[co]||{targets:[],adjacent:[]});const targetSet=new Set([...(core.targets||[]),...(core.adjacent||[])]);const relevant=DRUG_ATLAS.filter(d=>d.co===co || targetSet.has(d.target) || [...targetSet].some(t=>d.target.includes(t)||t.includes(d.target))).sort((a,b)=>b.rank-a.rank || a.co.localeCompare(b.co));const top=relevant.slice(0,80);return page({title:`New Drug Atlas: ${esc(co)} Lens`,sub:`${DRUG_ATLAS.length} lung-relevant agents from the Hawaii drug workbook, prioritized by ${esc(co)} portfolio, targets and adjacent threats.`,explain:`This view separates session coverage from pipeline intelligence. It flags direct company assets, target-adjacent programs, ADC competition, precision oncology entrants and externally sourced pipeline notes.`,body:`<div class="metabar"><div class="m"><div class="n">${DRUG_ATLAS.length}</div><div class="l">Atlas records</div></div><div class="m"><div class="n">${own.length}</div><div class="l">Company records</div></div><div class="m"><div class="n">${relevant.filter(d=>d.rank>=4).length}</div><div class="l">Phase 3 or approved</div></div><div class="m"><div class="n">${Object.keys(atlasTargets()).length}</div><div class="l">Targets</div></div></div>${atlasTable(top)}`});};
+IND.drugAtlas=()=>{const co=USER.company;const own=atlasForCompany(co);const core=(COMPANY_PROFILES[co]||{targets:[]});const targetSet=new Set([...(core.targets||[])]);const relevant=DRUG_ATLAS.filter(d=>d.co===co || targetSet.has(d.target) || [...targetSet].some(t=>d.target.includes(t)||t.includes(d.target))).sort((a,b)=>b.rank-a.rank || a.co.localeCompare(b.co));const top=relevant.slice(0,80);return page({title:`New Drug Atlas: ${esc(co)} Lens`,sub:`${DRUG_ATLAS.length} lung-relevant agents from the Hawaii drug workbook, prioritized by ${esc(co)} portfolio and confirmed targets.`,explain:`This view separates session coverage from pipeline intelligence. It flags direct company assets, core target competition, ADC competition, precision oncology entrants and externally sourced pipeline notes.`,body:`<div class="metabar"><div class="m"><div class="n">${DRUG_ATLAS.length}</div><div class="l">Atlas records</div></div><div class="m"><div class="n">${own.length}</div><div class="l">Company records</div></div><div class="m"><div class="n">${relevant.filter(d=>d.rank>=4).length}</div><div class="l">Phase 3 or approved</div></div><div class="m"><div class="n">${Object.keys(atlasTargets()).length}</div><div class="l">Targets</div></div></div>${atlasTable(top)}`});};
 FAC.drugAtlas=()=>page({title:"Drug Atlas",sub:"Expanded lung-cancer drug landscape from the Hawaii workbook, organized by target, class and development status.",body:`<div class="metabar"><div class="m"><div class="n">${DRUG_ATLAS.length}</div><div class="l">Drug records</div></div><div class="m"><div class="n">${Object.keys(atlasTargets()).length}</div><div class="l">Targets</div></div><div class="m"><div class="n">${Object.keys(atlasCompanies()).length}</div><div class="l">Companies</div></div><div class="m"><div class="n">${Object.keys(atlasStrategies()).length}</div><div class="l">Strategic buckets</div></div></div>${atlasTable(DRUG_ATLAS.slice(0,120))}`});
 ADM.drugAtlas=()=>page({title:"Drug Atlas Source Review",sub:"Expanded Hawaii lung-drug workbook records awaiting editorial source confirmation and sponsor mapping.",body:`<div class="explain">Use this review queue to validate sponsor attribution, mechanism, trial status and source URLs before publishing externally. Records marked approved or Phase 3 should be checked against company pipeline pages or trial records.</div>${atlasTable(DRUG_ATLAS)}`});
 SHARED.drugAtlasRecord=(id)=>{const d=DRUG_ATLAS.find(x=>x.id===id);if(!d)return FAC.drugAtlas();const sameTarget=atlasForTarget(d.target).filter(x=>x.id!==d.id).slice(0,8);const sessionHits=TALKS.filter(t=>t.drugs.map(x=>x.toLowerCase()).includes(d.drug.toLowerCase()) || t.tg.includes(d.target));return `<span class="back" onclick="go('drugAtlas')">← Drug Atlas</span><div class="detail-head"><div class="logo-badge" style="background:${(COMPANIES[d.co]||{}).c||'#2f6fed'}">${((COMPANIES[d.co]||{}).short||d.co.slice(0,3)).slice(0,3)}</div><div><h2 class="page">${esc(d.drug)}</h2><p class="page-sub" style="margin:0">${esc(d.co)} · ${esc(d.target)} · ${esc(d.cls)}</p></div></div><div class="metabar"><div class="m"><div class="n">${esc(d.stage)}</div><div class="l">Development status</div></div><div class="m"><div class="n">${esc(d.strategy)}</div><div class="l">Strategic bucket</div></div><div class="m"><div class="n">${sessionHits.length}</div><div class="l">Related sessions</div></div></div><div class="card"><p style="margin:0 0 10px;color:var(--muted);line-height:1.55">${esc(d.detail)}</p><div><b style="font-size:12px;color:var(--muted)">Trial:</b> ${esc(d.trial||'Not specified in workbook')}</div><div style="margin-top:6px"><b style="font-size:12px;color:var(--muted)">Meeting source:</b> ${esc(d.seg||'Not specified')}</div>${d.src?`<div style="margin-top:6px"><b style="font-size:12px;color:var(--muted)">External source:</b> <a href="${esc(d.src)}" target="_blank" rel="noopener">company / pipeline source</a></div>`:''}</div><div class="section-title">Related meeting sessions</div>${sessionHits.length?sessionTable(sessionHits.slice(0,10)):'<div class="empty">No exact session match. Track through target and company views.</div>'}<div class="section-title">Other programs on ${esc(d.target)}</div>${atlasTable(sameTarget)}`;};

@@ -1055,19 +1055,19 @@ const DRUG_CO={
 function coOf(p){const s=[];p.drugs.forEach(d=>{const c=DRUG_CO[(d||"").toLowerCase()];if(c&&!s.includes(c))s.push(c);});return s.length?s:["Academic / Investigator"];}
 
 const HPROFILES={
- "Johnson & Johnson":{assets:["Teclistamab","Talquetamab","Daratumumab","Ciltacabtagene Autoleucel","Cilta-Cel","Jnj-5322","Bleximenib"],targets:["BCMA","GPRC5D","CD38"],adjacent:["FcRH5","CD19","Menin"]},
- "Pfizer":{assets:["Elranatamab","Brentuximab"],targets:["BCMA","CD30"],adjacent:["GPRC5D","CD19"]},
- "Genmab":{assets:["Epcoritamab"],targets:["CD20"],adjacent:["CD19","BCMA"]},
- "Bristol Myers Squibb":{assets:["Ide-Cel","Liso-Cel","Mezigdomide","Iberdomide","Golcadomide","Nivolumab","Luspatercept"],targets:["BCMA","CD19"],adjacent:["GPRC5D","CD20"]},
- "AbbVie":{assets:["Venetoclax","Etentamig"],targets:["BCL-2","BCMA"],adjacent:["CD20","CD19"]},
- "AstraZeneca":{assets:["Acalabrutinib","Surovatamig","Azd0486","Azd0120"],targets:["BTK","CD19"],adjacent:["BCL-2","BCMA"]},
- "Eli Lilly":{assets:["Pirtobrutinib"],targets:["BTK"],adjacent:["BCL-2"]},
- "Regeneron":{assets:["Linvoseltamab"],targets:["BCMA"],adjacent:["CD20","CD19"]},
- "Roche/Genentech":{assets:["Glofitamab","Mosunetuzumab","Polatuzumab Vedotin","Obinutuzumab"],targets:["CD20"],adjacent:["CD19","BCMA"]},
- "GSK":{assets:["Belantamab Mafodotin","Momelotinib"],targets:["BCMA","JAK"],adjacent:["GPRC5D"]},
- "BeiGene (BeOne)":{assets:["Zanubrutinib","Sonrotoclax","Bgb-16673"],targets:["BTK","BCL-2"],adjacent:["CD19"]},
- "ADC Therapeutics":{assets:["Loncastuximab Tesirine","Loncastuximab"],targets:["CD19"],adjacent:["CD20"]},
- "Amgen":{assets:["Blinatumomab"],targets:["CD19"],adjacent:["BCMA"]}};
+ "Johnson & Johnson":{assets:["Teclistamab","Talquetamab","Daratumumab","Ciltacabtagene Autoleucel","Cilta-Cel","Jnj-5322","Bleximenib"],targets:["BCMA","GPRC5D","CD38"],adjacent:[]},
+ "Pfizer":{assets:["Elranatamab","Brentuximab"],targets:["BCMA","CD30"],adjacent:[]},
+ "Genmab":{assets:["Epcoritamab"],targets:["CD20"],adjacent:[]},
+ "Bristol Myers Squibb":{assets:["Ide-Cel","Liso-Cel","Mezigdomide","Iberdomide","Golcadomide","Nivolumab","Luspatercept"],targets:["BCMA","CD19"],adjacent:[]},
+ "AbbVie":{assets:["Venetoclax","Etentamig"],targets:["BCL-2","BCMA"],adjacent:[]},
+ "AstraZeneca":{assets:["Acalabrutinib","Surovatamig","Azd0486","Azd0120"],targets:["BTK","CD19"],adjacent:[]},
+ "Eli Lilly":{assets:["Pirtobrutinib"],targets:["BTK"],adjacent:[]},
+ "Regeneron":{assets:["Linvoseltamab"],targets:["BCMA"],adjacent:[]},
+ "Roche/Genentech":{assets:["Glofitamab","Mosunetuzumab","Polatuzumab Vedotin","Obinutuzumab"],targets:["CD20"],adjacent:[]},
+ "GSK":{assets:["Belantamab Mafodotin","Momelotinib"],targets:["BCMA","JAK"],adjacent:[]},
+ "BeiGene (BeOne)":{assets:["Zanubrutinib","Sonrotoclax","Bgb-16673"],targets:["BTK","BCL-2"],adjacent:[]},
+ "ADC Therapeutics":{assets:["Loncastuximab Tesirine","Loncastuximab"],targets:["CD19"],adjacent:[]},
+ "Amgen":{assets:["Blinatumomab"],targets:["CD19"],adjacent:[]}};
 const LABELS={portfolio:"Direct Portfolio Relevance",competitor:"Direct Competitor",emerging:"Emerging Threat",adjacent:"Adjacent Strategic Interest",biomarker:"Biomarker Relevance",resistance:"Resistance Biology",lifecycle:"Lifecycle Opportunity",context:"General Scientific Context"};
 function labelChip(k){return `<span class="lbl ${k}">${LABELS[k]}</span>`;}
 
@@ -1077,7 +1077,7 @@ function lensFor(co){
  const P=HPROFILES[co]||{assets:[],targets:[],adjacent:[]},m={},assetsLC=P.assets.map(a=>a.toLowerCase());
  PRES.forEach(p=>{
   const tg=p.targets.concat(p.biomarkers);
-  const owns=tg.filter(g=>P.targets.includes(g)), adj=tg.filter(g=>(P.adjacent||[]).includes(g));
+  const owns=tg.filter(g=>P.targets.includes(g)), adj=[];
   const ownAsset=p.drugs.filter(d=>assetsLC.includes((d||"").toLowerCase()));
   const onOwn=owns.length>0, isComp=onOwn&&p.drugs.length&&ownAsset.length===0;
   const early=/develop|emerging|initial|first-in|early|introduction|novel|in development/i.test(p.title)||p.evidenceType==="Translational / biology";
@@ -1088,8 +1088,6 @@ function lensFor(co){
   else if(onOwn&&/resist/i.test(p.title))key="resistance";
   else if(onOwn&&p.evidenceType==="Translational / biology")key="biomarker";
   else if(onOwn)key="competitor";
-  else if(adj.length&&/resist|biomarker|translational/i.test(p.title+p.evidenceType))key="biomarker";
-  else if(adj.length)key="adjacent";
   else key="context";
   const thr=key==="competitor"?(p.trialPhase==="Phase III"?3:2):key==="emerging"?2:key==="resistance"?1:0;
   const pr=key==="portfolio"?2:(key==="competitor"&&thr===3)?2:(key==="lifecycle"||key==="emerging")?1:(key==="resistance"||key==="biomarker")?1:0;
@@ -1116,7 +1114,7 @@ function impactFor(co){
  const ownAssets=uniq(PRES.flatMap(p=>p.drugs).filter(d=>assetsLC.includes((d||"").toLowerCase()))).length;
  const compAssets=uniq(PRES.filter(p=>["competitor","emerging"].includes(L[p.id].key)).flatMap(p=>p.drugs)).length;
  const trials=uniq(rel.filter(p=>p.trialName).flatMap(p=>p.trialName.split(" / "))).length;
- const tgBm=uniq([...rel.flatMap(p=>p.targets).filter(g=>P.targets.includes(g)||(P.adjacent||[]).includes(g)),...rel.flatMap(p=>p.biomarkers)]).length;
+ const tgBm=uniq([...rel.flatMap(p=>p.targets).filter(g=>P.targets.includes(g)),...rel.flatMap(p=>p.biomarkers)]).length;
  const kols=uniq(PRES.filter(p=>["portfolio","lifecycle","competitor","emerging"].includes(L[p.id].key)).map(p=>p.speaker)).length;
  const hiPri=PRES.filter(p=>L[p.id].pr>=2).length;
  const comps=[
@@ -1194,21 +1192,21 @@ IV.overview=()=>{
 IV.pipeline=()=>page({title:`Your Pipeline — ${esc(COMPANY)}`,sub:`Sessions featuring ${esc(COMPANY)}'s own assets, plus lifecycle/expansion opportunities. Labelled Direct Portfolio Relevance or Lifecycle Opportunity.`,body:pgrid(lensList(COMPANY,["portfolio","lifecycle"]))});
 IV.competitors=()=>{const L=lensFor(COMPANY);return page({title:"Direct Competitors",sub:`Assets competing on ${esc(COMPANY)}'s targets, threat-graded (1–3). Threat 3 = Phase III as stated in agenda.`,body:pgrid(lensList(COMPANY,["competitor"]).sort((a,b)=>L[b.id].thr-L[a.id].thr))});};
 IV.emerging=()=>page({title:"Emerging Threats",sub:`Early / next-generation programs on ${esc(COMPANY)}'s targets to watch.`,body:pgrid(lensList(COMPANY,["emerging"]))});
-IV.landscape=()=>{const co=COMPANY,L=lensFor(co),P=HPROFILES[co]||{targets:[],adjacent:[]};
- const tgKeys=uniq([...P.targets,...P.adjacent,...Object.keys(byTarget()).slice(0,12)]).slice(0,16);
+IV.landscape=()=>{const co=COMPANY,L=lensFor(co),P=HPROFILES[co]||{targets:[]};
+ const tgKeys=uniq([...P.targets,...Object.keys(byTarget()).slice(0,12)]).slice(0,16);
  const cos=Object.keys(group(p=>coOf(p))).filter(c=>c!=="Academic / Investigator").sort((a,b)=>lensList(b,["portfolio","lifecycle","competitor","emerging"]).length-lensList(a,["portfolio","lifecycle","competitor","emerging"]).length);
  const cell=(c,t)=>{const list=PRES.filter(p=>coOf(p).includes(c)&&p.targets.concat(p.biomarkers).includes(t));if(!list.length)return `<td class="cell"><span class="mx zero">·</span></td>`;
   const mine=c===co, comp=list.some(p=>["competitor","emerging"].includes(L[p.id].key));
   return `<td class="cell" onclick="go('company','${esc(c)}')"><span class="mx ${mine?'jnj':comp?'comp':'some'}">${list.length}</span></td>`;};
- return page({title:"Competitive Landscape",sub:`Company × target crowding from ${esc(co)}'s Whistler lens. Core and adjacent target axes are emphasized first.`,
+ return page({title:"Competitive Landscape",sub:`Company × target crowding from ${esc(co)}'s Whistler lens. Core target axes are emphasized first.`,
   body:`<div class="legend"><span><span class="sw" style="background:#e3f7ec;border:1px solid #bfe8d2"></span>${esc(co)}</span><span><span class="sw" style="background:#fdeaea;border:1px solid #f3c9cb"></span>Competitor or emerging threat</span><span><span class="sw" style="background:#eef2fa"></span>Other activity</span></div>
   <div class="matrix"><table><thead><tr><th>Company</th>${tgKeys.map(t=>`<th style="text-align:center">${esc(t)}</th>`).join("")}</tr></thead>
   <tbody>${cos.map(c=>`<tr><td class="rowlab">${coBadge(c)} ${esc(c)}</td>${tgKeys.map(t=>cell(c,t)).join("")}</tr>`).join("")}</tbody></table></div>`});};
-IV.targets=()=>{const co=COMPANY,P=HPROFILES[co]||{targets:[],adjacent:[]},map=byTarget();
- const keys=Object.keys(map).sort((a,b)=>(P.targets.includes(b)-P.targets.includes(a))||(P.adjacent.includes(b)-P.adjacent.includes(a))||map[b].length-map[a].length);
- return page({title:"Target Landscape",sub:"Every target tagged in the Whistler agenda; your sponsor's core and adjacent targets are flagged.",
-  body:`<div class="explore-grid">${keys.map(k=>{const own=P.targets.includes(k),adj=(P.adjacent||[]).includes(k);
-   return `<div class="xcard" onclick="go('target','${esc(k)}')"><div class="caud" style="color:${own?'#137a4e':adj?'#8a6d12':'var(--dim)'}">${own?'Core target':adj?'Adjacent':'Field'}</div><h4>◎ ${esc(k)}</h4><p>${uniq(map[k].flatMap(p=>p.drugs.concat(p.diseaseAreas))).slice(0,5).join(" · ")||"Pathway / translational"}</p><div class="n">${map[k].length} presentations →</div></div>`;}).join("")}</div>`});};
+IV.targets=()=>{const co=COMPANY,P=HPROFILES[co]||{targets:[]},map=byTarget();
+ const keys=Object.keys(map).sort((a,b)=>(P.targets.includes(b)-P.targets.includes(a))||map[b].length-map[a].length);
+ return page({title:"Target Landscape",sub:"Every target tagged in the Whistler agenda; your sponsor's core targets are flagged.",
+  body:`<div class="explore-grid">${keys.map(k=>{const own=P.targets.includes(k);
+   return `<div class="xcard" onclick="go('target','${esc(k)}')"><div class="caud" style="color:${own?'#137a4e':'var(--dim)'}">${own?'Core target':'Field'}</div><h4>◎ ${esc(k)}</h4><p>${uniq(map[k].flatMap(p=>p.drugs.concat(p.diseaseAreas))).slice(0,5).join(" · ")||"Pathway / translational"}</p><div class="n">${map[k].length} presentations →</div></div>`;}).join("")}</div>`});};
 IV.biomarkers=()=>{const map=byBiomarker();const keys=Object.keys(map).sort((a,b)=>map[b].length-map[a].length);
  return page({title:"Biomarker Landscape",sub:"Predictive, prognostic, molecular-monitoring and resistance biomarkers represented in Whistler content.",
   body:`<div class="explore-grid">${keys.map(k=>`<div class="xcard" onclick="go('target','${esc(k)}')"><div class="caud">Biomarker</div><h4>⬡ ${esc(k)}</h4><p>${uniq(map[k].flatMap(p=>p.diseaseAreas.concat(p.targets))).slice(0,5).join(" · ")||"To be verified"}</p><div class="n">${map[k].length} presentations →</div></div>`).join("")}</div>`});};
@@ -1216,9 +1214,9 @@ IV.resistance=()=>{const co=COMPANY;let list=lensList(co,["resistance"]);
  if(!list.length)list=lensList(co,["biomarker"]).filter(p=>/resist|refractory|relapsed|failure|escape|mutation|sequenc/i.test(p.title+" "+p.session+" "+p.evidenceType));
  if(!list.length)list=lensList(co,["biomarker","competitor","emerging"]).filter(p=>p.biomarkers.length||/relapsed|refractory/i.test(p.treatmentSettings.join(" ")));
  return page({title:"Resistance Biology",sub:`Resistance, relapse, sequencing and biomarker-driven escape themes relevant to ${esc(co)}'s hematology targets.`,body:pgrid(list)});};
-IV.combinations=()=>{const co=COMPANY;const rel=lensList(co,["portfolio","lifecycle","competitor","emerging","biomarker","resistance","adjacent"]);
+IV.combinations=()=>{const co=COMPANY;const rel=lensList(co,["portfolio","lifecycle","competitor","emerging","biomarker","resistance"]);
  const list=rel.filter(p=>p.drugs.length>1||/combination|combo|quadruplet|triplet|doublet|plus|\\+/i.test(p.title+" "+p.session+" "+p.modalities.join(" ")));
- return page({title:"Combination Strategies",sub:`Doublets, triplets, quadruplets and sequencing combinations relevant to ${esc(co)}'s targets or adjacent interests.`,body:pgrid(list)});};
+ return page({title:"Combination Strategies",sub:`Doublets, triplets, quadruplets and sequencing combinations relevant to ${esc(co)}'s confirmed targets.`,body:pgrid(list)});};
 IV.trials=()=>{const map=byTrial();const entries=Object.entries(map).sort((a,b)=>b[1].length-a[1].length);
  return page({title:"Clinical Trials",sub:"Named studies referenced in the meeting file, mapped to drug, sponsor, target and phase where stated.",
   body:`<div class="tbl-wrap"><div class="tbl-scroll"><table><thead><tr><th>Trial</th><th>Drug(s)</th><th>Sponsor</th><th>Target / biomarker</th><th>Phase</th><th style="text-align:right">Presentations</th></tr></thead>
@@ -1248,7 +1246,7 @@ const IDENTITIES=[
  {id:"pfe-med",name:"Pfizer",init:"PF",mode:"industry",company:"Pfizer",role:"Medical Affairs",org:"Pfizer",scope:"Pfizer-scoped medical affairs portal only — demonstrates sponsor isolation."},
  {id:"pfe-msl",name:"Pfizer",init:"PF",mode:"industry",company:"Pfizer",role:"MSL",org:"Pfizer",scope:"Field medical view for Pfizer-scoped sessions, slides, videos and discussion points."},
  {id:"pfe-admin",name:"Pfizer",init:"PF",mode:"industry",company:"Pfizer",role:"Administrator",org:"Pfizer",scope:"Manages Pfizer users and collections; cannot see other sponsors' portals."},
- {id:"gmab-med",name:"Genmab",init:"GM",mode:"industry",company:"Genmab",role:"Medical Affairs",org:"Genmab",scope:"Genmab-scoped medical affairs portal for CD20 bispecific and adjacent content."},
+ {id:"gmab-med",name:"Genmab",init:"GM",mode:"industry",company:"Genmab",role:"Medical Affairs",org:"Genmab",scope:"Genmab-scoped medical affairs portal for CD20 bispecific content."},
  {id:"gmab-msl",name:"Genmab",init:"GM",mode:"industry",company:"Genmab",role:"MSL",org:"Genmab",scope:"Field medical view for Genmab-scoped sessions, slides, videos and discussion points."},
  {id:"gmab-admin",name:"Genmab",init:"GM",mode:"industry",company:"Genmab",role:"Administrator",org:"Genmab",scope:"Manages Genmab users and collections; sponsor-scoped portal access."},
  {id:"fac1",name:"K. Patel, MD",init:"KP",mode:"faculty",company:null,role:"Faculty / Program",org:"Faculty",scope:"Faculty scientific dashboard — company-neutral science view."},
